@@ -1,0 +1,295 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetDataStructureDefinitionResponse xmlns="http://stats.oecd.org/OECDStatWS/SDMX/">
+         <GetDataStructureDefinitionResult>
+            <message:Structure xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure http://www.sdmx.org/docs/2_0/SDMXStructure.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+               <Header xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+                  <ID>
+                     none
+                     <!--Statistical usage warning
+ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.-->
+                  </ID>
+                  <Test>false</Test>
+                  <Truncated>false</Truncated>
+                  <Prepared>2013-06-24T00:47:24</Prepared>
+                  <Sender id="ABS">
+                     <Name xml:lang="en">Australian Bureau of Statistics</Name>
+                  </Sender>
+               </Header>
+               <message:KeyFamilies>
+                  <KeyFamily id="ALC" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Apparent Consumption of Alcohol, Australia</Name>
+                     <Name xml:lang="fr">Apparent Consumption of Alcohol, Australia</Name>
+                  </KeyFamily>
+                  <KeyFamily id="BOP" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Balance of Payments</Name>
+                     <Name xml:lang="fr">Balance of Payments</Name>
+                  </KeyFamily>
+                  <KeyFamily id="BA_GCCSA" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Building Approvals by Greater Capital Cities Statistical Area (GCCSA)</Name>
+                     <Name xml:lang="fr">Building Approvals by Greater Capital Cities Statistical Area (GCCSA)</Name>
+                  </KeyFamily>
+                  <KeyFamily id="BA_SA2" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Building Approvals by Statistical Area (SA2)</Name>
+                     <Name xml:lang="fr">Building Approvals by Statistical Area (SA2)</Name>
+                  </KeyFamily>
+                  <KeyFamily id="QBIS" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Business Indicators</Name>
+                     <Name xml:lang="fr">Business Indicators</Name>
+                  </KeyFamily>
+                  <KeyFamily id="CPI" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Consumer Price Index (CPI) 16th Series</Name>
+                     <Name xml:lang="fr">Consumer Price Index (CPI) 16th Series</Name>
+                  </KeyFamily>
+                  <KeyFamily id="ITPI_EXPORT" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Export Price Index</Name>
+                     <Name xml:lang="fr">Export Price Index</Name>
+                  </KeyFamily>
+                  <KeyFamily id="HOUSE_PRICE_INDEXES" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">House Price Indexes: Eight Capital Cities</Name>
+                     <Name xml:lang="fr">House Price Indexes: Eight Capital Cities</Name>
+                  </KeyFamily>
+                  <KeyFamily id="HF" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Housing Finance</Name>
+                     <Name xml:lang="fr">Housing Finance</Name>
+                  </KeyFamily>
+                  <KeyFamily id="ITPI_IMPORT" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Import Price Index</Name>
+                     <Name xml:lang="fr">Import Price Index</Name>
+                  </KeyFamily>
+                  <KeyFamily id="IIP_DSID5671" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">International Investment Position</Name>
+                     <Name xml:lang="fr">International Investment Position</Name>
+                  </KeyFamily>
+                  <KeyFamily id="LF" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Labour Force</Name>
+                     <Name xml:lang="fr">Labour Force</Name>
+                  </KeyFamily>
+                  <KeyFamily id="MERCH_EXP" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Merchandise Exports - ($ Thousand)</Name>
+                     <Name xml:lang="fr">Merchandise Exports - ($ Thousand)</Name>
+                  </KeyFamily>
+                  <KeyFamily id="MERCH_IMP" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Merchandise Imports ($ Thousand)</Name>
+                     <Name xml:lang="fr">Merchandise Imports ($ Thousand)</Name>
+                  </KeyFamily>
+                  <KeyFamily id="8NRPVER5" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">National Regional Profile (ASGS)</Name>
+                     <Name xml:lang="fr">National Regional Profile (ASGS)</Name>
+                  </KeyFamily>
+                  <KeyFamily id="NRPLGA8" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">National Regional Profile (Local Government Areas)</Name>
+                     <Name xml:lang="fr">National Regional Profile by LGA (test)</Name>
+                  </KeyFamily>
+                  <KeyFamily id="CAPEX" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Private New Capital Expenditure and Expected Expenditure</Name>
+                     <Name xml:lang="fr">Private New Capital Expenditure and Expected Expenditure</Name>
+                  </KeyFamily>
+                  <KeyFamily id="PPI_SOP" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Producer Price Index - Stage of Production</Name>
+                     <Name xml:lang="fr">Producer Price Index - Stage of Production</Name>
+                  </KeyFamily>
+                  <KeyFamily id="PPI_1" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Producer Price Indexes by Industry</Name>
+                     <Name xml:lang="fr">Producer Price Indexes by Industry</Name>
+                  </KeyFamily>
+                  <KeyFamily id="IAS_3" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Proportion of ISPs offering other services, for ISPs with more than 1,000 subscribers (%)</Name>
+                     <Name xml:lang="fr">Proportion of ISP's offering other services</Name>
+                  </KeyFamily>
+                  <KeyFamily id="RT" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Retail Trade</Name>
+                     <Name xml:lang="fr">Retail Trade</Name>
+                  </KeyFamily>
+                  <KeyFamily id="NEWMVSALES" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Sales of New Motor Vehicles</Name>
+                     <Name xml:lang="fr">Sales of New Motor Vehicles</Name>
+                  </KeyFamily>
+                  <KeyFamily id="IAS_2" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Subscribers by State/Territory and ISP size</Name>
+                     <Name xml:lang="fr">Subscribers by State/Territory and ISP size</Name>
+                  </KeyFamily>
+                  <KeyFamily id="IAS_4" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Subscribers by type of access connection</Name>
+                     <Name xml:lang="fr">Subscribers by type of access connection</Name>
+                  </KeyFamily>
+                  <KeyFamily id="TOUR_ACCOM" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Tourist Accommodation</Name>
+                     <Name xml:lang="fr">Tourist Accommodation</Name>
+                  </KeyFamily>
+                  <KeyFamily id="IAS_5" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Volume of data downloaded by type of access connection</Name>
+                     <Name xml:lang="fr">Volume of data downloaded by type of access connection</Name>
+                  </KeyFamily>
+                  <KeyFamily id="LABOUR_PRICE_INDEX" agencyID="ABS">
+                     <Annotations xmlns="">
+                        <common:Annotation xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common">
+                           <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                           <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                        </common:Annotation>
+                     </Annotations>
+                     <Name xml:lang="en">Wage Price Index</Name>
+                     <Name xml:lang="fr">Wage Price Index</Name>
+                  </KeyFamily>
+               </message:KeyFamilies>
+            </message:Structure>
+         </GetDataStructureDefinitionResult>
+      </GetDataStructureDefinitionResponse>
+   </soap:Body>
+</soap:Envelope>

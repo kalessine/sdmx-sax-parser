@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>SDMX-HD v1.0 documentation</title>
+		<meta http-equiv="Content-Type" content="text/xml; charset=iso-8859-1">
+		<style type="text/css"> /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ /* More-configurable styles */ /******** General ********/ /* Document body */ body { color: Black; background-color: White; font-family: Arial, sans-serif; font-size: 10pt; }
+	/* Horizontal rules */ hr { color: black; }
+	/* Document title */ h1 { font-size: 18pt; letter-spacing: 2px; border-bottom: 1px #ccc solid; padding-top: 5px; padding-bottom: 5px; }
+	/* Main section headers */ h2 { font-size: 14pt; letter-spacing: 1px; }
+	/* Sub-section headers */ h3, h3 a, h3 span { font-size: 12pt; font-weight: bold; color: black; }
+	/* Table displaying the properties of the schema components or the schema document itself */ table.properties th, table.properties th a { color: black; background-color: #F99; /* Pink */ }
+	table.properties td { background-color: #eee; /* Gray */ }
+	/******** Table of Contents Section ********/ /* Controls for switching between printing and viewing modes */ div#printerControls { color: #963; /* Orange-brown */ }
+	/* Controls that can collapse or expand all XML Instance Representation and Schema Component Representation boxes */ div#globalControls { border: 2px solid #999; }
+	/******** Schema Document Properties Section ********/ /* Table displaying the namespaces declared in the schema */ table.namespaces th { background-color: #ccc; }
+	table.namespaces td { background-color: #eee; }
+	/* Target namespace of the schema */ span.targetNS { color: #06C; font-weight: bold; }
+	/******** Schema Components' Sections ********/ /* Name of schema component */ .name { color: #F93; /* Orange */ }
+	/* Hierarchy table */ table.hierarchy { border: 2px solid #999; /* Gray */ }
+	/* XML Instance Representation table */ div.sample div.contents { border: 2px dashed black; }
+	/* Schema Component Representation table */ div.schemaComponent div.contents { border: 2px black solid; }
+	/******** Glossary Section ********/ /* Glossary Terms */ .glossaryTerm { color: #036; /* Blue */ }
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ /* Printer-version styles */ @media print { /* Ensures that controls are hidden when printing */ div#printerControls { visibility: hidden; }
+	div#globalControls { visibility: hidden; }
+	#legend { display: none; }
+	#legendTOC { display: none; }
+	#glossary { display: none; }
+	#glossaryTOC { display: none; }}
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ /* Base styles */ /******** General ********/ /* Unordered lists */ ul { margin-left: 1.5em; margin-bottom: 0em; }
+	/* Tables */ table { margin-top: 10px; margin-bottom: 10px; margin-left: 0px; 
+margin-right: 2px; }
+	table th, table td { font-size: 10pt; vertical-align: top; padding-top: 3px; padding-bottom: 3px; padding-left: 10px; padding-right: 10px; }
+	table th { font-weight: bold; text-align: left; }
+	/* Table displaying the properties of the schema components or the schema document itself */ table.properties { width: 90%; }
+	table.properties th { width: 30%; }
+	/* Boxes that can make its content appear and disappear*/ div.box { margin: 1em; }
+	/* Box caption */ div.box span.caption { font-weight: bold; }
+	/* Button to open and close the box */ div.box input.control { width: 1.4em; height: 1.4em; text-align: center; vertical-align: middle; font-size: 11pt; }
+	/* Box contents */ div.box div.contents { margin-top: 3px; }
+	/******** Table of Contents Section ********/ /* Controls for switching between printing and viewing modes */ div#printerControls { white-space: nowrap; font-weight: bold; padding: 5px; margin: 5px; }
+	/* Controls that can collapse or expand all XML Instance Representation and Schema Component Representation boxes */ div#globalControls { padding: 10px; margin: 5px; }
+	/******** Schema Document Properties Section ********/ /* Table displaying the namespaces declared in the schema */ table.namespaces th { }
+	table.namespaces td { }
+	/* Target namespace of the schema */ span.targetNS { }
+	/******** Schema Components' Sections ********/ /* Name of schema component */ .name { }
+	/* Hierarchy table */ table.hierarchy { width: 90%; }
+	table.hierarchy th { font-weight: normal; font-style: italic; width: 20%; }
+	table.hierarchy th, table.hierarchy td { padding: 5px; }
+	/* XML Instance Representation table */ div.sample { width: 90%; }
+	div.sample div.contents { padding: 5px; font-family: Courier New, sans-serif; font-size: 10pt; }
+	/* Normal elements and attributes */ div.sample div.contents, div.sample div.contents a { color: black; }
+	/* Group Headers */ div.sample div.contents .group, div.sample div.contents .group a { color: #999; /* Light gray */ }
+	/* Type Information */ div.sample div.contents .type, div.sample div.contents .type a { color: #999; /* Light gray */ }
+	/* Occurrence Information */ div.sample div.contents .occurs, div.sample div.contents .occurs a { color: #999; /* Light gray */ }
+	/* Fixed values */ div.sample div.contents .fixed { color: #063; /* Green */ font-weight: bold; }
+	/* Simple type constraints */ div.sample div.contents .constraint, div.sample div.contents .constraint a { color: #999; /* Light gray */ }
+	/* Elements and attributes inherited from base type */ div.sample div.contents .inherited, div.sample div.contents .inherited a { color: #666; /* Dark gray */ }
+	/* Elements and attributes added to or changed from base type */ div.sample div.contents .newFields { font-weight: bold; }
+	/* Other type of information */ div.sample div.contents .other, div.sample div.contents .other a { color: #369; /* Blue */ font-style: italic; }
+	/* Link to open up window displaying documentation */ div.sample div.contents a.documentation { text-decoration: none; padding-left: 3px; padding-right: 3px; padding-top: 0px; padding-bottom: 0px; font-weight: bold; font-size: 11pt; background-color: #FFD; color: #069; }
+	/* Invert colors when hovering over link to open up window displaying documentation */ div.sample div.contents a.documentation:hover { color: #FFD; background-color: #069; }
+	/* Schema Component Representation table */ div.schemaComponent { width: 90%; }
+	div.schemaComponent div.contents { font-family: Courier New, sans-serif; font-size: 10pt; padding: 5px; }
+	/* Syntax characters */ div.schemaComponent div.contents { color: #00f; /* blue */ }
+	/* Element and attribute tags */ div.schemaComponent div.contents .scTag { color: #933; /* maroon */ }
+	/* Element and attribute content */ div.schemaComponent div.contents .scContent, div.schemaComponent div.contents .scContent a { color: black; font-weight: bold; }
+	/* Comments */ div.schemaComponent div.contents .comment { color: #999; /* Light gray */ }
+	/******** Legend Section ********/ div#legend table, div#legend div { margin-bottom: 3px; }
+	div#legend div.hint { color: #999; /* Light gray */ width: 90%; margin-left: 1em; margin-bottom: 2em; }
+	/******** Glossary Section ********/ /* Glossary Terms */ .glossaryTerm { font-weight: bold; }
+	/******** Footer ********/ .footer { font-size: 8pt; }
+	.m {color: #0000FF}
+	.ns {color: #993300}
+	.t {color: #993300}
+	        .style1
+            {
+                font-size: medium;
+            }
+            .style2
+            {
+                text-align: left;
+            }
+	        </style>
+	</head>
+	<body>
+		<h1 class="style2"><a name="top">S</a>DMX-HD (Health Domain) v1.0 documentation<br /></h1>
+		<h2>Sample 1 - How to exchange indicator definitions</h2>
+		<p>		
+			<h5>What files are located in this folder?</h5>
+			<p>
+			The sample1 folder contains the following files and folders:			
+			<br>
+			<br>
+			<table>
+				<tr>
+					<td colspan=2>
+					Generic SDMX Scheme Validation Files
+					</td>
+				</tr>			
+				<tr>
+					<td><img style="border: 2px black inset" src="../SDMX-HD-v1.0/misc/sample1content0.png"></td>
+					<td width=100%>
+						<ul>
+							<li>These are the standard SDMX v2.0 scheme validation files that are use to perform generic validation of the XML files used in SDMX-HD. For easy of use and to avoid file path mismatches these files are duplicated into each folder that requires them.
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+					Sample files
+					</td>
+				</tr>					
+				<tr>
+					<td><img style="border: 2px black inset" src="../SDMX-HD-v1.0/misc/sample1content1.png"></td>
+					<td width=100%>
+						<ul>
+							<li>sample1.html - This web page
+							<li>IMR Indicators 65,67,75  - Screenshots of three sample indicator definitions 
+                                obtained from the WHO Indicator Metadata Registry. These definitions are used in the sample 
+                                XML files.
+							<li>GMS_INDICATOR.xml  - The <font color=red>G</font>eneric <font color=red>M</font>eta<font color=red>D</font>ataSet file contains metadata 
+                                that needs to be exchanged for an Indicator						
+							<li>GMS_ORGANISATION.xml  - The <font color=red>G</font>eneric <font color=red>M</font>eta<font color=red>D</font>ataSet file contains metadata 
+                                that needs to be exchanged for an Organisation															
+							<li>DSD.xml  - The <font color=red>D</font>ata <font color=red>S</font>tructure <font color=red>D</font>efinition file holds structural information about the data being exchanged
+							<li>MSD.xml  - The <font color=red>M</font>eta<font color=red>D</font>ata <font color=red>S</font>tructure Definition file 
+                                holds reference metadata about the data being exchanged
+						</ul>
+					</td>
+				</tr>
+			</table>
+			</p>
+			<h5>Why do we include code lists that are not needed?</h5>
+			<p>
+			One of the objectives of SDMX-HD is to reduce where possible the number or changes needed by each implementing system. The DSD files reference code lists used specifically for the exchange of data e.g. CL_GEOGRAPHIC_PLACE_NAME.
+			To allow implementing systems to create one DSD file that can be used for both 
+                purposes (exchange of indicator defintions only or exchange of defintions and data), the code lists need to be retained to ensure the DSD files remain valid.
+			    Thus, whenever it does not make sense to include a code list (e.g. geographic 
+                place names are of no use to exchange indicator definitions), it is recommended 
+                to include the empty codelist file as placeholder. This also avoids the exchange of large amounts of data that are not actually used.
+			</p>
+			<h5>What does this sample showcase?</h5>
+			<p>			
+			The WHO Indicator Metadata Registry (IMR) application is a repository of indicator 
+                definitions. Three indicators have been selected from this system and used in 
+                this sample.
+			<ul>
+				<li>An indicator of type count - <a href="Indicator 65 - Life expectancy at birth.JPG" target="_blank">Life expectancy at birth.</a>
+				<li>An indicator of type ratio - <a href="Indicator 67 - Neonatal mortality rate.JPG" target="_blank">Neonatal mortality rate (per 1000 live births), with associated Numerator and Denominators</a>
+				<ul>
+					<li>Numerator - Number of deaths during the first 28 completed days of life
+					<li>Denominator -  1000 live births in a given year
+				</ul>
+				<li>An indicator of type percentage - <a href="Indicator 75 - Adults aged 15 years who are obese.JPG" target="_blank">Adults aged >= 15 years who are obese</a>
+                that does not have numerator or denominator specified. It is disaggregated as follows:
+				<ul>
+					<li>By Gender (from COMMON)
+					<li>By Age Group (from CUSTOM/WHO)
+					<li>By Location (from COMMON)
+				</ul>				
+                <li>Disclaimer: Indicator definitions included in this sample should not be considered official 
+                    or complete definitions from WHO. They are partial and may have been modified to 
+                    illustrate some specific SDMX-HD concepts shown in this sample.
+			</ul>
+			</p>
+			<p>
+				The Metadata for the sample indicators is: 
+				<ul>
+					<li>Data type
+					<li>Code
+					<li>Description
+					<li>Rationale
+					<li>Method of Collection
+					<li>Unit of Measure
+					<li>Unit Multiplier
+					<li>Topic
+					<li>Sort Order					
+					<li>Version
+				</ul>
+			</p>
+			<h5>How are these indicator definitions implemented in SDMX-HD?</h5>
+			<p>
+			The three sample indicators are implemented in the DSD,MSD and GMS files. The details of how this is achieved are listed below:	
+			</p>
+			<table>
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">DSD File</font></B></BIG> - This file contains the 
+                        codelists, concepts, hierarchies and dimensions (i.e the structure) of the 
+                        indicator definitions. No indicator values or metadata are included in this 
+                        file. Each system need to start with the TemplateDSD.xml file and construct the 
+                        specific DSD.xml file corresponding to the indicator definitions and the 
+                        structure of the data to exchange.
+					</td>
+				</tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">Customization of the Codelists</td>
+					<td>
+						<ul>
+							<li>Managing custom codelists - CL_AGROUP is a codelist with content specific to WHO. To reference this custom codelist in the DSD, the following changes are needed:
+
+							<ol>
+								<br>
+								<li>isFinal="<font color=red>false</font>" means that the list is "volatile" and can be modified often. A value of true would mean the list must be considered read-only for the version specified, so changing the content would mean the version must change.
+								<li>agencyID="<font color=red>WHO</font>"
+								<li>urn="urn:sdmx:org.sdmx.infomodel.codelist.CodeList=<font color=red>WHO</font>:CL_AGROUP[1.0]"
+								<li>uri="./CUSTOM/WHO/codelists/CL_AGROUP.WHO.1.0.xml"
+
+
+							</ol>
+						</ul>
+						<ul>
+							<li>Managing Common codelist overriding - The sample has an overriden version of the common code list CL_GENDER (to include fetus in the list) as there are some cases when you may need to ignore the common code lists proposed and create your own custom version.
+							You can't modify any COMMON code-lists so you must always create your own custom version if you wish to deviate from the COMMON code-list.
+							Eventually, these custom changes may be integrated into a future version of the common SDMX-HD standard.
+						</ul>						
+
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>
+				<tr>
+					<td style="font-weight:bold">Customization of the Hierarchies</td>
+					<td>
+						<ul>
+							<li>HCL_COMMON_HY_HIF - This hierarchy was removed when the DSD was created from the TemplateDSD as none of the common hierachies are needed for this sample.
+							<li>HCL_STATIC_CODELIST_HIERARCHIES - This hierarchy was removed when the DSD was created from the TemplateDSD as none of the common hierachies are needed for this sample.
+						</ul>
+						<ul>
+							<li>HCL_COMMON_HY_UNIT	- The following hierachy is needed to map Units of Measure to the Unit Groups they belong to.
+						</ul>						
+						<ul>
+							<li>HCL_CONFIGURATION_HIERARCHIES	- The following hierachies are needed for this sample:
+							<ol>
+								<br>
+								<li>HY_GEOGRAPHIC_PLACE_NAME - The structural relationship between Geographical places.	
+								<br>	
+								<br>								
+								<li>HY_INDICATOR - For percent and ratio indicators, this hierarchy contains the structural 
+                                relationship between the indicators and the type of operands (numerator and denominator) the relation adheres to.
+                                An example is the ratio indicator (67).
+								<li>HY_INDICATOR_DISAGGREGATION - The structural relationship between indicators and their disaggregations. 
+								Note that all indicators have a root disaggregation based on the type of value (CL_VALUE_TYPE): whether the 
+								data exchanged contains indicator values or targets.
+								<br>
+
+								<br>								
+								Looking at the sample definition for indicator 75 (CodeList Code value of 4), its disaggregation is structured like so:
+
+								<br>
+								<br>
+								<img src="../SDMX-HD-v1.0/misc/sample1content3.png" >
+							</ol>								
+						</ul>						
+					
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">Customization of the Concepts</td>
+					<td>
+						<ul>
+							<li>CS_COMMON - This concepts scheme contains the list of common concepts created as dimensions to key to the observation (Yet these are not disaggregations).
+							<li>CS_ATTRIBUTE - This concepts scheme contains the list of common attribute and metadata attribute concepts
+							<li>CS_DISAGGREGATION - This concepts scheme contains the list of common disaggregation created as dimensions to key the observation
+							<li>CS_CUSTOM_WHO - This concepts scheme contains the list of custom concepts for WHO
+							<li>Should you need to add any new concepts specific to your data exchange,	you should create a new concepts sheme and use it in a similar fashion as CS_CUSTOM_WHO
+						</ul>
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">Customization of the Attributes</td>
+					<td>
+						Attributes reference concepts and optionally codelists. The concept name becomes the attribute name that appears in the CDS.xml file.
+						Each attribute can be created as conditional or mandatory and associated to any one of the following levels:
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<ul>
+							<li>ObservationLevel - Indicator values are stored at this level, so attributes that describe the indicator values can be linked here.
+							<li>SeriesLevel - Observations are grouped into series by indicator so attributes that describe indicator can be linked here.
+							<li>DataSetLevel - Here the attributes describe the overall content of the dataset.
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td style="font-weight:bold"></td>
+					<td>
+						Attributes can either be associated to a codelist or not. When no codelist is specified the TextFormat element must be specified to ensure the type of the attribute is known. 
+						This is important as the generation of the Compact Data Set schema validation file (CDS.xsd) requires the type to be known.
+						Here is an example of TextFormat element to describe an non-codelist attribute of type "count":
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+										&lt;structure:TextFormat  textType="Count"/&gt;
+					</td>
+				</tr>
+				
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">MSD File</font></B></BIG> - This file contains structural information about the metadata.
+					</td>
+				</tr>
+				<tr>
+					<td style="width:15pc; font-weight:bold">Customization of the Codelists</td>
+					<td>
+						<ul>
+							<li>
+							Managing custom codelists - Creating code-list as external files (instead of inline in the DSD) means that can easily be re-used if also needed for metadata.
+							Whilst not recommended, if you inline a code-list in a DSD file and then wish to use it the "External" keyword must be used in the MSD RepresentationScheme to denote this.
+						    <br />&nbsp;<br />&lt;structure:RepresentationScheme representationSchemeType="<font color=red>External</font>" representationScheme="CL_INDICATOR" representationSchemeAgency="SDMX-HD" /&gt;
+						</ul>
+						<ul>
+							<li>Managing Common codelist overriding - In this sample there are no overrides for the common code lists, however they are managed in the same way as the DSD.
+						</ul>						
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">Customization of the Concepts</td>
+					<td>
+						<ul>
+							<li>CS_ATTRIBUTE - This concept scheme has a special group of generic concepts that are often required to describe data or metadata. 
+							Note that these concepts have been prefixed by underscore "_" to denote them as generic concepts.
+							Here is the list of generic concept:
+							<ol>
+								<br>							
+								<li>_CODE - Used for Indicators codes 65,67,75
+								<li>_DESCRIPTION - Used for the Indicator Descriptions. Note that the codelist code for an Indicator has a "Description" element. However it is the Indicator name that is placed in the code list and here in the metadata we place the actual description.
+								<li>_CREATED_ON - Not actually used in this sample.
+								<li>_CREATED_BY - Not actually used in this sample.
+								<li>_UPDATED_ON - Not actually used in this sample.
+								<li>_UPDATED_BY - Not actually used in this sample.
+								<li>_ORDER_BY - Used to specify an order for Indicators. In this sample we always want to specify Numerators first and then Denominators which is why the order by for these two items is set accordingly.
+								<li>_IS_ARCHIVED - Not actually used in this sample.
+								<li>_IS_READONLY - Not actually used in this sample.
+								<li>_VERSION - The Indicator Definition version e.g 1.0
+								<li>_VSTATUS - Not actually used in this sample.	
+							</ol>
+							<br>							
+							<li>CS_CUSTOM_WHO - This concepts scheme contains the list of custom concepts used to describe metadata elements specific to WHO. 
+							<li>Should you need to add any new concepts specific to your organization, you should create a new concept scheme and use it in a similar manner as CS_CUSTOM_WHO.
+						</ul>
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">
+					Managing Identifier Component
+					</td>
+					<td>
+						The MSD has IdentifierComponent elements to target which codelist should be used for the metadata. These codelist can be either the ones specified in the DSD (External) or the ones specified in the MSD (Inline or as a external file).
+						You can imagine the IdentifierComponent as a way to reference the tables in a database, with the codelist specified containing the keys to each row.
+						<ul>
+							<li>Once the list of IdentifierComponent has been created (Forming the FullTargetIdentifier) a ReportStructure if create to denote the metadata you wish to report.
+							<ol>
+								<li>IC_INDICATOR - Reference to the INDICATOR concept and used in the GMS by metadata reported values
+								<li>RS_INDICATOR - Represents the metadata attributes that the GMS file wil report for IC_INDICATOR.
+							</ul>
+						</ul>
+					</td>
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="font-weight:bold">
+					Managing Metadata Attributes
+					</td>
+					<td>
+					The MSD has MetadataAttribute elements which identify the metadata fields your metadata reported values will be associated to.
+					You can imagine MetadataAttribute as a way to reference the columns values in a database. Each MetadataAttribute references a concept and optionally a codelist
+					and has a usageStatus attribute to indentify if a MetadataAttribute is "Mandatory" or "Conditional". e.g. in the sample we specify metadata linked to Indicators.
+					One of the metadata attributes is the Indicator type which is specified as Mandatory which means you must at least have reported values for this metadata.
+					</td>					
+				</tr>					
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td colspan=2>
+					<BIG><B><font color="orange">GMS File</font></B></BIG> - This file contains all the actual metadata values for MetadataAttributes linked to the IdentifierComponents
+					</td>				
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="width:15pc; font-weight:bold">
+					GMS to MSD Relationship
+					</td>				
+					<td>
+						At the start of each GMS file you have the following MetaDataSet attributes:
+						<ul>
+							<li>metadataStructureURI - This has the uri to the MSD file allowing the GMS and the MSD to be associated.
+							<li>datasetID - This is simply an ID for this MetaDataSet
+						</ul>
+						Following these attributes you have the following child elements of the MetaDataSet:
+						<ul>
+							<li>MetadataStructureRef - This is a reference to the MetadataStructureDefinition ID in the MSD
+							<li>MetadataStructureAgencyRef - This is a reference to the MetadataStructureDefinition AgencyID in the MSD
+							<li>ReportRef - This is a reference to the ReportStructure ID in the MSD
+						</ul>
+					</td>					
+				</tr>
+				<tr><td colspan=2><hr></td></tr>				
+				<tr>
+					<td style="width:15pc; font-weight:bold">Managing AttributeValueSet</td>
+					<td>
+					An AttributeValueSet element is created for each metadata attribute. This element has a TargetRef element which references the FullTargetIdentifier ID in the MSD as well as TargetValues element that are used to reference the IdentifierComponent (Table) 
+					and the codelist value (Row) that the metadata is for. For example here is the XML that identifies the "Indicator 67 - Neonatal mortality rate (per 1000 live births)" which has a CL_INDICATOR code value of <font color=red>0</font>.
+					<br>
+					<br>
+					&lt;gen:TargetValues&gt;&lt;gen:ComponentValue component="IC_INDICATOR" object="Codelist"&gt;<font color=red>0</font>&lt;/gen:ComponentValue&gt;&lt;/gen:TargetValues&gt;
+					<br>					
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+					The actual metadata is contained within a ReportedAttribute element which references the concepts this data pertains to (this maps to the concept used in the MetadataAttribute).
+					Note that when the data type is a string it has been encapsulated by a CDATA tag.
+					<br>
+					<br>					
+					Here is the reported metadata linked to Indicator 67:
+					<br>
+					<br>
+					<pre>
+<font color=green>&lt;!-- Indicator Code is 67 --&gt;</font>				
+      &lt;gen:ReportedAttribute conceptID="_CODE"&gt;
+        &lt;gen:Value xml:lang="en"&gt;&lt;![CDATA[67]]&gt;&lt;/gen:Value&gt;	
+      &lt;/gen:ReportedAttribute&gt;
+	  
+<font color=green>&lt;!-- Indicator Description in English is ... --&gt;</font>	  
+      &lt;gen:ReportedAttribute conceptID="_DESCRIPTION"&gt;		
+        &lt;gen:Value xml:lang="en"&gt;&lt;![CDATA[Number of deaths during the first 28 completed days of life
+per 1000 live births in a given year or other period.
+Neonatal deaths (deaths among live births during the first 28
+completed days of life) may be subdivided into early neonatal
+deaths, occurring during the first 7 days of life, and late
+neonatal deaths, occurring after the 7th day but before the
+28th completed day of life.]]&gt;&lt;/gen:Value&gt;
+      &lt;/gen:ReportedAttribute&gt;
+	  
+<font color=green>&lt;!-- Indicator Type is Ratio --&gt;</font>	 	  
+      &lt;gen:ReportedAttribute conceptID="DTYPE"&gt;
+        &lt;gen:Value&gt;5&lt;/gen:Value&gt;
+      &lt;/gen:ReportedAttribute&gt;
+	  
+<font color=green>&lt;!-- Indicator Rationale in English is ... --&gt;</font>
+      &lt;gen:ReportedAttribute conceptID="RATIONALE"&gt;
+        &lt;gen:Value xml:lang="en"&gt;&lt;![CDATA[      
+     Mortality during the neonatal period accounts for a large
+proportion of child deaths, and is considered to be a useful
+indicator of maternal and newborn neonatal health and care.
+Generally, the proportion of neonatal deaths is expected to
+increase as countries continue to witness a decline in child
+mortality.
+      ]]&gt;&lt;/gen:Value&gt;
+      &lt;/gen:ReportedAttribute&gt;
+	  
+<font color=green>&lt;!-- Indicator Topic is "Mortality and burden of disease" --&gt;</font>	  
+      &lt;gen:ReportedAttribute conceptID="TOPIC"&gt;
+        &lt;gen:Value xml:lang="en"&gt;&lt;![CDATA[Mortality and burden of disease]]&gt;&lt;/gen:Value&gt;
+      &lt;/gen:ReportedAttribute&gt; 
+	  
+<font color=green>&lt;!-- Indicator sort order is 0 --&gt;</font>	        
+      &lt;gen:ReportedAttribute conceptID="_ORDER_BY"&gt;
+        &lt;gen:Value&gt;0&lt;/gen:Value&gt;
+      &lt;/gen:ReportedAttribute&gt;
+    &lt;/gen:AttributeValueSet&gt;
+</pre>	
+					</td>
+				</tr>				
+			</table>
+        </p>
+	</body>
+</html>

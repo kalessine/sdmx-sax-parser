@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF985</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2014-08-17T15:42:30.630Z</mes:Prepared>
+    <mes:Sender id="FAO"/>
+    <mes:Receiver id="Unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Dataflows>
+      <str:Dataflow id="CROP_PRODUCTION" agencyID="FAO" version="1.0">
+        <com:Name xml:lang="en">Crop Production</com:Name>
+        <str:Structure>
+          <Ref id="FAOSTAT" agencyID="FAO" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+      <str:Dataflow id="AQUACULTURE_QUANTITY" agencyID="FAO" version="1.0">
+        <com:Name xml:lang="en">Aquaculture Quantity</com:Name>
+        <str:Structure>
+          <Ref id="AQUACULTURE_DATASTRUCTURE" version="0.1" agencyID="FAO" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+      <str:Dataflow id="AQUACULTURE_US_DOLLAR" agencyID="FAO" version="1.0">
+        <com:Name xml:lang="en">Aquaculture US Dollar</com:Name>
+        <str:Structure>
+          <Ref id="AQUACULTURE_DATASTRUCTURE" version="0.1" agencyID="FAO" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+      <str:Dataflow id="CAPTURE" agencyID="FAO" version="1.0">
+        <com:Name xml:lang="en">Capture</com:Name>
+        <str:Structure>
+          <Ref id="CAPTURE_DATASTRUCTURE" version="0.1" agencyID="FAO" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+      <str:Dataflow id="TRADE_QUANTITY" agencyID="FAO" version="1.0">
+        <com:Name xml:lang="en">Trade Quantity</com:Name>
+        <str:Structure>
+          <Ref id="TRADE_DATASTRUCTURE" version="0.1" agencyID="FAO" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+      <str:Dataflow id="TRADE_US_DOLLAR" agencyID="FAO" version="1.0">
+        <com:Name xml:lang="en">Trade US Dollar</com:Name>
+        <str:Structure>
+          <Ref id="TRADE_DATASTRUCTURE"  version="0.1" agencyID="FAO" package="datastructure" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+    </str:Dataflows>
+  </mes:Structures>
+</mes:Structure>

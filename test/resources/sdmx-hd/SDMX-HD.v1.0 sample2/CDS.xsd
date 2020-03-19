@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=WHO:KF_INDICATOR[1.0]:compact" targetNamespace="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=WHO:KF_INDICATOR[1.0]:compact" elementFormDefault="qualified" attributeFormDefault="unqualified">
+   <xs:import namespace="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" schemaLocation="SDMXCompactData.xsd"/>
+   <xs:import namespace="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" schemaLocation="SDMXCommon.xsd"/>
+   <xs:simpleType name="CL_GEOGRAPHIC_PLACE_NAME">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="00">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">International</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Switzerland</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-AG">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Aargau</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-AR">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Appenzell Ausserrhoden</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-AI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Appenzell Innerrhoden</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-BL">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Basel-Landschaft</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-BS">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Basel-Stadt</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-BE">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Bern</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-FR">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Fribourg</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-GE">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Genève</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-GL">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Glarus</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-GR">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Graubünden</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-JU">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Jura</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-LU">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Luzern</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-NE">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Neuchâtel</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-NW">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Nidwalden</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-OW">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Obwalden</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-SG">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Sankt Gallen</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-SH">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Schaffhausen</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-SZ">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Schwyz</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-SO">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Solothurn</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-TG">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Thurgau</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-TI">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Ticino</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-UR">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Uri</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-VS">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Valais</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-VD">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Vaud</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-ZG">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Zug</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="CH-ZH">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Zürich</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_ORGANIZATION">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="1">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">WHO - World Health Organization</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="2">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">UNAIDS - Joint United Nations Programme on HIV/AIDS</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="3">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">UNICEF - United Nations Childrens Fund</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="4">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">USG - United States Government</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="5">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">USAID - United States Agency for International Development</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="6">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">UNDG - United Nations Development Group</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="7">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">GFATM - Global Fund for fighting AIDS, Tuberculosis, and Malaria</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="8">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">WB - World Bank</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="9">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">MOH - Ministry of Health</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_PROGRAM">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="0">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">National</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="1">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Distrinct1</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_INDICATOR">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="0">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Neonatal mortality rate (per 1000 live births)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="1">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Number of deaths during first 28 completed days of life</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="2">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">1000 live births in a given year</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="3">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Life expectancy at birth</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="4">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Adults aged = 15 years who are obese</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_GENDER">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="1">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Male</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="2">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Female</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="3">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Transgender</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="4">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Fetus</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="_NA">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Not Applicable</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="_ALL">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">All</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="_UNK">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Unknown</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="CL_AGROUP">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="1">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">+50</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="2">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">&lt;5</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="3">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">5-9</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="4">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">10-14</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="5">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">15+</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="6">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">15-24</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="7">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">25+</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="_NA">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Not Applicable</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="_ALL">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">All</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="_UNK">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Unknown</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="TIME_PERIODType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="OBS_VALUEType">
+      <xs:restriction base="xs:decimal"/>
+   </xs:simpleType>
+   <xs:simpleType name="DATE_COLLECTType">
+      <xs:restriction base="xs:date"/>
+   </xs:simpleType>
+   <xs:simpleType name="_CREATED_ONType">
+      <xs:restriction base="xs:dateTime"/>
+   </xs:simpleType>
+   <xs:simpleType name="_UPDATED_ONType">
+      <xs:restriction base="xs:dateTime"/>
+   </xs:simpleType>
+   <xs:simpleType name="_CREATED_BYType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="_UPDATED_BYType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="SDESIGNType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="CL_DSOURCE">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="1">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">AIDS Indicator Survey (AIS)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="2">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Service Provision Assessment (SPA)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="3">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Behavioural Surveillance Survey (BSS)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="4">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Demographic and Health Survey (DHS)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="5">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Framework for Assessment, Monitoring and Evaluation of blood transfusion services (FRAME) Tool</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="6">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Key Indicator Survey (KIS)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="7">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Multiple Indicator Cluster Survey (MICS)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="8">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">National AIDS Spending Assessment (NASA)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="9">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Resource Flow Survey</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="10">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">Sample Vital Registration with Verbal Autopsy (SAVVY)</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="SSIZEType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="TSTATType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="COMMENT_INDType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="COMMENT_DATASETType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="RPERIODType">
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="FDATAType">
+      <xs:restriction base="xs:gYear"/>
+   </xs:simpleType>
+   <xs:simpleType name="LDATAType">
+      <xs:restriction base="xs:gYear"/>
+   </xs:simpleType>
+   <xs:simpleType name="RDATAType">
+      <xs:restriction base="xs:date"/>
+   </xs:simpleType>
+   <xs:element name="DataSet" type="DataSetType" substitutionGroup="compact:DataSet"/>
+   <xs:complexType name="DataSetType">
+      <xs:complexContent>
+         <xs:extension base="compact:DataSetType">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+               <xs:element ref="Series"/>
+               <xs:element name="Annotations" type="common:AnnotationsType"/>
+            </xs:choice>
+            <xs:attribute name="FREQ" type="CL_FREQ" use="optional"/>
+            <xs:attribute name="GEOGRAPHIC_PLACE_NAME" type="CL_GEOGRAPHIC_PLACE_NAME" use="optional"/>
+            <xs:attribute name="ORGANIZATION" type="CL_ORGANIZATION" use="optional"/>
+            <xs:attribute name="PROG" type="CL_PROGRAM" use="optional"/>
+            <xs:attribute name="INDICATOR" type="CL_INDICATOR" use="optional"/>
+            <xs:attribute name="VALUE_TYPE" type="CL_VALUE_TYPE" use="optional"/>
+            <xs:attribute name="GENDER" type="CL_GENDER" use="optional"/>
+            <xs:attribute name="AGROUP" type="CL_AGROUP" use="optional"/>
+            <xs:attribute name="GLOCATION" type="CL_GLOCATION" use="optional"/>
+            <xs:attribute name="CALENDAR_TYPE" type="CL_CALENDAR_TYPE" use="optional"/>
+            <xs:attribute name="COMMENT_DATASET" type="COMMENT_DATASETType" use="optional"/>
+            <xs:attribute name="RPERIOD" type="RPERIODType" use="optional"/>
+            <xs:attribute name="FDATA" type="FDATAType" use="optional"/>
+            <xs:attribute name="LDATA" type="LDATAType" use="optional"/>
+            <xs:attribute name="RDATA" type="RDATAType" use="optional"/>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:element name="Series" type="SeriesType" substitutionGroup="compact:Series"/>
+   <xs:complexType name="SeriesType">
+      <xs:complexContent>
+         <xs:extension base="compact:SeriesType">
+            <xs:sequence>
+               <xs:element ref="Obs" minOccurs="0" maxOccurs="unbounded"/>
+               <xs:element name="Annotations" type="common:AnnotationsType" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="FREQ" type="CL_FREQ" use="optional"/>
+            <xs:attribute name="GEOGRAPHIC_PLACE_NAME" type="CL_GEOGRAPHIC_PLACE_NAME" use="optional"/>
+            <xs:attribute name="ORGANIZATION" type="CL_ORGANIZATION" use="optional"/>
+            <xs:attribute name="PROG" type="CL_PROGRAM" use="optional"/>
+            <xs:attribute name="INDICATOR" type="CL_INDICATOR" use="optional"/>
+            <xs:attribute name="VALUE_TYPE" type="CL_VALUE_TYPE" use="optional"/>
+            <xs:attribute name="GENDER" type="CL_GENDER" use="optional"/>
+            <xs:attribute name="AGROUP" type="CL_AGROUP" use="optional"/>
+            <xs:attribute name="GLOCATION" type="CL_GLOCATION" use="optional"/>
+            <xs:attribute name="UNIT" type="CL_UNIT" use="optional"/>
+            <xs:attribute name="PERIODICITY" type="CL_FREQ" use="optional"/>
+            <xs:attribute name="SDESIGN" type="SDESIGNType" use="optional"/>
+            <xs:attribute name="DSOURCE" type="CL_DSOURCE" use="optional"/>
+            <xs:attribute name="DSTYPE" type="CL_DSTYPE" use="optional"/>
+            <xs:attribute name="SSIZE" type="SSIZEType" use="optional"/>
+            <xs:attribute name="MULT" type="CL_UNIT_MULT" use="optional"/>
+            <xs:attribute name="TSTAT" type="TSTATType" use="optional"/>
+            <xs:attribute name="COMMENT_IND" type="COMMENT_INDType" use="optional"/>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:element name="Obs" type="ObsType" substitutionGroup="compact:Obs"/>
+   <xs:complexType name="ObsType">
+      <xs:complexContent>
+         <xs:extension base="compact:ObsType">
+            <xs:sequence>
+               <xs:element name="Annotations" type="common:AnnotationsType" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="TIME_PERIOD" type="TIME_PERIODType" use="optional"/>
+            <xs:attribute name="OBS_VALUE" type="OBS_VALUEType" use="optional"/>
+            <xs:attribute name="DATE_COLLECT" type="DATE_COLLECTType" use="optional"/>
+            <xs:attribute name="_CREATED_ON" type="_CREATED_ONType" use="optional"/>
+            <xs:attribute name="_UPDATED_ON" type="_UPDATED_ONType" use="optional"/>
+            <xs:attribute name="_CREATED_BY" type="_CREATED_BYType" use="optional"/>
+            <xs:attribute name="_UPDATED_BY" type="_UPDATED_BYType" use="optional"/>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+</xs:schema>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.metadatatechnology.com/beta/SDMX2.0/SDMXMessage.xsd" xmlns:mes="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:str="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+  <mes:Header>
+    <mes:ID>IDREF2152</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2014-02-24T13:26:53.665Z</mes:Prepared>
+    <mes:Sender id="unknown"/>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:KeyFamilies>
+    <str:KeyFamily agencyID="TEST" id="ESTAT_UOE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=TEST:ESTAT_UOE(1.0)" version="1.0" isFinal="false">
+      <str:Name xml:lang="en">Data Structure Definition for the joint Unesco OECD Eurostat data collection on Education</str:Name>
+      <str:Components>
+        <str:Dimension codelist="CL_FREQ" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="FREQ" conceptVersion="1.0" isFrequencyDimension="true"/>
+        <str:Dimension codelist="CL_SEX" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="SEX" conceptVersion="1.0"/>
+        <str:Dimension codelist="CL_COUNTRY" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="REF_AREA" conceptVersion="1.0"/>
+        <str:Dimension codelist="CL_AGE" codelistAgency="TEST" codelistVersion="2.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="AGE" conceptVersion="1.0"/>
+        <str:Dimension codelist="CL_POSITION" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="POSITION" conceptVersion="1.0"/>
+        <str:Dimension codelist="CL_EDU_LEVEL" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="EDU_LEVEL" conceptVersion="1.0"/>
+        <str:Dimension codelist="CL_ORIENTATION" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="ORIENTATION" conceptVersion="1.0"/>
+        <str:Dimension codelist="CL_INTENSITY" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="INTENSITY" conceptVersion="1.0"/>
+        <str:Dimension codelist="CL_INSTITUTION" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="INSTITUTION" conceptVersion="1.0"/>
+        <str:TimeDimension conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="TIME" conceptVersion="1.0">
+          <str:TextFormat textType="ObservationalTimePeriod"/>
+        </str:TimeDimension>
+        <str:PrimaryMeasure conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="OBS_VALUE" conceptVersion="1.0"/>
+        <str:Attribute assignmentStatus="Conditional" attachmentLevel="Observation" codelist="CL_OBS_STATUS_EDU" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="OBS_STATUS" conceptVersion="1.0"/>
+        <str:Attribute assignmentStatus="Conditional" attachmentLevel="Observation" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="OBS_COM" conceptVersion="1.0">
+          <str:TextFormat textType="String"/>
+        </str:Attribute>
+        <str:Attribute assignmentStatus="Mandatory" attachmentLevel="Observation" codelist="CL_UNIT" codelistAgency="TEST" codelistVersion="2.1" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="UNIT" conceptVersion="1.0"/>
+        <str:Attribute assignmentStatus="Mandatory" attachmentLevel="Observation" codelist="CL_DECI" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="DECIMALS" conceptVersion="1.0"/>
+        <str:Attribute assignmentStatus="Mandatory" attachmentLevel="Observation" codelist="CL_UNIT_MULT" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="UNIT_MULT" conceptVersion="1.0"/>
+        <str:Attribute assignmentStatus="Mandatory" attachmentLevel="Observation" codelist="CL_TIME_FORMAT" codelistAgency="TEST" codelistVersion="1.0" conceptSchemeAgency="TEST" conceptSchemeRef="EDU_CONCEPTS" conceptRef="TIME_FORMAT" conceptVersion="1.0" isTimeFormat="true"/>
+      </str:Components>
+    </str:KeyFamily>
+  </mes:KeyFamilies>
+</mes:Structure>

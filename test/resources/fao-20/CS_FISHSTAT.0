@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message:Structure xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:metadatareport="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/metadatareport" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:registry="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/registry" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://sdmx.org/docs/2_0/SDMXMessage.xsd">
+    <message:Header>
+        <message:ID>REGISTRY_RESPONSE</message:ID>
+        <message:Test>false</message:Test>
+        <message:Prepared>2013-02-06T09:47:36</message:Prepared>
+        <message:Sender id="FAO"/>
+    </message:Header>
+    <message:Concepts>
+        <structure:ConceptScheme id="CS_FISHSTAT" agencyID="FAO" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.ConceptScheme=FAO:CS_FISHSTAT[1.0]" isFinal="true">
+            <structure:Name xml:lang="en">Fishstat Concept Scheme</structure:Name>
+            <structure:Concept id="PRODUCTION_AREA" agencyID="FAO" version="1.0">
+                <structure:Name xml:lang="en">Production Area (from major area to sub-unit)</structure:Name>
+            </structure:Concept>
+            <structure:Concept id="SPECIES" agencyID="FAO" version="1.0">
+                <structure:Name xml:lang="en">ASFIS Species Alpha 3 Code</structure:Name>
+            </structure:Concept>
+        </structure:ConceptScheme>
+    </message:Concepts>
+</message:Structure>

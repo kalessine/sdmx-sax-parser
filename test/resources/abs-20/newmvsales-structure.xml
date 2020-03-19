@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><message:Structure xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure http://www.sdmx.org/docs/2_0/SDMXStructure.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+               <Header xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+                  <ID>
+                     none
+                     <!--Statistical usage warning
+ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.-->
+                  </ID>
+                  <Test>false</Test>
+                  <Truncated>false</Truncated>
+                  <Prepared>2013-06-24T12:41:49</Prepared>
+                  <Sender id="ABS">
+                     <Name xml:lang="en">Australian Bureau of Statistics</Name>
+                  </Sender>
+               </Header>
+               <message:CodeLists>
+                  <CodeList id="CL_NEWMVSALES_OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                  </CodeList>
+                  <CodeList id="CL_NEWMVSALES_MEASURE" agencyID="ABS">
+                     <Name xml:lang="en">NEWMVSALES_MEASURE codelist</Name>
+                     <Code value="1">
+                        <Description xml:lang="en">Number</Description>
+                        <Description xml:lang="fr">Number</Description>
+                     </Code>
+                     <Code value="2">
+                        <Description xml:lang="en">Change from previous month (%)</Description>
+                        <Description xml:lang="fr">Change from previous month (%)</Description>
+                     </Code>
+                     <Code value="3">
+                        <Description xml:lang="en">Change from previous year (%)</Description>
+                        <Description xml:lang="fr">Change from previous month (%)</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_NEWMVSALES_VEHICLE" agencyID="ABS">
+                     <Name xml:lang="en">NEWMVSALES_VEHICLE codelist</Name>
+                     <Code value="900">
+                        <Description xml:lang="en">Total Vehicles</Description>
+                        <Description xml:lang="fr">Total Vehicles</Description>
+                     </Code>
+                     <Code value="100">
+                        <Description xml:lang="en">Passenger vehicles</Description>
+                        <Description xml:lang="fr">Passenger vehicles</Description>
+                     </Code>
+                     <Code value="200">
+                        <Description xml:lang="en">Sports utility vehicles</Description>
+                        <Description xml:lang="fr">Sports utility vehicles</Description>
+                     </Code>
+                     <Code value="500">
+                        <Description xml:lang="en">Other vehicles</Description>
+                        <Description xml:lang="fr">Other vehicles</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_NEWMVSALES_ASGS_2011" agencyID="ABS">
+                     <Name xml:lang="en">NEWMVSALES_ASGS_2011 codelist</Name>
+                     <Code value="0">
+                        <Description xml:lang="en">Australia</Description>
+                        <Description xml:lang="fr">Australia</Description>
+                     </Code>
+                     <Code value="1" parentCode="0">
+                        <Description xml:lang="en">New South Wales</Description>
+                        <Description xml:lang="fr">New South Wales</Description>
+                     </Code>
+                     <Code value="2" parentCode="0">
+                        <Description xml:lang="en">Victoria</Description>
+                        <Description xml:lang="fr">Victoria</Description>
+                     </Code>
+                     <Code value="3" parentCode="0">
+                        <Description xml:lang="en">Queensland</Description>
+                        <Description xml:lang="fr">Queensland</Description>
+                     </Code>
+                     <Code value="4" parentCode="0">
+                        <Description xml:lang="en">South Australia</Description>
+                        <Description xml:lang="fr">South Australia</Description>
+                     </Code>
+                     <Code value="5" parentCode="0">
+                        <Description xml:lang="en">Western Australia</Description>
+                        <Description xml:lang="fr">Western Australia</Description>
+                     </Code>
+                     <Code value="6" parentCode="0">
+                        <Description xml:lang="en">Tasmania</Description>
+                        <Description xml:lang="fr">Tasmania</Description>
+                     </Code>
+                     <Code value="7" parentCode="0">
+                        <Description xml:lang="en">Northern Territory</Description>
+                        <Description xml:lang="fr">Northern Territory</Description>
+                     </Code>
+                     <Code value="8" parentCode="0">
+                        <Description xml:lang="en">Australian Capital Territory</Description>
+                        <Description xml:lang="fr">Australian Capital Territory</Description>
+                     </Code>
+                     <Code value="10" parentCode="0">
+                        <Description xml:lang="en">Unknown Australia</Description>
+                        <Description xml:lang="fr">Unknown Australia</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_NEWMVSALES_TSEST" agencyID="ABS">
+                     <Name xml:lang="en">NEWMVSALES_TSEST codelist</Name>
+                     <Code value="10">
+                        <Description xml:lang="en">Original</Description>
+                        <Description xml:lang="fr">1</Description>
+                     </Code>
+                     <Code value="20">
+                        <Description xml:lang="en">Seasonally Adjusted</Description>
+                        <Description xml:lang="fr">2</Description>
+                     </Code>
+                     <Code value="30">
+                        <Description xml:lang="en">Trend</Description>
+                        <Description xml:lang="fr">3</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_NEWMVSALES_FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">NEWMVSALES_FREQUENCY codelist</Name>
+                     <Code value="M">
+                        <Description xml:lang="en">Monthly</Description>
+                        <Description xml:lang="fr">Mensuelle</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_NEWMVSALES_TIME" agencyID="ABS">
+                     <Name xml:lang="en">NEWMVSALES_TIME codelist</Name>
+                     <Code value="1994">
+                        <Description xml:lang="en">1994</Description>
+                        <Description xml:lang="fr">1994</Description>
+                     </Code>
+                     <Code value="1994-B1" parentCode="1994">
+                        <Description xml:lang="en">S1-1994</Description>
+                        <Description xml:lang="fr">S1-1994</Description>
+                     </Code>
+                     <Code value="1994-Q1" parentCode="1994-B1">
+                        <Description xml:lang="en">Mar-1994</Description>
+                        <Description xml:lang="fr">Mars 1994</Description>
+                     </Code>
+                     <Code value="1994-01" parentCode="1994-Q1">
+                        <Description xml:lang="en">Jan-1994</Description>
+                        <Description xml:lang="fr">Janv-1994</Description>
+                     </Code>
+                     <Code value="1994-02" parentCode="1994-Q1">
+                        <Description xml:lang="en">Feb-1994</Description>
+                        <Description xml:lang="fr">Févr-1994</Description>
+                     </Code>
+                     <Code value="1994-03" parentCode="1994-Q1">
+                        <Description xml:lang="en">Mar-1994</Description>
+                        <Description xml:lang="fr">Mars-1994</Description>
+                     </Code>
+                     <Code value="1994-Q2" parentCode="1994-B1">
+                        <Description xml:lang="en">Jun-1994</Description>
+                        <Description xml:lang="fr">Juin 1994</Description>
+                     </Code>
+                     <Code value="1994-04" parentCode="1994-Q2">
+                        <Description xml:lang="en">Apr-1994</Description>
+                        <Description xml:lang="fr">Avr-1994</Description>
+                     </Code>
+                     <Code value="1994-05" parentCode="1994-Q2">
+                        <Description xml:lang="en">May-1994</Description>
+                        <Description xml:lang="fr">Mai-1994</Description>
+                     </Code>
+                     <Code value="1994-06" parentCode="1994-Q2">
+                        <Description xml:lang="en">Jun-1994</Description>
+                        <Description xml:lang="fr">Juin-1994</Description>
+                     </Code>
+                     <Code value="1994-B2" parentCode="1994">
+                        <Description xml:lang="en">S2-1994</Description>
+                        <Description xml:lang="fr">S2-1994</Description>
+                     </Code>
+                     <Code value="1994-Q3" parentCode="1994-B2">
+                        <Description xml:lang="en">Sep-1994</Description>
+                        <Description xml:lang="fr">Sept 1994</Description>
+                     </Code>
+                     <Code value="1994-07" parentCode="1994-Q3">
+                        <Description xml:lang="en">Jul-1994</Description>
+                        <Description xml:lang="fr">Juil-1994</Description>
+                     </Code>
+                     <Code value="1994-08" parentCode="1994-Q3">
+                        <Description xml:lang="en">Aug-1994</Description>
+                        <Description xml:lang="fr">Août-1994</Description>
+                     </Code>
+                     <Code value="1994-09" parentCode="1994-Q3">
+                        <Description xml:lang="en">Sep-1994</Description>
+                        <Description xml:lang="fr">Sept-1994</Description>
+                     </Code>
+                     <Code value="1994-Q4" parentCode="1994-B2">
+                        <Description xml:lang="en">Dec-1994</Description>
+                        <Description xml:lang="fr">DÃ©c 1994</Description>
+                     </Code>
+                     <Code value="1994-10" parentCode="1994-Q4">
+                        <Description xml:lang="en">Oct-1994</Description>
+                        <Description xml:lang="fr">Oct-1994</Description>
+                     </Code>
+                     <Code value="1994-11" parentCode="1994-Q4">
+                        <Description xml:lang="en">Nov-1994</Description>
+                        <Description xml:lang="fr">Nov-1994</Description>
+                     </Code>
+                     <Code value="1994-12" parentCode="1994-Q4">
+                        <Description xml:lang="en">Dec-1994</Description>
+                        <Description xml:lang="fr">Déc-1994</Description>
+                     </Code>
+                     <Code value="1995">
+                        <Description xml:lang="en">1995</Description>
+                        <Description xml:lang="fr">1995</Description>
+                     </Code>
+                     <Code value="1995-B1" parentCode="1995">
+                        <Description xml:lang="en">S1-1995</Description>
+                        <Description xml:lang="fr">S1-1995</Description>
+                     </Code>
+                     <Code value="1995-Q1" parentCode="1995-B1">
+                        <Description xml:lang="en">Mar-1995</Description>
+                        <Description xml:lang="fr">Mars 1995</Description>
+                     </Code>
+                     <Code value="1995-01" parentCode="1995-Q1">
+                        <Description xml:lang="en">Jan-1995</Description>
+                        <Description xml:lang="fr">Janv-1995</Description>
+                     </Code>
+                     <Code value="1995-02" parentCode="1995-Q1">
+                        <Description xml:lang="en">Feb-1995</Description>
+                        <Description xml:lang="fr">Févr-1995</Description>
+                     </Code>
+                     <Code value="1995-03" parentCode="1995-Q1">
+                        <Description xml:lang="en">Mar-1995</Description>
+                        <Description xml:lang="fr">Mars-1995</Description>
+                     </Code>
+                     <Code value="1995-Q2" parentCode="1995-B1">
+                        <Description xml:lang="en">Jun-1995</Description>
+                        <Description xml:lang="fr">Juin 1995</Description>
+                     </Code>
+                     <Code value="1995-04" parentCode="1995-Q2">
+                        <Description xml:lang="en">Apr-1995</Description>
+                        <Description xml:lang="fr">Avr-1995</Description>
+                     </Code>
+                     <Code value="1995-05" parentCode="1995-Q2">
+                        <Description xml:lang="en">May-1995</Description>
+                        <Description xml:lang="fr">Mai-1995</Description>
+                     </Code>
+                     <Code value="1995-06" parentCode="1995-Q2">
+                        <Description xml:lang="en">Jun-1995</Description>
+                        <Description xml:lang="fr">Juin-1995</Description>
+                     </Code>
+                     <Code value="1995-B2" parentCode="1995">
+                        <Description xml:lang="en">S2-1995</Description>
+                        <Description xml:lang="fr">S2-1995</Description>
+                     </Code>
+                     <Code value="1995-Q3" parentCode="1995-B2">
+                        <Description xml:lang="en">Sep-1995</Description>
+                        <Description xml:lang="fr">Sept 1995</Description>
+                     </Code>
+                     <Code value="1995-07" parentCode="1995-Q3">
+                        <Description xml:lang="en">Jul-1995</Description>
+                        <Description xml:lang="fr">Juil-1995</Description>
+                     </Code>
+                     <Code value="1995-08" parentCode="1995-Q3">
+                        <Description xml:lang="en">Aug-1995</Description>
+                        <Description xml:lang="fr">Août-1995</Description>
+                     </Code>
+                     <Code value="1995-09" parentCode="1995-Q3">
+                        <Description xml:lang="en">Sep-1995</Description>
+                        <Description xml:lang="fr">Sept-1995</Description>
+                     </Code>
+                     <Code value="1995-Q4" parentCode="1995-B2">
+                        <Description xml:lang="en">Dec-1995</Description>
+                        <Description xml:lang="fr">DÃ©c 1995</Description>
+                     </Code>
+                     <Code value="1995-10" parentCode="1995-Q4">
+                        <Description xml:lang="en">Oct-1995</Description>
+                        <Description xml:lang="fr">Oct-1995</Description>
+                     </Code>
+                     <Code value="1995-11" parentCode="1995-Q4">
+                        <Description xml:lang="en">Nov-1995</Description>
+                        <Description xml:lang="fr">Nov-1995</Description>
+                     </Code>
+                     <Code value="1995-12" parentCode="1995-Q4">
+                        <Description xml:lang="en">Dec-1995</Description>
+                        <Description xml:lang="fr">Déc-1995</Description>
+                     </Code>
+                     <Code value="1996">
+                        <Description xml:lang="en">1996</Description>
+                        <Description xml:lang="fr">1996</Description>
+                     </Code>
+                     <Code value="1996-B1" parentCode="1996">
+                        <Description xml:lang="en">S1-1996</Description>
+                        <Description xml:lang="fr">S1-1996</Description>
+                     </Code>
+                     <Code value="1996-Q1" parentCode="1996-B1">
+                        <Description xml:lang="en">Mar-1996</Description>
+                        <Description xml:lang="fr">Mars 1996</Description>
+                     </Code>
+                     <Code value="1996-01" parentCode="1996-Q1">
+                        <Description xml:lang="en">Jan-1996</Description>
+                        <Description xml:lang="fr">Janv-1996</Description>
+                     </Code>
+                     <Code value="1996-02" parentCode="1996-Q1">
+                        <Description xml:lang="en">Feb-1996</Description>
+                        <Description xml:lang="fr">Févr-1996</Description>
+                     </Code>
+                     <Code value="1996-03" parentCode="1996-Q1">
+                        <Description xml:lang="en">Mar-1996</Description>
+                        <Description xml:lang="fr">Mars-1996</Description>
+                     </Code>
+                     <Code value="1996-Q2" parentCode="1996-B1">
+                        <Description xml:lang="en">Jun-1996</Description>
+                        <Description xml:lang="fr">Juin 1996</Description>
+                     </Code>
+                     <Code value="1996-04" parentCode="1996-Q2">
+                        <Description xml:lang="en">Apr-1996</Description>
+                        <Description xml:lang="fr">Avr-1996</Description>
+                     </Code>
+                     <Code value="1996-05" parentCode="1996-Q2">
+                        <Description xml:lang="en">May-1996</Description>
+                        <Description xml:lang="fr">Mai-1996</Description>
+                     </Code>
+                     <Code value="1996-06" parentCode="1996-Q2">
+                        <Description xml:lang="en">Jun-1996</Description>
+                        <Description xml:lang="fr">Juin-1996</Description>
+                     </Code>
+                     <Code value="1996-B2" parentCode="1996">
+                        <Description xml:lang="en">S2-1996</Description>
+                        <Description xml:lang="fr">S2-1996</Description>
+                     </Code>
+                     <Code value="1996-Q3" parentCode="1996-B2">
+                        <Description xml:lang="en">Sep-1996</Description>
+                        <Description xml:lang="fr">Sept 1996</Description>
+                     </Code>
+                     <Code value="1996-07" parentCode="1996-Q3">
+                        <Description xml:lang="en">Jul-1996</Description>
+                        <Description xml:lang="fr">Juil-1996</Description>
+                     </Code>
+                     <Code value="1996-08" parentCode="1996-Q3">
+                        <Description xml:lang="en">Aug-1996</Description>
+                        <Description xml:lang="fr">Août-1996</Description>
+                     </Code>
+                     <Code value="1996-09" parentCode="1996-Q3">
+                        <Description xml:lang="en">Sep-1996</Description>
+                        <Description xml:lang="fr">Sept-1996</Description>
+                     </Code>
+                     <Code value="1996-Q4" parentCode="1996-B2">
+                        <Description xml:lang="en">Dec-1996</Description>
+                        <Description xml:lang="fr">DÃ©c 1996</Description>
+                     </Code>
+                     <Code value="1996-10" parentCode="1996-Q4">
+                        <Description xml:lang="en">Oct-1996</Description>
+                        <Description xml:lang="fr">Oct-1996</Description>
+                     </Code>
+                     <Code value="1996-11" parentCode="1996-Q4">
+                        <Description xml:lang="en">Nov-1996</Description>
+                        <Description xml:lang="fr">Nov-1996</Description>
+                     </Code>
+                     <Code value="1996-12" parentCode="1996-Q4">
+                        <Description xml:lang="en">Dec-1996</Description>
+                        <Description xml:lang="fr">Déc-1996</Description>
+                     </Code>
+                     <Code value="1997">
+                        <Description xml:lang="en">1997</Description>
+                        <Description xml:lang="fr">1997</Description>
+                     </Code>
+                     <Code value="1997-B1" parentCode="1997">
+                        <Description xml:lang="en">S1-1997</Description>
+                        <Description xml:lang="fr">S1-1997</Description>
+                     </Code>
+                     <Code value="1997-Q1" parentCode="1997-B1">
+                        <Description xml:lang="en">Mar-1997</Description>
+                        <Description xml:lang="fr">Mars 1997</Description>
+                     </Code>
+                     <Code value="1997-01" parentCode="1997-Q1">
+                        <Description xml:lang="en">Jan-1997</Description>
+                        <Description xml:lang="fr">Janv-1997</Description>
+                     </Code>
+                     <Code value="1997-02" parentCode="1997-Q1">
+                        <Description xml:lang="en">Feb-1997</Description>
+                        <Description xml:lang="fr">Févr-1997</Description>
+                     </Code>
+                     <Code value="1997-03" parentCode="1997-Q1">
+                        <Description xml:lang="en">Mar-1997</Description>
+                        <Description xml:lang="fr">Mars-1997</Description>
+                     </Code>
+                     <Code value="1997-Q2" parentCode="1997-B1">
+                        <Description xml:lang="en">Jun-1997</Description>
+                        <Description xml:lang="fr">Juin 1997</Description>
+                     </Code>
+                     <Code value="1997-04" parentCode="1997-Q2">
+                        <Description xml:lang="en">Apr-1997</Description>
+                        <Description xml:lang="fr">Avr-1997</Description>
+                     </Code>
+                     <Code value="1997-05" parentCode="1997-Q2">
+                        <Description xml:lang="en">May-1997</Description>
+                        <Description xml:lang="fr">Mai-1997</Description>
+                     </Code>
+                     <Code value="1997-06" parentCode="1997-Q2">
+                        <Description xml:lang="en">Jun-1997</Description>
+                        <Description xml:lang="fr">Juin-1997</Description>
+                     </Code>
+                     <Code value="1997-B2" parentCode="1997">
+                        <Description xml:lang="en">S2-1997</Description>
+                        <Description xml:lang="fr">S2-1997</Description>
+                     </Code>
+                     <Code value="1997-Q3" parentCode="1997-B2">
+                        <Description xml:lang="en">Sep-1997</Description>
+                        <Description xml:lang="fr">Sept 1997</Description>
+                     </Code>
+                     <Code value="1997-07" parentCode="1997-Q3">
+                        <Description xml:lang="en">Jul-1997</Description>
+                        <Description xml:lang="fr">Juil-1997</Description>
+                     </Code>
+                     <Code value="1997-08" parentCode="1997-Q3">
+                        <Description xml:lang="en">Aug-1997</Description>
+                        <Description xml:lang="fr">Août-1997</Description>
+                     </Code>
+                     <Code value="1997-09" parentCode="1997-Q3">
+                        <Description xml:lang="en">Sep-1997</Description>
+                        <Description xml:lang="fr">Sept-1997</Description>
+                     </Code>
+                     <Code value="1997-Q4" parentCode="1997-B2">
+                        <Description xml:lang="en">Dec-1997</Description>
+                        <Description xml:lang="fr">DÃ©c 1997</Description>
+                     </Code>
+                     <Code value="1997-10" parentCode="1997-Q4">
+                        <Description xml:lang="en">Oct-1997</Description>
+                        <Description xml:lang="fr">Oct-1997</Description>
+                     </Code>
+                     <Code value="1997-11" parentCode="1997-Q4">
+                        <Description xml:lang="en">Nov-1997</Description>
+                        <Description xml:lang="fr">Nov-1997</Description>
+                     </Code>
+                     <Code value="1997-12" parentCode="1997-Q4">
+                        <Description xml:lang="en">Dec-1997</Description>
+                        <Description xml:lang="fr">Déc-1997</Description>
+                     </Code>
+                     <Code value="1998">
+                        <Description xml:lang="en">1998</Description>
+                        <Description xml:lang="fr">1998</Description>
+                     </Code>
+                     <Code value="1998-B1" parentCode="1998">
+                        <Description xml:lang="en">S1-1998</Description>
+                        <Description xml:lang="fr">S1-1998</Description>
+                     </Code>
+                     <Code value="1998-Q1" parentCode="1998-B1">
+                        <Description xml:lang="en">Mar-1998</Description>
+                        <Description xml:lang="fr">Mars 1998</Description>
+                     </Code>
+                     <Code value="1998-01" parentCode="1998-Q1">
+                        <Description xml:lang="en">Jan-1998</Description>
+                        <Description xml:lang="fr">Janv-1998</Description>
+                     </Code>
+                     <Code value="1998-02" parentCode="1998-Q1">
+                        <Description xml:lang="en">Feb-1998</Description>
+                        <Description xml:lang="fr">Févr-1998</Description>
+                     </Code>
+                     <Code value="1998-03" parentCode="1998-Q1">
+                        <Description xml:lang="en">Mar-1998</Description>
+                        <Description xml:lang="fr">Mars-1998</Description>
+                     </Code>
+                     <Code value="1998-Q2" parentCode="1998-B1">
+                        <Description xml:lang="en">Jun-1998</Description>
+                        <Description xml:lang="fr">Juin 1998</Description>
+                     </Code>
+                     <Code value="1998-04" parentCode="1998-Q2">
+                        <Description xml:lang="en">Apr-1998</Description>
+                        <Description xml:lang="fr">Avr-1998</Description>
+                     </Code>
+                     <Code value="1998-05" parentCode="1998-Q2">
+                        <Description xml:lang="en">May-1998</Description>
+                        <Description xml:lang="fr">Mai-1998</Description>
+                     </Code>
+                     <Code value="1998-06" parentCode="1998-Q2">
+                        <Description xml:lang="en">Jun-1998</Description>
+                        <Description xml:lang="fr">Juin-1998</Description>
+                     </Code>
+                     <Code value="1998-B2" parentCode="1998">
+                        <Description xml:lang="en">S2-1998</Description>
+                        <Description xml:lang="fr">S2-1998</Description>
+                     </Code>
+                     <Code value="1998-Q3" parentCode="1998-B2">
+                        <Description xml:lang="en">Sep-1998</Description>
+                        <Description xml:lang="fr">Sept 1998</Description>
+                     </Code>
+                     <Code value="1998-07" parentCode="1998-Q3">
+                        <Description xml:lang="en">Jul-1998</Description>
+                        <Description xml:lang="fr">Juil-1998</Description>
+                     </Code>
+                     <Code value="1998-08" parentCode="1998-Q3">
+                        <Description xml:lang="en">Aug-1998</Description>
+                        <Description xml:lang="fr">Août-1998</Description>
+                     </Code>
+                     <Code value="1998-09" parentCode="1998-Q3">
+                        <Description xml:lang="en">Sep-1998</Description>
+                        <Description xml:lang="fr">Sept-1998</Description>
+                     </Code>
+                     <Code value="1998-Q4" parentCode="1998-B2">
+                        <Description xml:lang="en">Dec-1998</Description>
+                        <Description xml:lang="fr">DÃ©c 1998</Description>
+                     </Code>
+                     <Code value="1998-10" parentCode="1998-Q4">
+                        <Description xml:lang="en">Oct-1998</Description>
+                        <Description xml:lang="fr">Oct-1998</Description>
+                     </Code>
+                     <Code value="1998-11" parentCode="1998-Q4">
+                        <Description xml:lang="en">Nov-1998</Description>
+                        <Description xml:lang="fr">Nov-1998</Description>
+                     </Code>
+                     <Code value="1998-12" parentCode="1998-Q4">
+                        <Description xml:lang="en">Dec-1998</Description>
+                        <Description xml:lang="fr">Déc-1998</Description>
+                     </Code>
+                     <Code value="1999">
+                        <Description xml:lang="en">1999</Description>
+                        <Description xml:lang="fr">1999</Description>
+                     </Code>
+                     <Code value="1999-B1" parentCode="1999">
+                        <Description xml:lang="en">S1-1999</Description>
+                        <Description xml:lang="fr">S1-1999</Description>
+                     </Code>
+                     <Code value="1999-Q1" parentCode="1999-B1">
+                        <Description xml:lang="en">Mar-1999</Description>
+                        <Description xml:lang="fr">Mars 1999</Description>
+                     </Code>
+                     <Code value="1999-01" parentCode="1999-Q1">
+                        <Description xml:lang="en">Jan-1999</Description>
+                        <Description xml:lang="fr">Janv-1999</Description>
+                     </Code>
+                     <Code value="1999-02" parentCode="1999-Q1">
+                        <Description xml:lang="en">Feb-1999</Description>
+                        <Description xml:lang="fr">Févr-1999</Description>
+                     </Code>
+                     <Code value="1999-03" parentCode="1999-Q1">
+                        <Description xml:lang="en">Mar-1999</Description>
+                        <Description xml:lang="fr">Mars-1999</Description>
+                     </Code>
+                     <Code value="1999-Q2" parentCode="1999-B1">
+                        <Description xml:lang="en">Jun-1999</Description>
+                        <Description xml:lang="fr">Juin 1999</Description>
+                     </Code>
+                     <Code value="1999-04" parentCode="1999-Q2">
+                        <Description xml:lang="en">Apr-1999</Description>
+                        <Description xml:lang="fr">Avr-1999</Description>
+                     </Code>
+                     <Code value="1999-05" parentCode="1999-Q2">
+                        <Description xml:lang="en">May-1999</Description>
+                        <Description xml:lang="fr">Mai-1999</Description>
+                     </Code>
+                     <Code value="1999-06" parentCode="1999-Q2">
+                        <Description xml:lang="en">Jun-1999</Description>
+                        <Description xml:lang="fr">Juin-1999</Description>
+                     </Code>
+                     <Code value="1999-B2" parentCode="1999">
+                        <Description xml:lang="en">S2-1999</Description>
+                        <Description xml:lang="fr">S2-1999</Description>
+                     </Code>
+                     <Code value="1999-Q3" parentCode="1999-B2">
+                        <Description xml:lang="en">Sep-1999</Description>
+                        <Description xml:lang="fr">Sept 1999</Description>
+                     </Code>
+                     <Code value="1999-07" parentCode="1999-Q3">
+                        <Description xml:lang="en">Jul-1999</Description>
+                        <Description xml:lang="fr">Juil-1999</Description>
+                     </Code>
+                     <Code value="1999-08" parentCode="1999-Q3">
+                        <Description xml:lang="en">Aug-1999</Description>
+                        <Description xml:lang="fr">Août-1999</Description>
+                     </Code>
+                     <Code value="1999-09" parentCode="1999-Q3">
+                        <Description xml:lang="en">Sep-1999</Description>
+                        <Description xml:lang="fr">Sept-1999</Description>
+                     </Code>
+                     <Code value="1999-Q4" parentCode="1999-B2">
+                        <Description xml:lang="en">Dec-1999</Description>
+                        <Description xml:lang="fr">DÃ©c 1999</Description>
+                     </Code>
+                     <Code value="1999-10" parentCode="1999-Q4">
+                        <Description xml:lang="en">Oct-1999</Description>
+                        <Description xml:lang="fr">Oct-1999</Description>
+                     </Code>
+                     <Code value="1999-11" parentCode="1999-Q4">
+                        <Description xml:lang="en">Nov-1999</Description>
+                        <Description xml:lang="fr">Nov-1999</Description>
+                     </Code>
+                     <Code value="1999-12" parentCode="1999-Q4">
+                        <Description xml:lang="en">Dec-1999</Description>
+                        <Description xml:lang="fr">Déc-1999</Description>
+                     </Code>
+                     <Code value="2000">
+                        <Description xml:lang="en">2000</Description>
+                        <Description xml:lang="fr">2000</Description>
+                     </Code>
+                     <Code value="2000-B1" parentCode="2000">
+                        <Description xml:lang="en">S1-2000</Description>
+                        <Description xml:lang="fr">S1-2000</Description>
+                     </Code>
+                     <Code value="2000-Q1" parentCode="2000-B1">
+                        <Description xml:lang="en">Mar-2000</Description>
+                        <Description xml:lang="fr">Mars 2000</Description>
+                     </Code>
+                     <Code value="2000-01" parentCode="2000-Q1">
+                        <Description xml:lang="en">Jan-2000</Description>
+                        <Description xml:lang="fr">Janv-2000</Description>
+                     </Code>
+                     <Code value="2000-02" parentCode="2000-Q1">
+                        <Description xml:lang="en">Feb-2000</Description>
+                        <Description xml:lang="fr">Févr-2000</Description>
+                     </Code>
+                     <Code value="2000-03" parentCode="2000-Q1">
+                        <Description xml:lang="en">Mar-2000</Description>
+                        <Description xml:lang="fr">Mars-2000</Description>
+                     </Code>
+                     <Code value="2000-Q2" parentCode="2000-B1">
+                        <Description xml:lang="en">Jun-2000</Description>
+                        <Description xml:lang="fr">Juin 2000</Description>
+                     </Code>
+                     <Code value="2000-04" parentCode="2000-Q2">
+                        <Description xml:lang="en">Apr-2000</Description>
+                        <Description xml:lang="fr">Avr-2000</Description>
+                     </Code>
+                     <Code value="2000-05" parentCode="2000-Q2">
+                        <Description xml:lang="en">May-2000</Description>
+                        <Description xml:lang="fr">Mai-2000</Description>
+                     </Code>
+                     <Code value="2000-06" parentCode="2000-Q2">
+                        <Description xml:lang="en">Jun-2000</Description>
+                        <Description xml:lang="fr">Juin-2000</Description>
+                     </Code>
+                     <Code value="2000-B2" parentCode="2000">
+                        <Description xml:lang="en">S2-2000</Description>
+                        <Description xml:lang="fr">S2-2000</Description>
+                     </Code>
+                     <Code value="2000-Q3" parentCode="2000-B2">
+                        <Description xml:lang="en">Sep-2000</Description>
+                        <Description xml:lang="fr">Sept 2000</Description>
+                     </Code>
+                     <Code value="2000-07" parentCode="2000-Q3">
+                        <Description xml:lang="en">Jul-2000</Description>
+                        <Description xml:lang="fr">Juil-2000</Description>
+                     </Code>
+                     <Code value="2000-08" parentCode="2000-Q3">
+                        <Description xml:lang="en">Aug-2000</Description>
+                        <Description xml:lang="fr">Août-2000</Description>
+                     </Code>
+                     <Code value="2000-09" parentCode="2000-Q3">
+                        <Description xml:lang="en">Sep-2000</Description>
+                        <Description xml:lang="fr">Sept-2000</Description>
+                     </Code>
+                     <Code value="2000-Q4" parentCode="2000-B2">
+                        <Description xml:lang="en">Dec-2000</Description>
+                        <Description xml:lang="fr">DÃ©c 2000</Description>
+                     </Code>
+                     <Code value="2000-10" parentCode="2000-Q4">
+                        <Description xml:lang="en">Oct-2000</Description>
+                        <Description xml:lang="fr">Oct-2000</Description>
+                     </Code>
+                     <Code value="2000-11" parentCode="2000-Q4">
+                        <Description xml:lang="en">Nov-2000</Description>
+                        <Description xml:lang="fr">Nov-2000</Description>
+                     </Code>
+                     <Code value="2000-12" parentCode="2000-Q4">
+                        <Description xml:lang="en">Dec-2000</Description>
+                        <Description xml:lang="fr">Déc-2000</Description>
+                     </Code>
+                     <Code value="2001">
+                        <Description xml:lang="en">2001</Description>
+                        <Description xml:lang="fr">2001</Description>
+                     </Code>
+                     <Code value="2001-B1" parentCode="2001">
+                        <Description xml:lang="en">S1-2001</Description>
+                        <Description xml:lang="fr">S1-2001</Description>
+                     </Code>
+                     <Code value="2001-Q1" parentCode="2001-B1">
+                        <Description xml:lang="en">Mar-2001</Description>
+                        <Description xml:lang="fr">Mars 2001</Description>
+                     </Code>
+                     <Code value="2001-01" parentCode="2001-Q1">
+                        <Description xml:lang="en">Jan-2001</Description>
+                        <Description xml:lang="fr">Janv-2001</Description>
+                     </Code>
+                     <Code value="2001-02" parentCode="2001-Q1">
+                        <Description xml:lang="en">Feb-2001</Description>
+                        <Description xml:lang="fr">Févr-2001</Description>
+                     </Code>
+                     <Code value="2001-03" parentCode="2001-Q1">
+                        <Description xml:lang="en">Mar-2001</Description>
+                        <Description xml:lang="fr">Mars-2001</Description>
+                     </Code>
+                     <Code value="2001-Q2" parentCode="2001-B1">
+                        <Description xml:lang="en">Jun-2001</Description>
+                        <Description xml:lang="fr">Juin 2001</Description>
+                     </Code>
+                     <Code value="2001-04" parentCode="2001-Q2">
+                        <Description xml:lang="en">Apr-2001</Description>
+                        <Description xml:lang="fr">Avr-2001</Description>
+                     </Code>
+                     <Code value="2001-05" parentCode="2001-Q2">
+                        <Description xml:lang="en">May-2001</Description>
+                        <Description xml:lang="fr">Mai-2001</Description>
+                     </Code>
+                     <Code value="2001-06" parentCode="2001-Q2">
+                        <Description xml:lang="en">Jun-2001</Description>
+                        <Description xml:lang="fr">Juin-2001</Description>
+                     </Code>
+                     <Code value="2001-B2" parentCode="2001">
+                        <Description xml:lang="en">S2-2001</Description>
+                        <Description xml:lang="fr">S2-2001</Description>
+                     </Code>
+                     <Code value="2001-Q3" parentCode="2001-B2">
+                        <Description xml:lang="en">Sep-2001</Description>
+                        <Description xml:lang="fr">Sept 2001</Description>
+                     </Code>
+                     <Code value="2001-07" parentCode="2001-Q3">
+                        <Description xml:lang="en">Jul-2001</Description>
+                        <Description xml:lang="fr">Juil-2001</Description>
+                     </Code>
+                     <Code value="2001-08" parentCode="2001-Q3">
+                        <Description xml:lang="en">Aug-2001</Description>
+                        <Description xml:lang="fr">Août-2001</Description>
+                     </Code>
+                     <Code value="2001-09" parentCode="2001-Q3">
+                        <Description xml:lang="en">Sep-2001</Description>
+                        <Description xml:lang="fr">Sept-2001</Description>
+                     </Code>
+                     <Code value="2001-Q4" parentCode="2001-B2">
+                        <Description xml:lang="en">Dec-2001</Description>
+                        <Description xml:lang="fr">DÃ©c 2001</Description>
+                     </Code>
+                     <Code value="2001-10" parentCode="2001-Q4">
+                        <Description xml:lang="en">Oct-2001</Description>
+                        <Description xml:lang="fr">Oct-2001</Description>
+                     </Code>
+                     <Code value="2001-11" parentCode="2001-Q4">
+                        <Description xml:lang="en">Nov-2001</Description>
+                        <Description xml:lang="fr">Nov-2001</Description>
+                     </Code>
+                     <Code value="2001-12" parentCode="2001-Q4">
+                        <Description xml:lang="en">Dec-2001</Description>
+                        <Description xml:lang="fr">Déc-2001</Description>
+                     </Code>
+                     <Code value="2002">
+                        <Description xml:lang="en">2002</Description>
+                        <Description xml:lang="fr">2002</Description>
+                     </Code>
+                     <Code value="2002-B1" parentCode="2002">
+                        <Description xml:lang="en">S1-2002</Description>
+                        <Description xml:lang="fr">S1-2002</Description>
+                     </Code>
+                     <Code value="2002-Q1" parentCode="2002-B1">
+                        <Description xml:lang="en">Mar-2002</Description>
+                        <Description xml:lang="fr">Mars 2002</Description>
+                     </Code>
+                     <Code value="2002-01" parentCode="2002-Q1">
+                        <Description xml:lang="en">Jan-2002</Description>
+                        <Description xml:lang="fr">Janv-2002</Description>
+                     </Code>
+                     <Code value="2002-02" parentCode="2002-Q1">
+                        <Description xml:lang="en">Feb-2002</Description>
+                        <Description xml:lang="fr">Févr-2002</Description>
+                     </Code>
+                     <Code value="2002-03" parentCode="2002-Q1">
+                        <Description xml:lang="en">Mar-2002</Description>
+                        <Description xml:lang="fr">Mars-2002</Description>
+                     </Code>
+                     <Code value="2002-Q2" parentCode="2002-B1">
+                        <Description xml:lang="en">Jun-2002</Description>
+                        <Description xml:lang="fr">Juin 2002</Description>
+                     </Code>
+                     <Code value="2002-04" parentCode="2002-Q2">
+                        <Description xml:lang="en">Apr-2002</Description>
+                        <Description xml:lang="fr">Avr-2002</Description>
+                     </Code>
+                     <Code value="2002-05" parentCode="2002-Q2">
+                        <Description xml:lang="en">May-2002</Description>
+                        <Description xml:lang="fr">Mai-2002</Description>
+                     </Code>
+                     <Code value="2002-06" parentCode="2002-Q2">
+                        <Description xml:lang="en">Jun-2002</Description>
+                        <Description xml:lang="fr">Juin-2002</Description>
+                     </Code>
+                     <Code value="2002-B2" parentCode="2002">
+                        <Description xml:lang="en">S2-2002</Description>
+                        <Description xml:lang="fr">S2-2002</Description>
+                     </Code>
+                     <Code value="2002-Q3" parentCode="2002-B2">
+                        <Description xml:lang="en">Sep-2002</Description>
+                        <Description xml:lang="fr">Sept 2002</Description>
+                     </Code>
+                     <Code value="2002-07" parentCode="2002-Q3">
+                        <Description xml:lang="en">Jul-2002</Description>
+                        <Description xml:lang="fr">Juil-2002</Description>
+                     </Code>
+                     <Code value="2002-08" parentCode="2002-Q3">
+                        <Description xml:lang="en">Aug-2002</Description>
+                        <Description xml:lang="fr">Août-2002</Description>
+                     </Code>
+                     <Code value="2002-09" parentCode="2002-Q3">
+                        <Description xml:lang="en">Sep-2002</Description>
+                        <Description xml:lang="fr">Sept-2002</Description>
+                     </Code>
+                     <Code value="2002-Q4" parentCode="2002-B2">
+                        <Description xml:lang="en">Dec-2002</Description>
+                        <Description xml:lang="fr">DÃ©c 2002</Description>
+                     </Code>
+                     <Code value="2002-10" parentCode="2002-Q4">
+                        <Description xml:lang="en">Oct-2002</Description>
+                        <Description xml:lang="fr">Oct-2002</Description>
+                     </Code>
+                     <Code value="2002-11" parentCode="2002-Q4">
+                        <Description xml:lang="en">Nov-2002</Description>
+                        <Description xml:lang="fr">Nov-2002</Description>
+                     </Code>
+                     <Code value="2002-12" parentCode="2002-Q4">
+                        <Description xml:lang="en">Dec-2002</Description>
+                        <Description xml:lang="fr">Déc-2002</Description>
+                     </Code>
+                     <Code value="2003">
+                        <Description xml:lang="en">2003</Description>
+                        <Description xml:lang="fr">2003</Description>
+                     </Code>
+                     <Code value="2003-B1" parentCode="2003">
+                        <Description xml:lang="en">S1-2003</Description>
+                        <Description xml:lang="fr">S1-2003</Description>
+                     </Code>
+                     <Code value="2003-Q1" parentCode="2003-B1">
+                        <Description xml:lang="en">Mar-2003</Description>
+                        <Description xml:lang="fr">Mars 2003</Description>
+                     </Code>
+                     <Code value="2003-01" parentCode="2003-Q1">
+                        <Description xml:lang="en">Jan-2003</Description>
+                        <Description xml:lang="fr">Janv-2003</Description>
+                     </Code>
+                     <Code value="2003-02" parentCode="2003-Q1">
+                        <Description xml:lang="en">Feb-2003</Description>
+                        <Description xml:lang="fr">Févr-2003</Description>
+                     </Code>
+                     <Code value="2003-03" parentCode="2003-Q1">
+                        <Description xml:lang="en">Mar-2003</Description>
+                        <Description xml:lang="fr">Mars-2003</Description>
+                     </Code>
+                     <Code value="2003-Q2" parentCode="2003-B1">
+                        <Description xml:lang="en">Jun-2003</Description>
+                        <Description xml:lang="fr">Juin 2003</Description>
+                     </Code>
+                     <Code value="2003-04" parentCode="2003-Q2">
+                        <Description xml:lang="en">Apr-2003</Description>
+                        <Description xml:lang="fr">Avr-2003</Description>
+                     </Code>
+                     <Code value="2003-05" parentCode="2003-Q2">
+                        <Description xml:lang="en">May-2003</Description>
+                        <Description xml:lang="fr">Mai-2003</Description>
+                     </Code>
+                     <Code value="2003-06" parentCode="2003-Q2">
+                        <Description xml:lang="en">Jun-2003</Description>
+                        <Description xml:lang="fr">Juin-2003</Description>
+                     </Code>
+                     <Code value="2003-B2" parentCode="2003">
+                        <Description xml:lang="en">S2-2003</Description>
+                        <Description xml:lang="fr">S2-2003</Description>
+                     </Code>
+                     <Code value="2003-Q3" parentCode="2003-B2">
+                        <Description xml:lang="en">Sep-2003</Description>
+                        <Description xml:lang="fr">Sept 2003</Description>
+                     </Code>
+                     <Code value="2003-07" parentCode="2003-Q3">
+                        <Description xml:lang="en">Jul-2003</Description>
+                        <Description xml:lang="fr">Juil-2003</Description>
+                     </Code>
+                     <Code value="2003-08" parentCode="2003-Q3">
+                        <Description xml:lang="en">Aug-2003</Description>
+                        <Description xml:lang="fr">Août-2003</Description>
+                     </Code>
+                     <Code value="2003-09" parentCode="2003-Q3">
+                        <Description xml:lang="en">Sep-2003</Description>
+                        <Description xml:lang="fr">Sept-2003</Description>
+                     </Code>
+                     <Code value="2003-Q4" parentCode="2003-B2">
+                        <Description xml:lang="en">Dec-2003</Description>
+                        <Description xml:lang="fr">DÃ©c 2003</Description>
+                     </Code>
+                     <Code value="2003-10" parentCode="2003-Q4">
+                        <Description xml:lang="en">Oct-2003</Description>
+                        <Description xml:lang="fr">Oct-2003</Description>
+                     </Code>
+                     <Code value="2003-11" parentCode="2003-Q4">
+                        <Description xml:lang="en">Nov-2003</Description>
+                        <Description xml:lang="fr">Nov-2003</Description>
+                     </Code>
+                     <Code value="2003-12" parentCode="2003-Q4">
+                        <Description xml:lang="en">Dec-2003</Description>
+                        <Description xml:lang="fr">Déc-2003</Description>
+                     </Code>
+                     <Code value="2004">
+                        <Description xml:lang="en">2004</Description>
+                        <Description xml:lang="fr">2004</Description>
+                     </Code>
+                     <Code value="2004-B1" parentCode="2004">
+                        <Description xml:lang="en">S1-2004</Description>
+                        <Description xml:lang="fr">S1-2004</Description>
+                     </Code>
+                     <Code value="2004-Q1" parentCode="2004-B1">
+                        <Description xml:lang="en">Mar-2004</Description>
+                        <Description xml:lang="fr">Mars 2004</Description>
+                     </Code>
+                     <Code value="2004-01" parentCode="2004-Q1">
+                        <Description xml:lang="en">Jan-2004</Description>
+                        <Description xml:lang="fr">Janv-2004</Description>
+                     </Code>
+                     <Code value="2004-02" parentCode="2004-Q1">
+                        <Description xml:lang="en">Feb-2004</Description>
+                        <Description xml:lang="fr">Févr-2004</Description>
+                     </Code>
+                     <Code value="2004-03" parentCode="2004-Q1">
+                        <Description xml:lang="en">Mar-2004</Description>
+                        <Description xml:lang="fr">Mars-2004</Description>
+                     </Code>
+                     <Code value="2004-Q2" parentCode="2004-B1">
+                        <Description xml:lang="en">Jun-2004</Description>
+                        <Description xml:lang="fr">Juin 2004</Description>
+                     </Code>
+                     <Code value="2004-04" parentCode="2004-Q2">
+                        <Description xml:lang="en">Apr-2004</Description>
+                        <Description xml:lang="fr">Avr-2004</Description>
+                     </Code>
+                     <Code value="2004-05" parentCode="2004-Q2">
+                        <Description xml:lang="en">May-2004</Description>
+                        <Description xml:lang="fr">Mai-2004</Description>
+                     </Code>
+                     <Code value="2004-06" parentCode="2004-Q2">
+                        <Description xml:lang="en">Jun-2004</Description>
+                        <Description xml:lang="fr">Juin-2004</Description>
+                     </Code>
+                     <Code value="2004-B2" parentCode="2004">
+                        <Description xml:lang="en">S2-2004</Description>
+                        <Description xml:lang="fr">S2-2004</Description>
+                     </Code>
+                     <Code value="2004-Q3" parentCode="2004-B2">
+                        <Description xml:lang="en">Sep-2004</Description>
+                        <Description xml:lang="fr">Sept 2004</Description>
+                     </Code>
+                     <Code value="2004-07" parentCode="2004-Q3">
+                        <Description xml:lang="en">Jul-2004</Description>
+                        <Description xml:lang="fr">Juil-2004</Description>
+                     </Code>
+                     <Code value="2004-08" parentCode="2004-Q3">
+                        <Description xml:lang="en">Aug-2004</Description>
+                        <Description xml:lang="fr">Août-2004</Description>
+                     </Code>
+                     <Code value="2004-09" parentCode="2004-Q3">
+                        <Description xml:lang="en">Sep-2004</Description>
+                        <Description xml:lang="fr">Sept-2004</Description>
+                     </Code>
+                     <Code value="2004-Q4" parentCode="2004-B2">
+                        <Description xml:lang="en">Dec-2004</Description>
+                        <Description xml:lang="fr">DÃ©c 2004</Description>
+                     </Code>
+                     <Code value="2004-10" parentCode="2004-Q4">
+                        <Description xml:lang="en">Oct-2004</Description>
+                        <Description xml:lang="fr">Oct-2004</Description>
+                     </Code>
+                     <Code value="2004-11" parentCode="2004-Q4">
+                        <Description xml:lang="en">Nov-2004</Description>
+                        <Description xml:lang="fr">Nov-2004</Description>
+                     </Code>
+                     <Code value="2004-12" parentCode="2004-Q4">
+                        <Description xml:lang="en">Dec-2004</Description>
+                        <Description xml:lang="fr">Déc-2004</Description>
+                     </Code>
+                     <Code value="2005">
+                        <Description xml:lang="en">2005</Description>
+                        <Description xml:lang="fr">2005</Description>
+                     </Code>
+                     <Code value="2005-B1" parentCode="2005">
+                        <Description xml:lang="en">S1-2005</Description>
+                        <Description xml:lang="fr">S1-2005</Description>
+                     </Code>
+                     <Code value="2005-Q1" parentCode="2005-B1">
+                        <Description xml:lang="en">Mar-2005</Description>
+                        <Description xml:lang="fr">Mars 2005</Description>
+                     </Code>
+                     <Code value="2005-01" parentCode="2005-Q1">
+                        <Description xml:lang="en">Jan-2005</Description>
+                        <Description xml:lang="fr">Janv-2005</Description>
+                     </Code>
+                     <Code value="2005-02" parentCode="2005-Q1">
+                        <Description xml:lang="en">Feb-2005</Description>
+                        <Description xml:lang="fr">Févr-2005</Description>
+                     </Code>
+                     <Code value="2005-03" parentCode="2005-Q1">
+                        <Description xml:lang="en">Mar-2005</Description>
+                        <Description xml:lang="fr">Mars-2005</Description>
+                     </Code>
+                     <Code value="2005-Q2" parentCode="2005-B1">
+                        <Description xml:lang="en">Jun-2005</Description>
+                        <Description xml:lang="fr">Juin 2005</Description>
+                     </Code>
+                     <Code value="2005-04" parentCode="2005-Q2">
+                        <Description xml:lang="en">Apr-2005</Description>
+                        <Description xml:lang="fr">Avr-2005</Description>
+                     </Code>
+                     <Code value="2005-05" parentCode="2005-Q2">
+                        <Description xml:lang="en">May-2005</Description>
+                        <Description xml:lang="fr">Mai-2005</Description>
+                     </Code>
+                     <Code value="2005-06" parentCode="2005-Q2">
+                        <Description xml:lang="en">Jun-2005</Description>
+                        <Description xml:lang="fr">Juin-2005</Description>
+                     </Code>
+                     <Code value="2005-B2" parentCode="2005">
+                        <Description xml:lang="en">S2-2005</Description>
+                        <Description xml:lang="fr">S2-2005</Description>
+                     </Code>
+                     <Code value="2005-Q3" parentCode="2005-B2">
+                        <Description xml:lang="en">Sep-2005</Description>
+                        <Description xml:lang="fr">Sept 2005</Description>
+                     </Code>
+                     <Code value="2005-07" parentCode="2005-Q3">
+                        <Description xml:lang="en">Jul-2005</Description>
+                        <Description xml:lang="fr">Juil-2005</Description>
+                     </Code>
+                     <Code value="2005-08" parentCode="2005-Q3">
+                        <Description xml:lang="en">Aug-2005</Description>
+                        <Description xml:lang="fr">Août-2005</Description>
+                     </Code>
+                     <Code value="2005-09" parentCode="2005-Q3">
+                        <Description xml:lang="en">Sep-2005</Description>
+                        <Description xml:lang="fr">Sept-2005</Description>
+                     </Code>
+                     <Code value="2005-Q4" parentCode="2005-B2">
+                        <Description xml:lang="en">Dec-2005</Description>
+                        <Description xml:lang="fr">DÃ©c 2005</Description>
+                     </Code>
+                     <Code value="2005-10" parentCode="2005-Q4">
+                        <Description xml:lang="en">Oct-2005</Description>
+                        <Description xml:lang="fr">Oct-2005</Description>
+                     </Code>
+                     <Code value="2005-11" parentCode="2005-Q4">
+                        <Description xml:lang="en">Nov-2005</Description>
+                        <Description xml:lang="fr">Nov-2005</Description>
+                     </Code>
+                     <Code value="2005-12" parentCode="2005-Q4">
+                        <Description xml:lang="en">Dec-2005</Description>
+                        <Description xml:lang="fr">Déc-2005</Description>
+                     </Code>
+                     <Code value="2006">
+                        <Description xml:lang="en">2006</Description>
+                        <Description xml:lang="fr">2006</Description>
+                     </Code>
+                     <Code value="2006-B1" parentCode="2006">
+                        <Description xml:lang="en">S1-2006</Description>
+                        <Description xml:lang="fr">S1-2006</Description>
+                     </Code>
+                     <Code value="2006-Q1" parentCode="2006-B1">
+                        <Description xml:lang="en">Mar-2006</Description>
+                        <Description xml:lang="fr">Mars 2006</Description>
+                     </Code>
+                     <Code value="2006-01" parentCode="2006-Q1">
+                        <Description xml:lang="en">Jan-2006</Description>
+                        <Description xml:lang="fr">Janv-2006</Description>
+                     </Code>
+                     <Code value="2006-02" parentCode="2006-Q1">
+                        <Description xml:lang="en">Feb-2006</Description>
+                        <Description xml:lang="fr">Févr-2006</Description>
+                     </Code>
+                     <Code value="2006-03" parentCode="2006-Q1">
+                        <Description xml:lang="en">Mar-2006</Description>
+                        <Description xml:lang="fr">Mars-2006</Description>
+                     </Code>
+                     <Code value="2006-Q2" parentCode="2006-B1">
+                        <Description xml:lang="en">Jun-2006</Description>
+                        <Description xml:lang="fr">Juin 2006</Description>
+                     </Code>
+                     <Code value="2006-04" parentCode="2006-Q2">
+                        <Description xml:lang="en">Apr-2006</Description>
+                        <Description xml:lang="fr">Avr-2006</Description>
+                     </Code>
+                     <Code value="2006-05" parentCode="2006-Q2">
+                        <Description xml:lang="en">May-2006</Description>
+                        <Description xml:lang="fr">Mai-2006</Description>
+                     </Code>
+                     <Code value="2006-06" parentCode="2006-Q2">
+                        <Description xml:lang="en">Jun-2006</Description>
+                        <Description xml:lang="fr">Juin-2006</Description>
+                     </Code>
+                     <Code value="2006-B2" parentCode="2006">
+                        <Description xml:lang="en">S2-2006</Description>
+                        <Description xml:lang="fr">S2-2006</Description>
+                     </Code>
+                     <Code value="2006-Q3" parentCode="2006-B2">
+                        <Description xml:lang="en">Sep-2006</Description>
+                        <Description xml:lang="fr">Sept 2006</Description>
+                     </Code>
+                     <Code value="2006-07" parentCode="2006-Q3">
+                        <Description xml:lang="en">Jul-2006</Description>
+                        <Description xml:lang="fr">Juil-2006</Description>
+                     </Code>
+                     <Code value="2006-08" parentCode="2006-Q3">
+                        <Description xml:lang="en">Aug-2006</Description>
+                        <Description xml:lang="fr">Août-2006</Description>
+                     </Code>
+                     <Code value="2006-09" parentCode="2006-Q3">
+                        <Description xml:lang="en">Sep-2006</Description>
+                        <Description xml:lang="fr">Sept-2006</Description>
+                     </Code>
+                     <Code value="2006-Q4" parentCode="2006-B2">
+                        <Description xml:lang="en">Dec-2006</Description>
+                        <Description xml:lang="fr">DÃ©c 2006</Description>
+                     </Code>
+                     <Code value="2006-10" parentCode="2006-Q4">
+                        <Description xml:lang="en">Oct-2006</Description>
+                        <Description xml:lang="fr">Oct-2006</Description>
+                     </Code>
+                     <Code value="2006-11" parentCode="2006-Q4">
+                        <Description xml:lang="en">Nov-2006</Description>
+                        <Description xml:lang="fr">Nov-2006</Description>
+                     </Code>
+                     <Code value="2006-12" parentCode="2006-Q4">
+                        <Description xml:lang="en">Dec-2006</Description>
+                        <Description xml:lang="fr">Déc-2006</Description>
+                     </Code>
+                     <Code value="2007">
+                        <Description xml:lang="en">2007</Description>
+                        <Description xml:lang="fr">2007</Description>
+                     </Code>
+                     <Code value="2007-B1" parentCode="2007">
+                        <Description xml:lang="en">S1-2007</Description>
+                        <Description xml:lang="fr">S1-2007</Description>
+                     </Code>
+                     <Code value="2007-Q1" parentCode="2007-B1">
+                        <Description xml:lang="en">Mar-2007</Description>
+                        <Description xml:lang="fr">Mars 2007</Description>
+                     </Code>
+                     <Code value="2007-01" parentCode="2007-Q1">
+                        <Description xml:lang="en">Jan-2007</Description>
+                        <Description xml:lang="fr">Janv-2007</Description>
+                     </Code>
+                     <Code value="2007-02" parentCode="2007-Q1">
+                        <Description xml:lang="en">Feb-2007</Description>
+                        <Description xml:lang="fr">Févr-2007</Description>
+                     </Code>
+                     <Code value="2007-03" parentCode="2007-Q1">
+                        <Description xml:lang="en">Mar-2007</Description>
+                        <Description xml:lang="fr">Mars-2007</Description>
+                     </Code>
+                     <Code value="2007-Q2" parentCode="2007-B1">
+                        <Description xml:lang="en">Jun-2007</Description>
+                        <Description xml:lang="fr">Juin 2007</Description>
+                     </Code>
+                     <Code value="2007-04" parentCode="2007-Q2">
+                        <Description xml:lang="en">Apr-2007</Description>
+                        <Description xml:lang="fr">Avr-2007</Description>
+                     </Code>
+                     <Code value="2007-05" parentCode="2007-Q2">
+                        <Description xml:lang="en">May-2007</Description>
+                        <Description xml:lang="fr">Mai-2007</Description>
+                     </Code>
+                     <Code value="2007-06" parentCode="2007-Q2">
+                        <Description xml:lang="en">Jun-2007</Description>
+                        <Description xml:lang="fr">Juin-2007</Description>
+                     </Code>
+                     <Code value="2007-B2" parentCode="2007">
+                        <Description xml:lang="en">S2-2007</Description>
+                        <Description xml:lang="fr">S2-2007</Description>
+                     </Code>
+                     <Code value="2007-Q3" parentCode="2007-B2">
+                        <Description xml:lang="en">Sep-2007</Description>
+                        <Description xml:lang="fr">Sept 2007</Description>
+                     </Code>
+                     <Code value="2007-07" parentCode="2007-Q3">
+                        <Description xml:lang="en">Jul-2007</Description>
+                        <Description xml:lang="fr">Juil-2007</Description>
+                     </Code>
+                     <Code value="2007-08" parentCode="2007-Q3">
+                        <Description xml:lang="en">Aug-2007</Description>
+                        <Description xml:lang="fr">Août-2007</Description>
+                     </Code>
+                     <Code value="2007-09" parentCode="2007-Q3">
+                        <Description xml:lang="en">Sep-2007</Description>
+                        <Description xml:lang="fr">Sept-2007</Description>
+                     </Code>
+                     <Code value="2007-Q4" parentCode="2007-B2">
+                        <Description xml:lang="en">Dec-2007</Description>
+                        <Description xml:lang="fr">DÃ©c 2007</Description>
+                     </Code>
+                     <Code value="2007-10" parentCode="2007-Q4">
+                        <Description xml:lang="en">Oct-2007</Description>
+                        <Description xml:lang="fr">Oct-2007</Description>
+                     </Code>
+                     <Code value="2007-11" parentCode="2007-Q4">
+                        <Description xml:lang="en">Nov-2007</Description>
+                        <Description xml:lang="fr">Nov-2007</Description>
+                     </Code>
+                     <Code value="2007-12" parentCode="2007-Q4">
+                        <Description xml:lang="en">Dec-2007</Description>
+                        <Description xml:lang="fr">Déc-2007</Description>
+                     </Code>
+                     <Code value="2008">
+                        <Description xml:lang="en">2008</Description>
+                        <Description xml:lang="fr">2008</Description>
+                     </Code>
+                     <Code value="2008-B1" parentCode="2008">
+                        <Description xml:lang="en">S1-2008</Description>
+                        <Description xml:lang="fr">S1-2008</Description>
+                     </Code>
+                     <Code value="2008-Q1" parentCode="2008-B1">
+                        <Description xml:lang="en">Mar-2008</Description>
+                        <Description xml:lang="fr">Mars 2008</Description>
+                     </Code>
+                     <Code value="2008-01" parentCode="2008-Q1">
+                        <Description xml:lang="en">Jan-2008</Description>
+                        <Description xml:lang="fr">Janv-2008</Description>
+                     </Code>
+                     <Code value="2008-02" parentCode="2008-Q1">
+                        <Description xml:lang="en">Feb-2008</Description>
+                        <Description xml:lang="fr">Févr-2008</Description>
+                     </Code>
+                     <Code value="2008-03" parentCode="2008-Q1">
+                        <Description xml:lang="en">Mar-2008</Description>
+                        <Description xml:lang="fr">Mars-2008</Description>
+                     </Code>
+                     <Code value="2008-Q2" parentCode="2008-B1">
+                        <Description xml:lang="en">Jun-2008</Description>
+                        <Description xml:lang="fr">Juin 2008</Description>
+                     </Code>
+                     <Code value="2008-04" parentCode="2008-Q2">
+                        <Description xml:lang="en">Apr-2008</Description>
+                        <Description xml:lang="fr">Avr-2008</Description>
+                     </Code>
+                     <Code value="2008-05" parentCode="2008-Q2">
+                        <Description xml:lang="en">May-2008</Description>
+                        <Description xml:lang="fr">Mai-2008</Description>
+                     </Code>
+                     <Code value="2008-06" parentCode="2008-Q2">
+                        <Description xml:lang="en">Jun-2008</Description>
+                        <Description xml:lang="fr">Juin-2008</Description>
+                     </Code>
+                     <Code value="2008-B2" parentCode="2008">
+                        <Description xml:lang="en">S2-2008</Description>
+                        <Description xml:lang="fr">S2-2008</Description>
+                     </Code>
+                     <Code value="2008-Q3" parentCode="2008-B2">
+                        <Description xml:lang="en">Sep-2008</Description>
+                        <Description xml:lang="fr">Sept 2008</Description>
+                     </Code>
+                     <Code value="2008-07" parentCode="2008-Q3">
+                        <Description xml:lang="en">Jul-2008</Description>
+                        <Description xml:lang="fr">Juil-2008</Description>
+                     </Code>
+                     <Code value="2008-08" parentCode="2008-Q3">
+                        <Description xml:lang="en">Aug-2008</Description>
+                        <Description xml:lang="fr">Août-2008</Description>
+                     </Code>
+                     <Code value="2008-09" parentCode="2008-Q3">
+                        <Description xml:lang="en">Sep-2008</Description>
+                        <Description xml:lang="fr">Sept-2008</Description>
+                     </Code>
+                     <Code value="2008-Q4" parentCode="2008-B2">
+                        <Description xml:lang="en">Dec-2008</Description>
+                        <Description xml:lang="fr">DÃ©c 2008</Description>
+                     </Code>
+                     <Code value="2008-10" parentCode="2008-Q4">
+                        <Description xml:lang="en">Oct-2008</Description>
+                        <Description xml:lang="fr">Oct-2008</Description>
+                     </Code>
+                     <Code value="2008-11" parentCode="2008-Q4">
+                        <Description xml:lang="en">Nov-2008</Description>
+                        <Description xml:lang="fr">Nov-2008</Description>
+                     </Code>
+                     <Code value="2008-12" parentCode="2008-Q4">
+                        <Description xml:lang="en">Dec-2008</Description>
+                        <Description xml:lang="fr">Déc-2008</Description>
+                     </Code>
+                     <Code value="2009">
+                        <Description xml:lang="en">2009</Description>
+                        <Description xml:lang="fr">2009</Description>
+                     </Code>
+                     <Code value="2009-B1" parentCode="2009">
+                        <Description xml:lang="en">S1-2009</Description>
+                        <Description xml:lang="fr">S1-2009</Description>
+                     </Code>
+                     <Code value="2009-Q1" parentCode="2009-B1">
+                        <Description xml:lang="en">Mar-2009</Description>
+                        <Description xml:lang="fr">Mars 2009</Description>
+                     </Code>
+                     <Code value="2009-01" parentCode="2009-Q1">
+                        <Description xml:lang="en">Jan-2009</Description>
+                        <Description xml:lang="fr">Janv-2009</Description>
+                     </Code>
+                     <Code value="2009-02" parentCode="2009-Q1">
+                        <Description xml:lang="en">Feb-2009</Description>
+                        <Description xml:lang="fr">Févr-2009</Description>
+                     </Code>
+                     <Code value="2009-03" parentCode="2009-Q1">
+                        <Description xml:lang="en">Mar-2009</Description>
+                        <Description xml:lang="fr">Mars-2009</Description>
+                     </Code>
+                     <Code value="2009-Q2" parentCode="2009-B1">
+                        <Description xml:lang="en">Jun-2009</Description>
+                        <Description xml:lang="fr">Juin 2009</Description>
+                     </Code>
+                     <Code value="2009-04" parentCode="2009-Q2">
+                        <Description xml:lang="en">Apr-2009</Description>
+                        <Description xml:lang="fr">Avr-2009</Description>
+                     </Code>
+                     <Code value="2009-05" parentCode="2009-Q2">
+                        <Description xml:lang="en">May-2009</Description>
+                        <Description xml:lang="fr">Mai-2009</Description>
+                     </Code>
+                     <Code value="2009-06" parentCode="2009-Q2">
+                        <Description xml:lang="en">Jun-2009</Description>
+                        <Description xml:lang="fr">Juin-2009</Description>
+                     </Code>
+                     <Code value="2009-B2" parentCode="2009">
+                        <Description xml:lang="en">S2-2009</Description>
+                        <Description xml:lang="fr">S2-2009</Description>
+                     </Code>
+                     <Code value="2009-Q3" parentCode="2009-B2">
+                        <Description xml:lang="en">Sep-2009</Description>
+                        <Description xml:lang="fr">Sept 2009</Description>
+                     </Code>
+                     <Code value="2009-07" parentCode="2009-Q3">
+                        <Description xml:lang="en">Jul-2009</Description>
+                        <Description xml:lang="fr">Juil-2009</Description>
+                     </Code>
+                     <Code value="2009-08" parentCode="2009-Q3">
+                        <Description xml:lang="en">Aug-2009</Description>
+                        <Description xml:lang="fr">Août-2009</Description>
+                     </Code>
+                     <Code value="2009-09" parentCode="2009-Q3">
+                        <Description xml:lang="en">Sep-2009</Description>
+                        <Description xml:lang="fr">Sept-2009</Description>
+                     </Code>
+                     <Code value="2009-Q4" parentCode="2009-B2">
+                        <Description xml:lang="en">Dec-2009</Description>
+                        <Description xml:lang="fr">DÃ©c 2009</Description>
+                     </Code>
+                     <Code value="2009-10" parentCode="2009-Q4">
+                        <Description xml:lang="en">Oct-2009</Description>
+                        <Description xml:lang="fr">Oct-2009</Description>
+                     </Code>
+                     <Code value="2009-11" parentCode="2009-Q4">
+                        <Description xml:lang="en">Nov-2009</Description>
+                        <Description xml:lang="fr">Nov-2009</Description>
+                     </Code>
+                     <Code value="2009-12" parentCode="2009-Q4">
+                        <Description xml:lang="en">Dec-2009</Description>
+                        <Description xml:lang="fr">Déc-2009</Description>
+                     </Code>
+                     <Code value="2010">
+                        <Description xml:lang="en">2010</Description>
+                        <Description xml:lang="fr">2010</Description>
+                     </Code>
+                     <Code value="2010-B1" parentCode="2010">
+                        <Description xml:lang="en">S1-2010</Description>
+                        <Description xml:lang="fr">S1-2010</Description>
+                     </Code>
+                     <Code value="2010-Q1" parentCode="2010-B1">
+                        <Description xml:lang="en">Mar-2010</Description>
+                        <Description xml:lang="fr">Mars 2010</Description>
+                     </Code>
+                     <Code value="2010-01" parentCode="2010-Q1">
+                        <Description xml:lang="en">Jan-2010</Description>
+                        <Description xml:lang="fr">Janv-2010</Description>
+                     </Code>
+                     <Code value="2010-02" parentCode="2010-Q1">
+                        <Description xml:lang="en">Feb-2010</Description>
+                        <Description xml:lang="fr">Févr-2010</Description>
+                     </Code>
+                     <Code value="2010-03" parentCode="2010-Q1">
+                        <Description xml:lang="en">Mar-2010</Description>
+                        <Description xml:lang="fr">Mars-2010</Description>
+                     </Code>
+                     <Code value="2010-Q2" parentCode="2010-B1">
+                        <Description xml:lang="en">Jun-2010</Description>
+                        <Description xml:lang="fr">Juin 2010</Description>
+                     </Code>
+                     <Code value="2010-04" parentCode="2010-Q2">
+                        <Description xml:lang="en">Apr-2010</Description>
+                        <Description xml:lang="fr">Avr-2010</Description>
+                     </Code>
+                     <Code value="2010-05" parentCode="2010-Q2">
+                        <Description xml:lang="en">May-2010</Description>
+                        <Description xml:lang="fr">Mai-2010</Description>
+                     </Code>
+                     <Code value="2010-06" parentCode="2010-Q2">
+                        <Description xml:lang="en">Jun-2010</Description>
+                        <Description xml:lang="fr">Juin-2010</Description>
+                     </Code>
+                     <Code value="2010-B2" parentCode="2010">
+                        <Description xml:lang="en">S2-2010</Description>
+                        <Description xml:lang="fr">S2-2010</Description>
+                     </Code>
+                     <Code value="2010-Q3" parentCode="2010-B2">
+                        <Description xml:lang="en">Sep-2010</Description>
+                        <Description xml:lang="fr">Sept 2010</Description>
+                     </Code>
+                     <Code value="2010-07" parentCode="2010-Q3">
+                        <Description xml:lang="en">Jul-2010</Description>
+                        <Description xml:lang="fr">Juil-2010</Description>
+                     </Code>
+                     <Code value="2010-08" parentCode="2010-Q3">
+                        <Description xml:lang="en">Aug-2010</Description>
+                        <Description xml:lang="fr">Août-2010</Description>
+                     </Code>
+                     <Code value="2010-09" parentCode="2010-Q3">
+                        <Description xml:lang="en">Sep-2010</Description>
+                        <Description xml:lang="fr">Sept-2010</Description>
+                     </Code>
+                     <Code value="2010-Q4" parentCode="2010-B2">
+                        <Description xml:lang="en">Dec-2010</Description>
+                        <Description xml:lang="fr">DÃ©c 2010</Description>
+                     </Code>
+                     <Code value="2010-10" parentCode="2010-Q4">
+                        <Description xml:lang="en">Oct-2010</Description>
+                        <Description xml:lang="fr">Oct-2010</Description>
+                     </Code>
+                     <Code value="2010-11" parentCode="2010-Q4">
+                        <Description xml:lang="en">Nov-2010</Description>
+                        <Description xml:lang="fr">Nov-2010</Description>
+                     </Code>
+                     <Code value="2010-12" parentCode="2010-Q4">
+                        <Description xml:lang="en">Dec-2010</Description>
+                        <Description xml:lang="fr">Déc-2010</Description>
+                     </Code>
+                     <Code value="2011">
+                        <Description xml:lang="en">2011</Description>
+                        <Description xml:lang="fr">2011</Description>
+                     </Code>
+                     <Code value="2011-B1" parentCode="2011">
+                        <Description xml:lang="en">S1-2011</Description>
+                        <Description xml:lang="fr">S1-2011</Description>
+                     </Code>
+                     <Code value="2011-Q1" parentCode="2011-B1">
+                        <Description xml:lang="en">Mar-2011</Description>
+                        <Description xml:lang="fr">Mars 2011</Description>
+                     </Code>
+                     <Code value="2011-01" parentCode="2011-Q1">
+                        <Description xml:lang="en">Jan-2011</Description>
+                        <Description xml:lang="fr">Janv-2011</Description>
+                     </Code>
+                     <Code value="2011-02" parentCode="2011-Q1">
+                        <Description xml:lang="en">Feb-2011</Description>
+                        <Description xml:lang="fr">Févr-2011</Description>
+                     </Code>
+                     <Code value="2011-03" parentCode="2011-Q1">
+                        <Description xml:lang="en">Mar-2011</Description>
+                        <Description xml:lang="fr">Mars-2011</Description>
+                     </Code>
+                     <Code value="2011-Q2" parentCode="2011-B1">
+                        <Description xml:lang="en">Jun-2011</Description>
+                        <Description xml:lang="fr">Juin 2011</Description>
+                     </Code>
+                     <Code value="2011-04" parentCode="2011-Q2">
+                        <Description xml:lang="en">Apr-2011</Description>
+                        <Description xml:lang="fr">Avr-2011</Description>
+                     </Code>
+                     <Code value="2011-05" parentCode="2011-Q2">
+                        <Description xml:lang="en">May-2011</Description>
+                        <Description xml:lang="fr">Mai-2011</Description>
+                     </Code>
+                     <Code value="2011-06" parentCode="2011-Q2">
+                        <Description xml:lang="en">Jun-2011</Description>
+                        <Description xml:lang="fr">Juin-2011</Description>
+                     </Code>
+                     <Code value="2011-B2" parentCode="2011">
+                        <Description xml:lang="en">S2-2011</Description>
+                        <Description xml:lang="fr">S2-2011</Description>
+                     </Code>
+                     <Code value="2011-Q3" parentCode="2011-B2">
+                        <Description xml:lang="en">Sep-2011</Description>
+                        <Description xml:lang="fr">Sept 2011</Description>
+                     </Code>
+                     <Code value="2011-07" parentCode="2011-Q3">
+                        <Description xml:lang="en">Jul-2011</Description>
+                        <Description xml:lang="fr">Juil-2011</Description>
+                     </Code>
+                     <Code value="2011-08" parentCode="2011-Q3">
+                        <Description xml:lang="en">Aug-2011</Description>
+                        <Description xml:lang="fr">Août-2011</Description>
+                     </Code>
+                     <Code value="2011-09" parentCode="2011-Q3">
+                        <Description xml:lang="en">Sep-2011</Description>
+                        <Description xml:lang="fr">Sept-2011</Description>
+                     </Code>
+                     <Code value="2011-Q4" parentCode="2011-B2">
+                        <Description xml:lang="en">Dec-2011</Description>
+                        <Description xml:lang="fr">DÃ©c 2011</Description>
+                     </Code>
+                     <Code value="2011-10" parentCode="2011-Q4">
+                        <Description xml:lang="en">Oct-2011</Description>
+                        <Description xml:lang="fr">Oct-2011</Description>
+                     </Code>
+                     <Code value="2011-11" parentCode="2011-Q4">
+                        <Description xml:lang="en">Nov-2011</Description>
+                        <Description xml:lang="fr">Nov-2011</Description>
+                     </Code>
+                     <Code value="2011-12" parentCode="2011-Q4">
+                        <Description xml:lang="en">Dec-2011</Description>
+                        <Description xml:lang="fr">Déc-2011</Description>
+                     </Code>
+                     <Code value="2012">
+                        <Description xml:lang="en">2012</Description>
+                        <Description xml:lang="fr">2012</Description>
+                     </Code>
+                     <Code value="2012-B1" parentCode="2012">
+                        <Description xml:lang="en">S1-2012</Description>
+                        <Description xml:lang="fr">S1-2012</Description>
+                     </Code>
+                     <Code value="2012-Q1" parentCode="2012-B1">
+                        <Description xml:lang="en">Mar-2012</Description>
+                        <Description xml:lang="fr">Mars 2012</Description>
+                     </Code>
+                     <Code value="2012-01" parentCode="2012-Q1">
+                        <Description xml:lang="en">Jan-2012</Description>
+                        <Description xml:lang="fr">Janv-2012</Description>
+                     </Code>
+                     <Code value="2012-02" parentCode="2012-Q1">
+                        <Description xml:lang="en">Feb-2012</Description>
+                        <Description xml:lang="fr">Févr-2012</Description>
+                     </Code>
+                     <Code value="2012-03" parentCode="2012-Q1">
+                        <Description xml:lang="en">Mar-2012</Description>
+                        <Description xml:lang="fr">Mars-2012</Description>
+                     </Code>
+                     <Code value="2012-Q2" parentCode="2012-B1">
+                        <Description xml:lang="en">Jun-2012</Description>
+                        <Description xml:lang="fr">Juin 2012</Description>
+                     </Code>
+                     <Code value="2012-04" parentCode="2012-Q2">
+                        <Description xml:lang="en">Apr-2012</Description>
+                        <Description xml:lang="fr">Avr-2012</Description>
+                     </Code>
+                     <Code value="2012-05" parentCode="2012-Q2">
+                        <Description xml:lang="en">May-2012</Description>
+                        <Description xml:lang="fr">Mai-2012</Description>
+                     </Code>
+                     <Code value="2012-06" parentCode="2012-Q2">
+                        <Description xml:lang="en">Jun-2012</Description>
+                        <Description xml:lang="fr">Juin-2012</Description>
+                     </Code>
+                     <Code value="2012-B2" parentCode="2012">
+                        <Description xml:lang="en">S2-2012</Description>
+                        <Description xml:lang="fr">S2-2012</Description>
+                     </Code>
+                     <Code value="2012-Q3" parentCode="2012-B2">
+                        <Description xml:lang="en">Sep-2012</Description>
+                        <Description xml:lang="fr">Sept 2012</Description>
+                     </Code>
+                     <Code value="2012-07" parentCode="2012-Q3">
+                        <Description xml:lang="en">Jul-2012</Description>
+                        <Description xml:lang="fr">Juil-2012</Description>
+                     </Code>
+                     <Code value="2012-08" parentCode="2012-Q3">
+                        <Description xml:lang="en">Aug-2012</Description>
+                        <Description xml:lang="fr">Août-2012</Description>
+                     </Code>
+                     <Code value="2012-09" parentCode="2012-Q3">
+                        <Description xml:lang="en">Sep-2012</Description>
+                        <Description xml:lang="fr">Sept-2012</Description>
+                     </Code>
+                     <Code value="2012-Q4" parentCode="2012-B2">
+                        <Description xml:lang="en">Dec-2012</Description>
+                        <Description xml:lang="fr">DÃ©c 2012</Description>
+                     </Code>
+                     <Code value="2012-10" parentCode="2012-Q4">
+                        <Description xml:lang="en">Oct-2012</Description>
+                        <Description xml:lang="fr">Oct-2012</Description>
+                     </Code>
+                     <Code value="2012-11" parentCode="2012-Q4">
+                        <Description xml:lang="en">Nov-2012</Description>
+                        <Description xml:lang="fr">Nov-2012</Description>
+                     </Code>
+                     <Code value="2012-12" parentCode="2012-Q4">
+                        <Description xml:lang="en">Dec-2012</Description>
+                        <Description xml:lang="fr">Déc-2012</Description>
+                     </Code>
+                     <Code value="2013">
+                        <Description xml:lang="en">2013</Description>
+                        <Description xml:lang="fr">2013</Description>
+                     </Code>
+                     <Code value="2013-B1" parentCode="2013">
+                        <Description xml:lang="en">S1-2013</Description>
+                        <Description xml:lang="fr">S1-2013</Description>
+                     </Code>
+                     <Code value="2013-Q1" parentCode="2013-B1">
+                        <Description xml:lang="en">Mar-2013</Description>
+                        <Description xml:lang="fr">Mars 2013</Description>
+                     </Code>
+                     <Code value="2013-01" parentCode="2013-Q1">
+                        <Description xml:lang="en">Jan-2013</Description>
+                        <Description xml:lang="fr">Janv-2013</Description>
+                     </Code>
+                     <Code value="2013-02" parentCode="2013-Q1">
+                        <Description xml:lang="en">Feb-2013</Description>
+                        <Description xml:lang="fr">Févr-2013</Description>
+                     </Code>
+                     <Code value="2013-03" parentCode="2013-Q1">
+                        <Description xml:lang="en">Mar-2013</Description>
+                        <Description xml:lang="fr">Mars-2013</Description>
+                     </Code>
+                     <Code value="2013-Q2" parentCode="2013-B1">
+                        <Description xml:lang="en">Jun-2013</Description>
+                        <Description xml:lang="fr">Juin 2013</Description>
+                     </Code>
+                     <Code value="2013-04" parentCode="2013-Q2">
+                        <Description xml:lang="en">Apr-2013</Description>
+                        <Description xml:lang="fr">Avr-2013</Description>
+                     </Code>
+                     <Code value="2013-05" parentCode="2013-Q2">
+                        <Description xml:lang="en">May-2013</Description>
+                        <Description xml:lang="fr">Mai-2013</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_NEWMVSALES_TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">NEWMVSALES_TIME_FORMAT codelist</Name>
+                     <Code value="P1Y">
+                        <Description xml:lang="en">Annual</Description>
+                        <Description xml:lang="fr">Annual</Description>
+                     </Code>
+                     <Code value="P1M">
+                        <Description xml:lang="en">Monthly</Description>
+                        <Description xml:lang="fr">Monthly</Description>
+                     </Code>
+                     <Code value="P3M">
+                        <Description xml:lang="en">Quarterly</Description>
+                        <Description xml:lang="fr">Quarterly</Description>
+                     </Code>
+                     <Code value="P6M">
+                        <Description xml:lang="en">Half-yearly</Description>
+                        <Description xml:lang="fr">Half-yearly</Description>
+                     </Code>
+                  </CodeList>
+               </message:CodeLists>
+               <message:Concepts>
+                  <Concept id="MEASURE" agencyID="ABS">
+                     <Name xml:lang="en">Measure</Name>
+                     <Name xml:lang="fr">Measure</Name>
+                  </Concept>
+                  <Concept id="VEHICLE" agencyID="ABS">
+                     <Name xml:lang="en">Vehicle Type</Name>
+                     <Name xml:lang="fr">Vehicle Type</Name>
+                  </Concept>
+                  <Concept id="ASGS_2011" agencyID="ABS">
+                     <Name xml:lang="en">Region</Name>
+                     <Name xml:lang="fr">Region</Name>
+                  </Concept>
+                  <Concept id="TSEST" agencyID="ABS">
+                     <Name xml:lang="en">Adjustment Type</Name>
+                     <Name xml:lang="fr">Adjustment Type</Name>
+                  </Concept>
+                  <Concept id="FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">Frequency</Name>
+                     <Name xml:lang="fr">Fréquence</Name>
+                  </Concept>
+                  <Concept id="TIME" agencyID="ABS">
+                     <Name xml:lang="en">Time</Name>
+                     <Name xml:lang="fr">Temps</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time format</Name>
+                     <Name xml:lang="fr">Time format</Name>
+                  </Concept>
+                  <Concept id="OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time Format</Name>
+                     <Name xml:lang="fr">Format de l'heure</Name>
+                  </Concept>
+                  <Concept id="OBS_VALUE" agencyID="OECD">
+                     <Name xml:lang="en">Observation Value</Name>
+                     <Name xml:lang="fr">Valeur d'observation</Name>
+                  </Concept>
+               </message:Concepts>
+               <message:KeyFamilies>
+                  <KeyFamily id="NEWMVSALES" agencyID="ABS">
+                     <Name xml:lang="en">Sales of New Motor Vehicles</Name>
+                     <Name xml:lang="fr">Sales of New Motor Vehicles</Name>
+                     <Components>
+                        <Dimension conceptRef="MEASURE" codelist="CL_NEWMVSALES_MEASURE" isMeasureDimension="true"/>
+                        <Dimension conceptRef="VEHICLE" codelist="CL_NEWMVSALES_VEHICLE"/>
+                        <Dimension conceptRef="ASGS_2011" codelist="CL_NEWMVSALES_ASGS_2011"/>
+                        <Dimension conceptRef="TSEST" codelist="CL_NEWMVSALES_TSEST"/>
+                        <Dimension conceptRef="FREQUENCY" codelist="CL_NEWMVSALES_FREQUENCY" isFrequencyDimension="true"/>
+                        <TimeDimension conceptRef="TIME" codelist="CL_NEWMVSALES_TIME"/>
+                        <PrimaryMeasure conceptRef="OBS_VALUE">
+                           <TextFormat textType="Double"/>
+                        </PrimaryMeasure>
+                        <Attribute conceptRef="OBS_STATUS" codelist="CL_NEWMVSALES_OBS_STATUS" attachmentLevel="Observation" assignmentStatus="Conditional"/>
+                        <Attribute conceptRef="TIME_FORMAT" codelist="CL_NEWMVSALES_TIME_FORMAT" attachmentLevel="Series" assignmentStatus="Conditional" isTimeFormat="true"/>
+                     </Components>
+                  </KeyFamily>
+               </message:KeyFamilies>
+            </message:Structure>

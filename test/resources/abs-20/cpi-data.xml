@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message:CompactData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd http://stat.abs.gov.au/Data http://maingano-public.iprod.abs.gov.au/RestSDMX/sdmx.ashx/GetSchema/CPI" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:ABS="http://stat.abs.gov.au/Data" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+               <Header>
+                  <ID>NONE</ID>
+                  <Test>false</Test>
+                  <Truncated>false</Truncated>
+                  <Prepared>2013-06-24T00:13:15</Prepared>
+                  <Sender id="ABS"/>
+               </Header>
+               <ABS:DataSet>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="10001" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="75.4"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="76.1"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="76.6"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="77.1"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="77.6"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="78.6"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="78.6"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="79.1"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="79.5"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="80.2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="80.6"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="80.9"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="81.5"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="82.1"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="82.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="83.4"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="83.8"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="84.5"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="85.9"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="86.7"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="86.6"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="86.6"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="87.7"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="88.3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="89.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="90.3"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="91.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="92.7"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="92.4"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="92.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="92.9"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="93.8"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="94.3"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="95.2"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="95.8"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="96.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="96.9"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="98.3"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.2"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="99.8"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="99.8"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="20001" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="72.5"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="72.9"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="72.5"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="73.3"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="74.3"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="75.7"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="75.7"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="75.5"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="76.8"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="78.2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="77.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="77"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="78.1"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="78.8"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="78.9"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="79.5"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="81"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="82.1"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="85.5"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="87.5"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="87.9"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="85.8"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="87.3"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="89"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="88.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="90.8"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="90.7"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="92"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="93.9"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="96"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="95.1"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="94.3"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="95.7"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="96.7"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="96.4"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="95.9"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="98"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="100.9"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="102.3"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="102"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="100.5"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="115489" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="94.1"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="96.3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="96.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="97.3"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="97.3"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="97.7"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="97"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="96"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="96.8"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="95.7"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="95.4"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="95.9"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="96.7"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="97.3"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="96"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="97.2"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="97.2"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="97.8"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="97.5"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="98.2"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="99.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="98.8"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="99.7"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="100.6"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="100.2"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="100"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="101.3"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="101.9"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="100.7"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="100.7"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="101.4"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="102.9"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="101.9"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="100.1"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="100.8"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="101"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="100.4"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.8"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="100.7"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="101.5"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="20005" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="78.3"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="78.6"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="80.1"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="79.8"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="80.7"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="82.6"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="80.2"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="81.2"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="80.9"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="81.4"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="82.8"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="83.5"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="84.6"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="83.8"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="85.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="88.4"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="88"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="89.1"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="92.1"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="92.5"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="89"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="89.5"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="92.3"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="91.7"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="93.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="95.7"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="98.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="99.6"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="92.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="91.3"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="92.8"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="94.6"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="93.8"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="95"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="95.7"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="95.1"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="95.4"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.1"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="99.2"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="99.2"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="20004" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="93.8"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="93.1"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="93.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="93.9"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="94.8"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="93.9"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="94.7"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="94.7"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="94.6"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="94.1"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="94.1"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="94.1"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="94.6"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="93.4"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="94.5"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="94.8"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="95.4"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="95.1"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="95.8"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="97.1"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="97.2"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="96.4"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="97.8"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="95.5"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="96.3"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="95.6"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="97.2"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="96.4"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="96.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="97.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="99.6"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="100.2"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="100.2"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="98.9"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="99.8"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="100.6"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="100"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.8"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="100.1"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="100.2"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="115488" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="92.8"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="92.9"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="93.6"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="95.1"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="95.5"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="95.8"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="95.9"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="96.6"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="96.8"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="96.9"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="97.3"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="97.7"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="98.3"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="97.4"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="96.7"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="96"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="96.4"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="96.5"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="97.1"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="97.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="97.7"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="98.1"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="98.5"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="98.9"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="99.1"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="99.1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="99.1"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="99"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="98.9"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="98.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="98.7"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="98.8"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.3"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="99.2"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="100.3"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="20003" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="64.5"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="65"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="65.4"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="66.3"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="66.6"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="67.5"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="68.1"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="69.3"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="69.7"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="70.4"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="70.9"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="71.8"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="72.5"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="73.2"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="73.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="74.6"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="75.1"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="75.6"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="76.2"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="77.1"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="77.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="78.3"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="78.9"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="80.4"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="81.3"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="82.8"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="83.7"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="85.8"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="86.5"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="87.3"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="88"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="90.6"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="91.3"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="92.6"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="93.2"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="95.2"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="95.8"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97.1"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="97.5"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="99.2"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="99.7"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="115493" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="57.1"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="59.8"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="59.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="59.9"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="60"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="62.7"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="62.7"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="62.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="62.8"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="67.6"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="67.6"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="67.6"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="67.7"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="71.8"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="71.8"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="71.9"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="71.9"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="76"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="76"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="75.3"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="75.4"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="79.1"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="79.2"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="78.5"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="78.5"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="82.5"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="82.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="82.2"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="82.2"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="86.7"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="86.7"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="86.8"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="86.8"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="91.6"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="91.7"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="91.8"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="91.8"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="97.1"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="97.1"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="97.1"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="126670" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="85.1"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="85.2"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="86.5"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="86"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="87"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="87.3"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="87.7"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="87.5"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="88.3"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="90.1"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="92"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="93.5"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="97"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="98.7"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="92.2"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="90.7"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="91.5"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="92.2"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="94.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="94.2"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="94.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="94.3"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="96.7"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="98.2"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="98.9"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="99.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="20002" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="103.1"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="102.7"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="104.1"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="103.4"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="104.4"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="102.9"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="104.1"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="103.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="103.5"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="102.1"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="103.2"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="102.9"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="101.5"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="100.1"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="101"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="101.1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="101"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="99.3"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="99.4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="98.9"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="98.6"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="100"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="100.3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="100.5"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="98.1"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="101"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="100.3"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="100.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="100.2"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="102.3"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="102.6"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="102.8"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="99.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97.2"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.5"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="101"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="100.4"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="115486" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="59.5"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="61.3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="63"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="63.2"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="63.4"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="65.7"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="67.8"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="67.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="67.9"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="70.1"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="72.2"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="71.7"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="71.2"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="74.1"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="75.8"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="75"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="74.2"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="77.5"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="79.3"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="78.7"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="78.1"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="80.9"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="82.6"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="82.1"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="81.3"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="84.5"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="86.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="86.4"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="85.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="89"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="91"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="90.1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="89.3"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="93.5"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="95.6"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="94.9"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="93.7"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97.4"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.4"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="97.1"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="20006" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="64.4"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="65"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="65.4"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="66.1"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="66.1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="66.9"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="67.3"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="68.6"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="69"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="69.8"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="70.3"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="71"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="71.4"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="72.3"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="72.7"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="73.4"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="73.8"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="74.7"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="75.4"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="75.8"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="76.4"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="77"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="77.7"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="78.1"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="79.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="80"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="81.4"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="82.6"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="83.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="84.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="85.3"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="85.9"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="86.4"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="87.5"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="92.7"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="95.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="96.2"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97.3"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="98.4"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="99.3"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="999901" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="75.4"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="76.1"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="76.6"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="77.1"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="77.7"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="78.7"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="78.6"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="79"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="79.6"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="80.3"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="80.6"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="80.9"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="81.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="82.2"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="82.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="83.3"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="83.9"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="84.6"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="85.8"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="86.6"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="86.7"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="86.7"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="87.6"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="88.2"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="89.3"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="90.4" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="91.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="92.6"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="92.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="92.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="93" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="93.7"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="94.5"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="95.2"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="95.8"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="96.4"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="97"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="98.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="99.3"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="99.8"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="100"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="999902" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="75.3"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="75.8"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="76.4"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="77"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="77.4"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="77.9"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="78.5"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="79"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="79.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="79.9"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="80.6"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="81.2"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="81.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="82.2"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="82.7"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="83.4"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="84.1"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="84.7"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="85.2"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="85.7"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="86.4"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="87.2"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="88.2"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="89.3"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="90.3"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="91.5"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="92.1"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="92.9"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="93.6"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="94.3"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="95"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="95.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="96.2" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="96.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="97.1"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97.9"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="98.7"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="99.2"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="99.8"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="1" REGION="50" INDEX="999903" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="73.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="74.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="75.1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="75.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="75.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="76.4" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="77.1"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="77.6"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="78.1"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="78.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="79.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="79.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="80.2" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="80.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="81.4"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="82" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="82.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="83.4" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="83.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="84.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="85" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="85.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="87" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="88.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="89.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="90.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="91.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="92.2" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="92.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="93.8"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="94.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="95.4" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="95.9"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="96.4"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="97" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="97.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="98.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="99.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="99.8"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="10001" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="5"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="3"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="20001" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="7.6"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="2"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="8.4"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="10.1"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="8.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="4.5"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="5.6"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="5.7"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="6.1"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="6.4"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="2.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="115489" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="5.4"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="5.2"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="-1.3"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="-2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="-1.6"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-1.8"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="-1.5"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.5"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="20005" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="-1.5"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="4.6"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="5.9"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="6.3"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="7.6"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="4.6"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="5.5"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="6.9"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="6.8"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="8.6"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="-1.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="-4.6"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="-5.9"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="-5"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="4"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="20004" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="-1.6"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="2"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.2"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="115488" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="-1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="-1.9"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="-1.9"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="1.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="20003" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="4.5"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="5.7"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="6.1"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="6.7"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="6.4"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="5.4"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="5.6"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="5.5"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="6.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="5.9"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="4.6"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="4.1"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="115493" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="7.8"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="7.8"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="7.6"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="7.8"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="6.2"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="6.2"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="6.4"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="6.2"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="5"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="5.6"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="5.6"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="5.7"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="5.9"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="5.9"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="5.8"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="126670" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="2.2"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="6.9"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="9.9"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="9.5"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="-1.4"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="-6.5"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="-7.3"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="-6.3"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="5.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="20002" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="-1.9"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="-2"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="-2.1"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="-1.7"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="-1.7"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="-1.7"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="-1.7"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="-2.1"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="-1.8"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="-3.8"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="-2.8"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-4.8"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="-1.2"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="2.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="115486" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="5.5"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="5.9"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="6.6"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="7.2"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="7.6"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="7.3"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="7.1"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="6.7"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="6.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="5.7"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="5"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="4.6"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="4.6"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="4.6"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="5.3"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="5.2"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="5.3"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="5.3"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="3.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="20006" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="4.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="5.8"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="5.6"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="8.7"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="11.2"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="11.3"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="11.2"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="5.6"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="3.2"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="999901" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="2.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="2.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="4.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="4.6"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="5"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="3.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="2.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="1.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="2.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="3.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="3.1"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="999902" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="2.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="3.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="4.2"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="4.5"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="4"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="3.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="2.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="2.2"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="2.2" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="2.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="2.8"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="3" REGION="50" INDEX="999903" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="2.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="2.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="2.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="2.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="2.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="2.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="2.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="2.9"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="2.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="4.5"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="4.8"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="4.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="3.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="3.8"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="3.5"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="3.2" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="2.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="2.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="2.9" OBS_STATUS="r"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="10001" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="20001" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="2.7"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="-2.4"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="2.2"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="2.2"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="-1.5"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="115489" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="-1"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="-1.1"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="-1.3"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="-1.2"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="-1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="-1.8"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.8"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="20005" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="-2.9"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="3.3"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="3.4"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="-3.8"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="3.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="-6.9"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="-1.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="2.6"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="20004" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="-1.3"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="-2.4"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="2.2"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="-1.3"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="-1.6"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.1"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="115488" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="1.1"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="20003" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="1.7"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.5"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="115493" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="4.5"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="7.6"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="6.1"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="5.7"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="4.9"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="5.1"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="5.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="5.5"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="5.7"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="126670" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="2"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="3.7"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="-6.3"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="-1.6"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="1.6"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.7"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="20002" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="-0.4"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="-1.4"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="-1.4"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="-1.4"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="-1.4"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="-2.6"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="-2.4"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="-0.5"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="-4.3"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-1.8"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="2.4"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="-0.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="115486" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="-0.3"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="2.8"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.3"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="3.2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="4.1"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="-1.1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="-1.1"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="4.4"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="2.3"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="-0.8"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="3.6"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="-0.6"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="-1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="2.5"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="-0.2"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="-1.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="4.3"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="2.2"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="-1"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="-0.9"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="4.7"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="2.2"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="-0.7"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="-1.3"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="3.9"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="2.1"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="-1"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="-1.3"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="20006" TSEST="10" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="0.2"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="1.9"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.8"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.5"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="5.9"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="3"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.9"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="999901" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2001-Q4" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2002-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2002-Q2" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="-0.1"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="1.4"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.1"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="1"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.2" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="-0.1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="1.3" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.2"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="999902" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="0.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.6"/>
+                  </ABS:Series>
+                  <ABS:Series MEASURE="2" REGION="50" INDEX="999903" TSEST="20" FREQUENCY="Q" TIME_FORMAT="P3M">
+                     <ABS:Obs TIME="2002-Q3" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2002-Q4" OBS_VALUE="0.8" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2003-Q1" OBS_VALUE="0.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2003-Q2" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2003-Q3" OBS_VALUE="0.7"/>
+                     <ABS:Obs TIME="2003-Q4" OBS_VALUE="0.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2004-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2004-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2004-Q3" OBS_VALUE="0.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2004-Q4" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2005-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2005-Q2" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2005-Q3" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2005-Q4" OBS_VALUE="0.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q1" OBS_VALUE="0.7" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2006-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2006-Q3" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2006-Q4" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2007-Q1" OBS_VALUE="0.6"/>
+                     <ABS:Obs TIME="2007-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2007-Q3" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2007-Q4" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2008-Q1" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2008-Q2" OBS_VALUE="1.1"/>
+                     <ABS:Obs TIME="2008-Q3" OBS_VALUE="1.3"/>
+                     <ABS:Obs TIME="2008-Q4" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2009-Q1" OBS_VALUE="1.2"/>
+                     <ABS:Obs TIME="2009-Q2" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2009-Q3" OBS_VALUE="1" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2009-Q4" OBS_VALUE="0.9" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2010-Q2" OBS_VALUE="0.5" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2010-Q3" OBS_VALUE="0.5"/>
+                     <ABS:Obs TIME="2010-Q4" OBS_VALUE="0.6" OBS_STATUS="r"/>
+                     <ABS:Obs TIME="2011-Q1" OBS_VALUE="0.8"/>
+                     <ABS:Obs TIME="2011-Q2" OBS_VALUE="0.9"/>
+                     <ABS:Obs TIME="2011-Q3" OBS_VALUE="0.4"/>
+                     <ABS:Obs TIME="2011-Q4" OBS_VALUE="0.7" OBS_STATUS="r"/>
+                  </ABS:Series>
+                  <ABS:Annotations>
+                     <common:Annotation>
+                        <common:AnnotationTitle>Statistical usage warning</common:AnnotationTitle>
+                        <common:AnnotationText>ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.</common:AnnotationText>
+                     </common:Annotation>
+                  </ABS:Annotations>
+               </ABS:DataSet>
+            </message:CompactData>

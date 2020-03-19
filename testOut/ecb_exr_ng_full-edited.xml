@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <mes:Header>
+        <mes:ID>Sample_DSD1_With_No_Group</mes:ID>
+        <mes:Test>false</mes:Test>
+        <mes:Prepared>2010-11-13T08:00:33.000+08:00</mes:Prepared>
+        <mes:Sender id="SDMX"/>
+    </mes:Header>
+    <mes:Structures>
+        <str:Codelists>
+            <str:Codelist agencyID="SDMX" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_DECIMALS(1.0)" id="CL_DECIMALS">
+                <com:Name xml:lang="en">Code list for Decimals (DECIMALS)</com:Name>
+                <com:Description xml:lang="en">It provides a list of values showing the number of decimal digits used in the data.</com:Description>
+                <str:Code id="0">
+                    <com:Name xml:lang="en">Zero</com:Name>
+                </str:Code>
+                <str:Code id="1">
+                    <com:Name xml:lang="en">One</com:Name>
+                </str:Code>
+                <str:Code id="2">
+                    <com:Name xml:lang="en">Two</com:Name>
+                </str:Code>
+                <str:Code id="3">
+                    <com:Name xml:lang="en">Three</com:Name>
+                </str:Code>
+                <str:Code id="4">
+                    <com:Name xml:lang="en">Four</com:Name>
+                </str:Code>
+                <str:Code id="5">
+                    <com:Name xml:lang="en">Five</com:Name>
+                </str:Code>
+                <str:Code id="6">
+                    <com:Name xml:lang="en">Six</com:Name>
+                </str:Code>
+                <str:Code id="7">
+                    <com:Name xml:lang="en">Seven</com:Name>
+                </str:Code>
+                <str:Code id="8">
+                    <com:Name xml:lang="en">Eight</com:Name>
+                </str:Code>
+                <str:Code id="9">
+                    <com:Name xml:lang="en">Nine</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist agencyID="SDMX" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_FREQ(1.0)" id="CL_FREQ">
+                <com:Name xml:lang="en">Code list for Frequency (FREQ)</com:Name>
+                <com:Description xml:lang="en">It provides a list of values indicating the "frequency" of the data (e.g. monthly) and, thus, indirectly, also implying the type of "time reference" that could be used for identifying the data with respect time.</com:Description>
+                <str:Code id="A">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">It is typically used for annual data. This can also serve cases of multi-annual data (data that appear once every two, three or, possibly, five years). Descriptive information on the multiannual characteristics (e.g. frequency of the series in practice and other methodological information can be provided at the dataflow level, as long as these characteristics are applicable for the entire dataflow).</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Annual</com:Name>
+                </str:Code>
+                <str:Code id="B">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Similar to "daily", however there are no observations for Saturday and Sunday (so, neither "missing values" nor "numeric values" should be provided for Saturday and Sunday). This treatment ("business") is one way to deal with such cases, but it is not the only option. Such a time series could alternatively be considered daily ("D"), thus, with missing values in the weekend.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Daily - business week</com:Name>
+                </str:Code>
+                <str:Code id="D">
+                    <com:Name xml:lang="en">Daily</com:Name>
+                </str:Code>
+                <str:Code id="M">
+                    <com:Name xml:lang="en">Monthly</com:Name>
+                </str:Code>
+                <str:Code id="N">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">While N denotes "minutely", usually, there may be no observations every minute (for several series the frequency is usually "irregular" within a day/days). And though observations may be sparse (not collected every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Minutely</com:Name>
+                </str:Code>
+                <str:Code id="Q">
+                    <com:Name xml:lang="en">Quarterly</com:Name>
+                </str:Code>
+                <str:Code id="S">
+                    <com:Name xml:lang="en">Half Yearly, semester</com:Name>
+                </str:Code>
+                <str:Code id="W">
+                    <com:Name xml:lang="en">Weekly</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist agencyID="SDMX" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_CONF_STATUS(1.0)" id="CL_CONF_STATUS">
+                <com:Name xml:lang="en">code list for Confidentiality Status (CONF_STATUS)</com:Name>
+                <com:Description xml:lang="en">this code list provides coded information about the sensitivity and confidentiality status of the data.</com:Description>
+                <str:Code id="C">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Confidential statistical information (primary confidentiality) due to identifiable respondents. Measures also should be taken to prevent not only direct access, but also indirect deduction or calculation by other users and parties, probably by considering and treating additional observations as "confidential" (secondary confidentiality management).</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Confidential statistical information</com:Name>
+                </str:Code>
+                <str:Code id="D">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Used by the sender of the data to flag (beyond the confidential statistical information) one or more additional observations of the dataset so that the receiver knows that he/she should suppress these observations in subsequent stages of processing (especially, dissemination) in order to prevent third parties to indirectly deduct (e.g. through accounting identities or other formulas) the observations that are genuinely flagged with "C".</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Secondary confidentiality set by the sender, not for	publication</com:Name>
+                </str:Code>
+                <str:Code id="F">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">It is used for observations for observations for which there are no special sensitivity considerations and which can be freely shared. Please note: In some institutional environments the term "unclassified" is used in a sense that still denotes implied restrictions in the circulation of information. If this is the case, this organisation may probably consider that "free" (value F) is not the appropriate corresponding tag for this kind of "unclassified" category and it may be that "non-publishable / restricted" (value N) may be more appropriate. The focus of this code is not to describe and anticipate all potential permissible uses (e.g. permission to re-disseminate). Thus, the use of "F" does not allow safe assumptions with respect to the permission to "re-disseminate" (freely or at a price) the received or accessed information (e.g. on web or paper), especially on a massive and regular basis (legal and copyright constraints may apply). Usually, source organisations provide information and guidance on re-dissemination issues, either on their websites or on their paper publications.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Free</com:Name>
+                </str:Code>
+                <str:Code id="N">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Used to denote observations that are restricted for internal use only within organisations.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Not for publication, restricted for internal use only</com:Name>
+                </str:Code>
+                <str:Code id="S">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">If senders do not manage the secondary confidentiality in their data and/or there are also other countries' data involved (with the intention to eventually compile a regional-wide aggregate that is going to be published), the value "S" is used by the receiver to flag additional suppressed observations (within sender's data and/or within the datasets of other senders) in subsequent stages of processing (especially, dissemination) in order to prevent third parties to indirectly deduct the observations that were genuinely flagged with "C" by the sender.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Secondary confidentiality set and managed by the receiver, not for publication</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist agencyID="SDMX" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_OBS_STATUS(1.0)" id="CL_OBS_STATUS">
+                <com:Name xml:lang="en">Observation status</com:Name>
+                <com:Description xml:lang="en">This code list provides coded information about the "status" of an observation (with respect events such as the ones reflected in the codes composing the code list).</com:Description>
+                <str:Code id="A">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Normal is the default value (if no value is provided) and is used when no special coded qualification is assumed. Usually, in this case, it can be assumed that the source agency assigns sufficient confidence to the provided observation and/or the value is not expected to be dramatically revised.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Normal</com:Name>
+                </str:Code>
+                <str:Code id="B">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Break observations are characterised as such when different content exist or a different methodology has been applied to this observation as compared with the preceding one (the one given for the previous period).</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Break</com:Name>
+                </str:Code>
+                <str:Code id="E">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Observation obtained through an estimation methodology (e.g. to produce back-casts) or based on the use of a limited amount of data or ad hoc sampling and through additional calculations (e.g. to produce a value at an early stage of the production stage while not all data are available). It may also be used in case of experimental data (e.g. in the context of a pilot ahead of a full scale production process) or in case of data of (anticipated/assessed) low quality. If needed, additional (uncoded) information can be provided through (free text) "comments" at the observation level or at a higher level.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Estimated value</com:Name>
+                </str:Code>
+                <str:Code id="F">
+                    <com:Name xml:lang="en">Forecast value</com:Name>
+                </str:Code>
+                <str:Code id="I">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Observation imputed by international organisations to replace or fill gaps in national data series, in line with the recommendations of the Committee for the Coordination of Statistical Activities (CCSA).</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Imputed value (CCSA definition)</com:Name>
+                </str:Code>
+                <str:Code id="M">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Data can be missing due to various reasons: data do not exist, are insignificant (or not collected because they are below a certain threshold), are unreliable, are not relevant for the period, or other reason not elsewhere specified.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Missing value</com:Name>
+                </str:Code>
+                <str:Code id="P">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">An observation is characterised as "provisional" when the source agency - while it bases its calculations on its standard production methodology - considers that the data, almost certainly, are expected to be revised.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Provisional value</com:Name>
+                </str:Code>
+                <str:Code id="S">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>NOTE</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">A known strike that occurred in the corresponding period that may have affected the observation or caused a missing value.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Strike</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist agencyID="SDMX" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_UNIT_MULT(1.0)" id="CL_UNIT_MULT">
+                <com:Name xml:lang="en">code list for the Unit Multiplier (UNIT_MULT)</com:Name>
+                <str:Code id="0">
+                    <com:Name xml:lang="en">Units</com:Name>
+                </str:Code>
+                <str:Code id="1">
+                    <com:Name xml:lang="en">Tens</com:Name>
+                </str:Code>
+                <str:Code id="2">
+                    <com:Name xml:lang="en">Hundreds</com:Name>
+                </str:Code>
+                <str:Code id="3">
+                    <com:Name xml:lang="en">Thousands</com:Name>
+                </str:Code>
+                <str:Code id="4">
+                    <com:Name xml:lang="en">Tens of thousands</com:Name>
+                </str:Code>
+                <str:Code id="6">
+                    <com:Name xml:lang="en">Millions</com:Name>
+                </str:Code>
+                <str:Code id="9">
+                    <com:Name xml:lang="en">Billions</com:Name>
+                </str:Code>
+                <str:Code id="12">
+                    <com:Name xml:lang="en">Trillions</com:Name>
+                </str:Code>
+                <str:Code id="15">
+                    <com:Name xml:lang="en">Quadrillions</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist agencyID="ECB" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_EXR_TYPE(1.0)" id="CL_EXR_TYPE">
+                <com:Name xml:lang="en">code list for the exchange rates types</com:Name>
+                <str:Code id="CR00">
+                    <com:Name xml:lang="en">Official fixing</com:Name>
+                </str:Code>
+                <str:Code id="RR00">
+                    <com:Name xml:lang="en">Reference rate</com:Name>
+                </str:Code>
+                <str:Code id="SP00">
+                    <com:Name xml:lang="en">Spot</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist agencyID="ECB" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_EXR_VAR(1.0)" id="CL_EXR_VAR">
+                <com:Name xml:lang="en">code list for the exchange rate series variation</com:Name>
+                <str:Code id="E">
+                    <com:Name xml:lang="en">End-of-period</com:Name>
+                </str:Code>
+                <str:Code id="P">
+                    <com:Name xml:lang="en">Growth rate over previous period</com:Name>
+                </str:Code>
+            </str:Codelist>
+            <str:Codelist agencyID="ISO" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ISO:CL_CURRENCY(1.0)" id="CL_CURRENCY">
+                <com:Name xml:lang="en">code list for the exchange rate series variation</com:Name>
+                <str:Code id="CHF">
+                    <com:Name xml:lang="en">Swiss franc</com:Name>
+                </str:Code>
+                <str:Code id="EUR">
+                    <com:Name xml:lang="en">Euro</com:Name>
+                </str:Code>
+                <str:Code id="GBP">
+                    <com:Name xml:lang="en">Pound sterling</com:Name>
+                </str:Code>
+                <str:Code id="JPY">
+                    <com:Name xml:lang="en">Japanese yen</com:Name>
+                </str:Code>
+                <str:Code id="USD">
+                    <com:Name xml:lang="en">United States dollar</com:Name>
+                </str:Code>
+            </str:Codelist>
+        </str:Codelists>
+        <str:Concepts>
+            <str:ConceptScheme agencyID="SDMX" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(1.0)" id="CROSS_DOMAIN_CONCEPTS">
+                <com:Name xml:lang="en">SDMX Cross Domain Concept Scheme</com:Name>
+                <str:Concept id="COLL_METHOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).COLL_METHOD">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">There are a number of data collection methods used for official statistics, including computer-aided personal or telephone interview CAPI/CATI, mailed questionnaires, electronic or internet questionnaires and direct observation. The data collection may be exclusively for statistical purposes, or primarily for non-statistical purposes. Descriptions of data collection methods should include the purpose for which the data were collected, the period the data refer to, the classifications and definitions used, and any constraints related to further use of these data.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">There are a number of data collection methods used for official statistics, including computer-aided personal or telephone interview CAPI/CATI, mailed questionnaires, electronic or internet questionnaires and direct observation. The data collection may be exclusively for statistical purposes, or primarily for non-statistical purposes. Descriptions of data collection methods should include the purpose for which the data were collected, the period the data refer to, the classifications and definitions used, and any constraints related to further use of these data.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Data Collection Method</com:Name>
+                    <com:Description xml:lang="en">Systematic process of gathering data for official statistics.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:TextFormat textType="String"/>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="CONF" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).CONF">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Confidentiality refers to a property of data with respect to whether, for example, they are public or their disclosure is subject to restrictions. For instance, data allowing the identification of a physical or legal person, either directly or indirectly, may be characterised as confidential according to the relevant national or international legislation. Unauthorised disclosure of data that are restricted or confidential is not permitted and even legislative measures or other formal provisions may be used to prevent disclosure. Often, there are procedures in place to prevent disclosure of restricted or confidential data, including rules applying to staff, aggregation rules when disseminating data, provision of unit records, etc. Sensitivity (of information) is sometimes used as a synonym to confidentiality. This concept can be broken down into: Confidentiality - policy; Confidentiality - status; Confidentiality - data treatment.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">Confidentiality refers to a property of data with respect to whether, for example, they are public or their disclosure is subject to restrictions. For instance, data allowing the identification of a physical or legal person, either directly or indirectly, may be characterised as confidential according to the relevant national or international legislation. Unauthorised disclosure of data that are restricted or confidential is not permitted and even legislative measures or other formal provisions may be used to prevent disclosure. Often, there are procedures in place to prevent disclosure of restricted or confidential data, including rules applying to staff, aggregation rules when disseminating data, provision of unit records, etc. Sensitivity (of information) is sometimes used as a synonym to confidentiality. This concept can be broken down into: Confidentiality - policy; Confidentiality - status; Confidentiality - data treatment.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Confidentiality</com:Name>
+                    <com:Description xml:lang="en">A property of data indicating the extent to which their unauthorised disclosure could be prejudicial or harmful to the interest of the source or other relevant parties.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:TextFormat textType="String"/>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="CONF_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).CONF_STATUS">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">This concept is related to data and determines the exact status of the value. i.e. if a specific value is confidential or not. This concept is always coded, i.e. it takes its value from the respective code list. A list of ID broken down by attachment level is recommended: CONF_STATUS_DFL (dataflow), CONF_STATUS_DSET (dataset), CONF_STATUS_GRP (group), CONF_STATUS_TS (series) or CONF_STATUS_OBS (observation).</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">This concept is related to data and determines the exact status of the value. i.e. if a specific value is confidential or not. This concept is always coded, i.e. it takes its value from the respective code list. A list of ID broken down by attachment level is recommended: CONF_STATUS_DFL (dataflow), CONF_STATUS_DSET (dataset), CONF_STATUS_GRP (group), CONF_STATUS_TS (series) or CONF_STATUS_OBS (observation).</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Confidentiality - status</com:Name>
+                    <com:Description xml:lang="en">Information about the confidentiality status of the object to which this attribute is attached.</com:Description>
+                    <str:Parent>
+                        <Ref id="CONF"/>
+                    </str:Parent>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="SDMX" id="CL_CONF_STATUS" maintainableParentID="CL_CONF_STATUS" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_CONF_STATUS(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="CURRENCY" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).CURRENCY">
+                    <com:Name xml:lang="en">Currency</com:Name>
+                    <com:Description xml:lang="en">Monetary denomination of the object being measured.</com:Description>
+                </str:Concept>
+                <str:Concept id="DECIMALS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).DECIMALS">
+                    <com:Name xml:lang="en">Decimals</com:Name>
+                    <com:Description xml:lang="en">The number of digits of an observation to the right of a decimal point.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="SDMX" id="CL_DECIMALS" maintainableParentID="CL_DECIMALS" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_DECIMALS(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).FREQ">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">If a data series has a constant time interval between its observations, this interval determines the frequency of the series (e.g. monthly, quarterly, yearly). "Frequency" - also called "periodicity" - may refer to several stages in the production process, e.g. in data collection or in data dissemination. (e.g., a time series could be available at annual frequency but the underlying data are compiled monthly). Therefore, "Frequency" can be broken down into "Frequency - data collection" and "Frequency - data dissemination". For data messages, the frequency is represented through codes. Any additional detail needed (e.g. "weekly on Thursday") must be inserted as free text within "Frequency detail".</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">If a data series has a constant time interval between its observations, this interval determines the frequency of the series (e.g. monthly, quarterly, yearly). "Frequency" - also called "periodicity" - may refer to several stages in the production process, e.g. in data collection or in data dissemination. (e.g., a time series could be available at annual frequency but the underlying data are compiled monthly). Therefore, "Frequency" can be broken down into "Frequency - data collection" and "Frequency - data dissemination". For data messages, the frequency is represented through codes. Any additional detail needed (e.g. "weekly on Thursday") must be inserted as free text within "Frequency detail".</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Frequency</com:Name>
+                    <com:Description xml:lang="en">The time interval at which observations occur over a given time period.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="SDMX" id="CL_FREQ" maintainableParentID="CL_FREQ" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_FREQ(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).OBS_VALUE">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">The "observation value" is the field which holds the data.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">The "observation value" is the field which holds the data.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Observation value</com:Name>
+                    <com:Description xml:lang="en">The value of a particular variable at a particular period.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:TextFormat textType="String"/>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).OBS_STATUS">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">This item is normally coded and uses codes providing information about the status of a value, with respect to events such as "break", "estimated value", "forecast", "missing value", or "provisional value". In some cases, there is more than one event that may have influenced the value (e.g. a break in methodology may be accompanied with the fact that an observation is an estimate). A textual comment providing more detailed information on important events related to an observation can be added via the attribute "Comment".</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">This item is normally coded and uses codes providing information about the status of a value, with respect to events such as "break", "estimated value", "forecast", "missing value", or "provisional value". In some cases, there is more than one event that may have influenced the value (e.g. a break in methodology may be accompanied with the fact that an observation is an estimate). A textual comment providing more detailed information on important events related to an observation can be added via the attribute "Comment".</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Observation Status</com:Name>
+                    <com:Description xml:lang="en">Information on the quality of a value or an unusual or missing value.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="SDMX" id="CL_OBS_STATUS" maintainableParentID="CL_OBS_STATUS" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_OBS_STATUS(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).TIME_PERIOD">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">The measurement represented by each observation corresponds to a specific point in time (e.g. a single day) or a period (e.g. a month, a fiscal year, or a calendar year). This is used as a time stamp and is of particular importance for time series data. In cases where the actual time period of the data differs from the target reference period, "time period" refers to the actual period.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">The measurement represented by each observation corresponds to a specific point in time (e.g. a single day) or a period (e.g. a month, a fiscal year, or a calendar year). This is used as a time stamp and is of particular importance for time series data. In cases where the actual time period of the data differs from the target reference period, "time period" refers to the actual period.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Time Period</com:Name>
+                    <com:Description xml:lang="en">The period of time or point in time to which the measured observation refers.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:TextFormat textType="ObservationalTimePeriod"/>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="TITLE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).TITLE">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">"Title" is a short name describing and identifying a statistical object it is attached to. IN SDMX, a title can be referred, for example, to a time series as a "time series title", or to a group as a "group title". A list of ID broken down by attachment level is therefore needed: TITLE_TS, or TITLE_GRP.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">"Title" is a short name describing and identifying a statistical object it is attached to. IN SDMX, a title can be referred, for example, to a time series as a "time series title", or to a group as a "group title". A list of ID broken down by attachment level is therefore needed: TITLE_TS, or TITLE_GRP.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Title</com:Name>
+                    <com:Description xml:lang="en">Textual label used as identification of a statistical object.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:TextFormat textType="String"/>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).UNIT_MULT">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">In some data bases, it is referred to as SCALE, MAGNITUDE or POWER., e.g. "UM=6" means that observations are in millions.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">In some data bases, it is referred to as SCALE, MAGNITUDE or POWER., e.g. "UM=6" means that observations are in millions.</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Unit Multiplier</com:Name>
+                    <com:Description xml:lang="en">Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the UNIT.</com:Description>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="SDMX" id="CL_UNIT_MULT" maintainableParentID="CL_UNIT_MULT" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=SDMX:CL_UNIT_MULT(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="UNIT_MEASURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).UNIT_MEASURE">
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">The unit of measure is a quantity or increment by which something is counted or described, such as kg, mm, °C, °F, monetary units such as Euro or US dollar, simple number counts or index numbers. The unit of measure has a type (e.g. currency) and, in connection with the unit multiplier, provides the level of detail for the value of the variable (e.g. Euro, 1000 Euro). For data messages, the concept is always represented by codes. Any additional detail needed must be inserted as free text within "unit of measure detail".</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Annotations>
+                        <com:Annotation id="">
+                            <com:AnnotationTitle xsi:nil="true"/>
+                            <com:AnnotationType>CONTEXT</com:AnnotationType>
+                            <com:AnnotationURL xsi:nil="true"/>
+                            <com:AnnotationText xml:lang="en">The unit of measure is a quantity or increment by which something is counted or described, such as kg, mm, °C, °F, monetary units such as Euro or US dollar, simple number counts or index numbers. The unit of measure has a type (e.g. currency) and, in connection with the unit multiplier, provides the level of detail for the value of the variable (e.g. Euro, 1000 Euro). For data messages, the concept is always represented by codes. Any additional detail needed must be inserted as free text within "unit of measure detail".</com:AnnotationText>
+                        </com:Annotation>
+                    </com:Annotations>
+                    <com:Name xml:lang="en">Unit of Measure</com:Name>
+                    <com:Description xml:lang="en">The unit in which the data values are measured.</com:Description>
+                </str:Concept>
+            </str:ConceptScheme>
+            <str:ConceptScheme agencyID="ECB" isExternalReference="false" isFinal="false" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=ECB:ECB_CONCEPTS(1.0)" id="ECB_CONCEPTS">
+                <com:Name xml:lang="en">Concepts maintained by the ECB</com:Name>
+                <str:Concept id="CURRENCY_DENOM" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ECB:ECB_CONCEPTS(1.0).CURRENCY_DENOM">
+                    <com:Name xml:lang="en">Currency denominator</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="ISO" id="CL_CURRENCY" maintainableParentID="CL_CURRENCY" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ISO:CL_CURRENCY(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="EXR_VAR" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ECB:ECB_CONCEPTS(1.0).EXR_VAR">
+                    <com:Name xml:lang="en">Series variation - EXR context</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="ECB" id="CL_EXR_VAR" maintainableParentID="CL_EXR_VAR" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_EXR_VAR(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+                <str:Concept id="EXR_TYPE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ECB:ECB_CONCEPTS(1.0).EXR_TYPE">
+                    <com:Name xml:lang="en">Exchange rate type</com:Name>
+                    <str:CoreRepresentation>
+                        <str:Enumeration>
+                            <Ref agencyID="ECB" id="CL_EXR_TYPE" maintainableParentID="CL_EXR_TYPE" maintainableParentVersion="1.0"/>
+                            <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_EXR_TYPE(1.0)</URN>
+                        </str:Enumeration>
+                    </str:CoreRepresentation>
+                </str:Concept>
+            </str:ConceptScheme>
+        </str:Concepts>
+        <str:DataStructures>
+            <str:DataStructure agencyID="ECB" version="1.0" id="ECB_EXR_NG">
+                <com:Name xml:lang="en">Sample Data Structure Definition for exchange rates, with no group defined.</com:Name>
+                <str:DataStructureComponents>
+                    <str:DimensionList>
+                        <str:Dimension id="FREQ" position="0">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).FREQ</URN>
+                            </str:ConceptIdentity>
+                        </str:Dimension>
+                        <str:Dimension id="CURRENCY" position="0">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).CURRENCY</URN>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref agencyID="ISO" id="CL_CURRENCY" maintainableParentID="CL_CURRENCY" maintainableParentVersion="1.0"/>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ISO:CL_CURRENCY(1.0)</URN>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                        </str:Dimension>
+                        <str:Dimension id="CURRENCY_DENOM" position="0">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ECB:ECB_CONCEPTS(1.0).CURRENCY_DENOM</URN>
+                            </str:ConceptIdentity>
+                        </str:Dimension>
+                        <str:Dimension id="EXR_TYPE" position="0">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ECB:ECB_CONCEPTS(1.0).EXR_TYPE</URN>
+                            </str:ConceptIdentity>
+                        </str:Dimension>
+                        <str:Dimension id="EXR_VAR" position="0">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ECB:ECB_CONCEPTS(1.0).EXR_VAR</URN>
+                            </str:ConceptIdentity>
+                        </str:Dimension>
+                        <str:TimeDimension id="TIME_PERIOD">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).TIME_PERIOD</URN>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:TextFormat textType="ObservationalTimePeriod"/>
+                            </str:LocalRepresentation>
+                        </str:TimeDimension>
+                    </str:DimensionList>
+                    <str:AttributeList>
+                        <str:Attribute id="COLL_METHOD" assignmentStatus="Conditional">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).COLL_METHOD</URN>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.EXR_TYPE</URN>
+                                    <Ref id="EXR_TYPE"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.EXR_VAR</URN>
+                                    <Ref id="EXR_VAR"/>
+                                </str:Dimension>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute id="DECIMALS" assignmentStatus="Mandatory">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).DECIMALS</URN>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY</URN>
+                                    <Ref id="CURRENCY"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY_DENOM</URN>
+                                    <Ref id="CURRENCY_DENOM"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.EXR_TYPE</URN>
+                                    <Ref id="EXR_TYPE"/>
+                                </str:Dimension>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute id="UNIT_MEASURE" assignmentStatus="Mandatory">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).UNIT_MEASURE</URN>
+                            </str:ConceptIdentity>
+                            <str:LocalRepresentation>
+                                <str:Enumeration>
+                                    <Ref agencyID="ISO" id="CL_CURRENCY" maintainableParentID="CL_CURRENCY" maintainableParentVersion="1.0"/>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ISO:CL_CURRENCY(1.0)</URN>
+                                </str:Enumeration>
+                            </str:LocalRepresentation>
+                            <str:AttributeRelationship>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY</URN>
+                                    <Ref id="CURRENCY"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY_DENOM</URN>
+                                    <Ref id="CURRENCY_DENOM"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.EXR_TYPE</URN>
+                                    <Ref id="EXR_TYPE"/>
+                                </str:Dimension>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute id="UNIT_MULT" assignmentStatus="Mandatory">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).UNIT_MULT</URN>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY</URN>
+                                    <Ref id="CURRENCY"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY_DENOM</URN>
+                                    <Ref id="CURRENCY_DENOM"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.EXR_TYPE</URN>
+                                    <Ref id="EXR_TYPE"/>
+                                </str:Dimension>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute id="CONF_STATUS_OBS" assignmentStatus="Conditional">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).CONF_STATUS</URN>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=.OBS_VALUE</URN>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute id="OBS_STATUS" assignmentStatus="Mandatory">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).OBS_STATUS</URN>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:PrimaryMeasure>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=.OBS_VALUE</URN>
+                                    <Ref id="OBS_VALUE"/>
+                                </str:PrimaryMeasure>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                        <str:Attribute id="TITLE" assignmentStatus="Mandatory">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).TITLE</URN>
+                            </str:ConceptIdentity>
+                            <str:AttributeRelationship>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY</URN>
+                                    <Ref id="CURRENCY"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.CURRENCY_DENOM</URN>
+                                    <Ref id="CURRENCY_DENOM"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.EXR_TYPE</URN>
+                                    <Ref id="EXR_TYPE"/>
+                                </str:Dimension>
+                                <str:Dimension>
+                                    <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=.EXR_VAR</URN>
+                                    <Ref id="EXR_VAR"/>
+                                </str:Dimension>
+                            </str:AttributeRelationship>
+                        </str:Attribute>
+                    </str:AttributeList>
+                    <str:MeasureList>
+                        <str:PrimaryMeasure id="OBS_VALUE">
+                            <str:ConceptIdentity>
+                                <URN>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SDMX:CROSS_DOMAIN_CONCEPTS(1.0).OBS_VALUE</URN>
+                            </str:ConceptIdentity>
+                        </str:PrimaryMeasure>
+                    </str:MeasureList>
+                </str:DataStructureComponents>
+            </str:DataStructure>
+        </str:DataStructures>
+    </mes:Structures>
+</mes:Structure>

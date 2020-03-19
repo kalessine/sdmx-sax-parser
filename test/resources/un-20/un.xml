@@ -1,0 +1,99 @@
+<RegistryInterface xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd" xmlns:registry="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/registry" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure">
+               <Header>
+                  <ID>DATAFLOW_A</ID>
+                  <Test>true</Test>
+                  <Prepared>2013-10-01</Prepared>
+                  <Sender id="UNSD">
+                     <Name xml:lang="en">United Nations Statistics Division</Name>
+                     <Contact/>
+                  </Sender>
+                  <Receiver id="4D0">
+                     <Contact/>
+                  </Receiver>
+               </Header>
+               <QueryStructureResponse>
+                  <registry:StatusMessage status="Success"/>
+                  <registry:Dataflows>
+                     <structure:Dataflow id="DF_UNDATA_COUNTRYDATA" version="1.4" agencyID="UNSD" isFinal="true">
+                        <structure:Name xml:lang="en">SDMX-CountryData</structure:Name>
+                        <structure:KeyFamilyRef>
+                           <structure:KeyFamilyID>CountryData</structure:KeyFamilyID>
+                           <structure:KeyFamilyAgencyID>UNSD</structure:KeyFamilyAgencyID>
+                           <structure:Version>1.4</structure:Version>
+                        </structure:KeyFamilyRef>
+                        <structure:CategoryRef>
+                           <structure:CategorySchemeID>UNdata_Categories</structure:CategorySchemeID>
+                           <structure:CategorySchemeAgencyID>UNSD</structure:CategorySchemeAgencyID>
+                           <structure:CategorySchemeVersion>1.0</structure:CategorySchemeVersion>
+                           <structure:CategoryID>
+                              <structure:ID>DEVELOPMENT_INDICATORS</structure:ID>
+                           </structure:CategoryID>
+                        </structure:CategoryRef>
+                     </structure:Dataflow>
+                     <structure:Dataflow id="DF_UNDATA_MDG" version="1.2" agencyID="IAEG" isFinal="true">
+                        <structure:Name xml:lang="en">SDMX-MDGs</structure:Name>
+                        <structure:KeyFamilyRef>
+                           <structure:KeyFamilyID>MDG</structure:KeyFamilyID>
+                           <structure:KeyFamilyAgencyID>IAEG</structure:KeyFamilyAgencyID>
+                           <structure:Version>1.2</structure:Version>
+                        </structure:KeyFamilyRef>
+                        <structure:CategoryRef>
+                           <structure:CategorySchemeID>UNdata_Categories</structure:CategorySchemeID>
+                           <structure:CategorySchemeAgencyID>UNSD</structure:CategorySchemeAgencyID>
+                           <structure:CategorySchemeVersion>1.0</structure:CategorySchemeVersion>
+                           <structure:CategoryID>
+                              <structure:ID>DEVELOPMENT_INDICATORS</structure:ID>
+                           </structure:CategoryID>
+                        </structure:CategoryRef>
+                     </structure:Dataflow>
+                     <structure:Dataflow id="DF_UNData_UIS" version="1.1" agencyID="UIS" isFinal="true">
+                        <structure:Name xml:lang="en">SDMX_UIS_UNData</structure:Name>
+                        <structure:KeyFamilyRef>
+                           <structure:KeyFamilyID>UIS_UNData</structure:KeyFamilyID>
+                           <structure:KeyFamilyAgencyID>UIS</structure:KeyFamilyAgencyID>
+                           <structure:Version>1.1</structure:Version>
+                        </structure:KeyFamilyRef>
+                        <structure:CategoryRef>
+                           <structure:CategorySchemeID>UNdata_Categories</structure:CategorySchemeID>
+                           <structure:CategorySchemeAgencyID>UNSD</structure:CategorySchemeAgencyID>
+                           <structure:CategorySchemeVersion>1.0</structure:CategorySchemeVersion>
+                           <structure:CategoryID>
+                              <structure:ID>EDUCATION</structure:ID>
+                           </structure:CategoryID>
+                        </structure:CategoryRef>
+                     </structure:Dataflow>
+                     <structure:Dataflow id="DF_UNDATA_WDI" version="1.0" agencyID="WB" isFinal="true">
+                        <structure:Name xml:lang="en">WB World Development Indicators</structure:Name>
+                        <structure:KeyFamilyRef>
+                           <structure:KeyFamilyID>WDI</structure:KeyFamilyID>
+                           <structure:KeyFamilyAgencyID>WB</structure:KeyFamilyAgencyID>
+                           <structure:Version>1.0</structure:Version>
+                        </structure:KeyFamilyRef>
+                        <structure:CategoryRef>
+                           <structure:CategorySchemeID>UNdata_Categories</structure:CategorySchemeID>
+                           <structure:CategorySchemeAgencyID>UNSD</structure:CategorySchemeAgencyID>
+                           <structure:CategorySchemeVersion>1.0</structure:CategorySchemeVersion>
+                           <structure:CategoryID>
+                              <structure:ID>DEVELOPMENT_INDICATORS</structure:ID>
+                           </structure:CategoryID>
+                        </structure:CategoryRef>
+                     </structure:Dataflow>
+                     <structure:Dataflow id="DF_UNDATA_WPP" version="1.0" agencyID="UNSD" isFinal="true">
+                        <structure:Name xml:lang="en">PopDiv WPP Data Flow</structure:Name>
+                        <structure:KeyFamilyRef>
+                           <structure:KeyFamilyID>DSD_WPP_UNDATA</structure:KeyFamilyID>
+                           <structure:KeyFamilyAgencyID>UNSD</structure:KeyFamilyAgencyID>
+                           <structure:Version>1.0</structure:Version>
+                        </structure:KeyFamilyRef>
+                        <structure:CategoryRef>
+                           <structure:CategorySchemeID>UNdata_Categories</structure:CategorySchemeID>
+                           <structure:CategorySchemeAgencyID>UNSD</structure:CategorySchemeAgencyID>
+                           <structure:CategorySchemeVersion>1.0</structure:CategorySchemeVersion>
+                           <structure:CategoryID>
+                              <structure:ID>POPULATION</structure:ID>
+                           </structure:CategoryID>
+                        </structure:CategoryRef>
+                     </structure:Dataflow>
+                  </registry:Dataflows>
+               </QueryStructureResponse>
+            </RegistryInterface>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><message:Structure xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure http://www.sdmx.org/docs/2_0/SDMXStructure.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+               <Header xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+                  <ID>
+                     none
+                     <!--Statistical usage warning
+ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.-->
+                  </ID>
+                  <Test>false</Test>
+                  <Truncated>false</Truncated>
+                  <Prepared>2013-06-24T12:42:52</Prepared>
+                  <Sender id="ABS">
+                     <Name xml:lang="en">Australian Bureau of Statistics</Name>
+                  </Sender>
+               </Header>
+               <message:CodeLists>
+                  <CodeList id="CL_IAS_2_OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                     <Code value="n">
+                        <Description xml:lang="en">not available for publication but included in totals where applicable, unless otherwise indicated</Description>
+                        <Description xml:lang="fr">not available for publication but included in totals where applicable, unless otherwise indicated</Description>
+                     </Code>
+                     <Code value="o">
+                        <Description xml:lang="en">nil or rounded to zero, including null cells</Description>
+                        <Description xml:lang="fr">nil or rounded to zero, including null cells</Description>
+                     </Code>
+                     <Code value="q">
+                        <Description xml:lang="en">not available</Description>
+                        <Description xml:lang="fr">not available</Description>
+                     </Code>
+                     <Code value="v">
+                        <Description xml:lang="en">not available for publication but included in totals where applicable, unless otherwise indicated</Description>
+                        <Description xml:lang="fr">not available for publication but included in totals where applicable, unless otherwise indicated</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_IAS_2_STATE" agencyID="ABS">
+                     <Name xml:lang="en">IAS_2_STATE codelist</Name>
+                     <Code value="0">
+                        <Description xml:lang="en">Australia</Description>
+                        <Description xml:lang="fr">Australia</Description>
+                     </Code>
+                     <Code value="1" parentCode="0">
+                        <Description xml:lang="en">New South Wales</Description>
+                        <Description xml:lang="fr">New South Wales</Description>
+                     </Code>
+                     <Code value="2" parentCode="0">
+                        <Description xml:lang="en">Victoria</Description>
+                        <Description xml:lang="fr">Victoria</Description>
+                     </Code>
+                     <Code value="3" parentCode="0">
+                        <Description xml:lang="en">Queensland</Description>
+                        <Description xml:lang="fr">Queensland</Description>
+                     </Code>
+                     <Code value="4" parentCode="0">
+                        <Description xml:lang="en">South Australia</Description>
+                        <Description xml:lang="fr">South Australia</Description>
+                     </Code>
+                     <Code value="5" parentCode="0">
+                        <Description xml:lang="en">Western Australia</Description>
+                        <Description xml:lang="fr">Western Australia</Description>
+                     </Code>
+                     <Code value="6" parentCode="0">
+                        <Description xml:lang="en">Tasmania</Description>
+                        <Description xml:lang="fr">Tasmania</Description>
+                     </Code>
+                     <Code value="7" parentCode="0">
+                        <Description xml:lang="en">Northern Territory</Description>
+                        <Description xml:lang="fr">Northern Territory</Description>
+                     </Code>
+                     <Code value="8" parentCode="0">
+                        <Description xml:lang="en">Australian Capital Territory</Description>
+                        <Description xml:lang="fr">Australian Capital Territory</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_IAS_2_ISPS" agencyID="ABS">
+                     <Name xml:lang="en">IAS_2_ISPS codelist</Name>
+                     <Code value="0">
+                        <Description xml:lang="en">Total</Description>
+                        <Description xml:lang="fr">Total</Description>
+                     </Code>
+                     <Code value="3" parentCode="0">
+                        <Description xml:lang="en">Medium ISPs</Description>
+                        <Description xml:lang="fr">Medium ISPs</Description>
+                     </Code>
+                     <Code value="2" parentCode="0">
+                        <Description xml:lang="en">Large ISPs</Description>
+                        <Description xml:lang="fr">Large ISPs</Description>
+                     </Code>
+                     <Code value="1" parentCode="0">
+                        <Description xml:lang="en">Very large ISPs</Description>
+                        <Description xml:lang="fr">Very large ISPs</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_IAS_2_MEASURE" agencyID="ABS">
+                     <Name xml:lang="en">IAS_2_MEASURE codelist</Name>
+                     <Code value="1">
+                        <Description xml:lang="en">Number of subscribers (''000)</Description>
+                        <Description xml:lang="fr">Number of subscribers (''000)</Description>
+                     </Code>
+                     <Code value="2">
+                        <Description xml:lang="en">Proportion of subscribers (Percent)</Description>
+                        <Description xml:lang="fr">Proportion of subscribers (Percent)</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_IAS_2_FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">IAS_2_FREQUENCY codelist</Name>
+                     <Code value="Q">
+                        <Description xml:lang="en">Quarterly</Description>
+                        <Description xml:lang="fr">Trimestrielle</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_IAS_2_TIME" agencyID="ABS">
+                     <Name xml:lang="en">IAS_2_TIME codelist</Name>
+                     <Code value="2006">
+                        <Description xml:lang="en">2006</Description>
+                        <Description xml:lang="fr">2006</Description>
+                     </Code>
+                     <Code value="2006-B1" parentCode="2006">
+                        <Description xml:lang="en">S1-2006</Description>
+                        <Description xml:lang="fr">S1-2006</Description>
+                     </Code>
+                     <Code value="2006-Q2" parentCode="2006-B1">
+                        <Description xml:lang="en">Jun-2006</Description>
+                        <Description xml:lang="fr">Juin 2006</Description>
+                     </Code>
+                     <Code value="2006-B2" parentCode="2006">
+                        <Description xml:lang="en">S2-2006</Description>
+                        <Description xml:lang="fr">S2-2006</Description>
+                     </Code>
+                     <Code value="2006-Q3" parentCode="2006-B2">
+                        <Description xml:lang="en">Sep-2006</Description>
+                        <Description xml:lang="fr">Sept 2006</Description>
+                     </Code>
+                     <Code value="2007">
+                        <Description xml:lang="en">2007</Description>
+                        <Description xml:lang="fr">2007</Description>
+                     </Code>
+                     <Code value="2007-B1" parentCode="2007">
+                        <Description xml:lang="en">S1-2007</Description>
+                        <Description xml:lang="fr">S1-2007</Description>
+                     </Code>
+                     <Code value="2007-Q1" parentCode="2007-B1">
+                        <Description xml:lang="en">Mar-2007</Description>
+                        <Description xml:lang="fr">Mars 2007</Description>
+                     </Code>
+                     <Code value="2007-B2" parentCode="2007">
+                        <Description xml:lang="en">S2-2007</Description>
+                        <Description xml:lang="fr">S2-2007</Description>
+                     </Code>
+                     <Code value="2007-Q4" parentCode="2007-B2">
+                        <Description xml:lang="en">Dec-2007</Description>
+                        <Description xml:lang="fr">Déc 2007</Description>
+                     </Code>
+                     <Code value="2008">
+                        <Description xml:lang="en">2008</Description>
+                        <Description xml:lang="fr">2008</Description>
+                     </Code>
+                     <Code value="2008-B1" parentCode="2008">
+                        <Description xml:lang="en">S1-2008</Description>
+                        <Description xml:lang="fr">S1-2008</Description>
+                     </Code>
+                     <Code value="2008-Q2" parentCode="2008-B1">
+                        <Description xml:lang="en">Jun-2008</Description>
+                        <Description xml:lang="fr">Juin 2008</Description>
+                     </Code>
+                     <Code value="2008-B2" parentCode="2008">
+                        <Description xml:lang="en">S2-2008</Description>
+                        <Description xml:lang="fr">S2-2008</Description>
+                     </Code>
+                     <Code value="2008-Q4" parentCode="2008-B2">
+                        <Description xml:lang="en">Dec-2008</Description>
+                        <Description xml:lang="fr">Déc 2008</Description>
+                     </Code>
+                     <Code value="2009">
+                        <Description xml:lang="en">2009</Description>
+                        <Description xml:lang="fr">2009</Description>
+                     </Code>
+                     <Code value="2009-B1" parentCode="2009">
+                        <Description xml:lang="en">S1-2009</Description>
+                        <Description xml:lang="fr">S1-2009</Description>
+                     </Code>
+                     <Code value="2009-Q2" parentCode="2009-B1">
+                        <Description xml:lang="en">Jun-2009</Description>
+                        <Description xml:lang="fr">Juin 2009</Description>
+                     </Code>
+                     <Code value="2009-B2" parentCode="2009">
+                        <Description xml:lang="en">S2-2009</Description>
+                        <Description xml:lang="fr">S2-2009</Description>
+                     </Code>
+                     <Code value="2009-Q4" parentCode="2009-B2">
+                        <Description xml:lang="en">Dec-2009</Description>
+                        <Description xml:lang="fr">Déc 2009</Description>
+                     </Code>
+                     <Code value="2010">
+                        <Description xml:lang="en">2010</Description>
+                        <Description xml:lang="fr">2010</Description>
+                     </Code>
+                     <Code value="2010-B1" parentCode="2010">
+                        <Description xml:lang="en">S1-2010</Description>
+                        <Description xml:lang="fr">S1-2010</Description>
+                     </Code>
+                     <Code value="2010-Q2" parentCode="2010-B1">
+                        <Description xml:lang="en">Jun-2010</Description>
+                        <Description xml:lang="fr">Juin 2010</Description>
+                     </Code>
+                     <Code value="2010-B2" parentCode="2010">
+                        <Description xml:lang="en">S2-2010</Description>
+                        <Description xml:lang="fr">S2-2010</Description>
+                     </Code>
+                     <Code value="2010-Q4" parentCode="2010-B2">
+                        <Description xml:lang="en">Dec-2010</Description>
+                        <Description xml:lang="fr">Déc 2010</Description>
+                     </Code>
+                     <Code value="2011">
+                        <Description xml:lang="en">2011</Description>
+                        <Description xml:lang="fr">2011</Description>
+                     </Code>
+                     <Code value="2011-B1" parentCode="2011">
+                        <Description xml:lang="en">S1-2011</Description>
+                        <Description xml:lang="fr">S1-2011</Description>
+                     </Code>
+                     <Code value="2011-Q2" parentCode="2011-B1">
+                        <Description xml:lang="en">Jun-2011</Description>
+                        <Description xml:lang="fr">Juin 2011</Description>
+                     </Code>
+                     <Code value="2011-B2" parentCode="2011">
+                        <Description xml:lang="en">S2-2011</Description>
+                        <Description xml:lang="fr">S2-2011</Description>
+                     </Code>
+                     <Code value="2011-Q4" parentCode="2011-B2">
+                        <Description xml:lang="en">Dec-2011</Description>
+                        <Description xml:lang="fr">Déc 2011</Description>
+                     </Code>
+                     <Code value="2012">
+                        <Description xml:lang="en">2012</Description>
+                        <Description xml:lang="fr">2012</Description>
+                     </Code>
+                     <Code value="2012-B1" parentCode="2012">
+                        <Description xml:lang="en">S1-2012</Description>
+                        <Description xml:lang="fr">S1-2012</Description>
+                     </Code>
+                     <Code value="2012-Q2" parentCode="2012-B1">
+                        <Description xml:lang="en">Jun-2012</Description>
+                        <Description xml:lang="fr">Juin 2012</Description>
+                     </Code>
+                     <Code value="2012-B2" parentCode="2012">
+                        <Description xml:lang="en">S2-2012</Description>
+                        <Description xml:lang="fr">S2-2012</Description>
+                     </Code>
+                     <Code value="2012-Q4" parentCode="2012-B2">
+                        <Description xml:lang="en">Dec-2012</Description>
+                        <Description xml:lang="fr">Déc 2012</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_IAS_2_TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">IAS_2_TIME_FORMAT codelist</Name>
+                     <Code value="P1Y">
+                        <Description xml:lang="en">Annual</Description>
+                        <Description xml:lang="fr">Annual</Description>
+                     </Code>
+                     <Code value="P1M">
+                        <Description xml:lang="en">Monthly</Description>
+                        <Description xml:lang="fr">Monthly</Description>
+                     </Code>
+                     <Code value="P3M">
+                        <Description xml:lang="en">Quarterly</Description>
+                        <Description xml:lang="fr">Quarterly</Description>
+                     </Code>
+                     <Code value="P6M">
+                        <Description xml:lang="en">Half-yearly</Description>
+                        <Description xml:lang="fr">Half-yearly</Description>
+                     </Code>
+                  </CodeList>
+               </message:CodeLists>
+               <message:Concepts>
+                  <Concept id="STATE" agencyID="ABS">
+                     <Name xml:lang="en">State</Name>
+                     <Name xml:lang="fr">State</Name>
+                  </Concept>
+                  <Concept id="ISPS" agencyID="ABS">
+                     <Name xml:lang="en">ISP Size</Name>
+                     <Name xml:lang="fr">ISP Size</Name>
+                  </Concept>
+                  <Concept id="MEASURE" agencyID="ABS">
+                     <Name xml:lang="en">Measure</Name>
+                     <Name xml:lang="fr">Measure</Name>
+                  </Concept>
+                  <Concept id="FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">Frequency</Name>
+                     <Name xml:lang="fr">Fr�quence</Name>
+                  </Concept>
+                  <Concept id="TIME" agencyID="ABS">
+                     <Name xml:lang="en">Time</Name>
+                     <Name xml:lang="fr">Temps</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time format</Name>
+                     <Name xml:lang="fr">Time format</Name>
+                  </Concept>
+                  <Concept id="OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time Format</Name>
+                     <Name xml:lang="fr">Format de l'heure</Name>
+                  </Concept>
+                  <Concept id="OBS_VALUE" agencyID="OECD">
+                     <Name xml:lang="en">Observation Value</Name>
+                     <Name xml:lang="fr">Valeur d'observation</Name>
+                  </Concept>
+               </message:Concepts>
+               <message:KeyFamilies>
+                  <KeyFamily id="IAS_2" agencyID="ABS">
+                     <Name xml:lang="en">Subscribers by State/Territory and ISP size</Name>
+                     <Name xml:lang="fr">Subscribers by State/Territory and ISP size</Name>
+                     <Components>
+                        <Dimension conceptRef="STATE" codelist="CL_IAS_2_STATE"/>
+                        <Dimension conceptRef="ISPS" codelist="CL_IAS_2_ISPS"/>
+                        <Dimension conceptRef="MEASURE" codelist="CL_IAS_2_MEASURE" isMeasureDimension="true"/>
+                        <Dimension conceptRef="FREQUENCY" codelist="CL_IAS_2_FREQUENCY" isFrequencyDimension="true"/>
+                        <TimeDimension conceptRef="TIME" codelist="CL_IAS_2_TIME"/>
+                        <PrimaryMeasure conceptRef="OBS_VALUE">
+                           <TextFormat textType="Double"/>
+                        </PrimaryMeasure>
+                        <Attribute conceptRef="OBS_STATUS" codelist="CL_IAS_2_OBS_STATUS" attachmentLevel="Observation" assignmentStatus="Conditional"/>
+                        <Attribute conceptRef="TIME_FORMAT" codelist="CL_IAS_2_TIME_FORMAT" attachmentLevel="Series" assignmentStatus="Conditional" isTimeFormat="true"/>
+                     </Components>
+                  </KeyFamily>
+               </message:KeyFamilies>
+            </message:Structure>

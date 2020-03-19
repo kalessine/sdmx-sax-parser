@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message http://www.metadatatechnology.com/beta/SDMX2.1/SDMXMessage.xsd" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IDREF2153</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2014-02-24T13:27:40.044Z</mes:Prepared>
+    <mes:Sender id="unknown"/>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:DataStructures>
+      <str:DataStructure id="ESTAT_UOE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=TEST:ESTAT_UOE(1.0)" agencyID="TEST" version="1.0" isFinal="false">
+        <com:Name xml:lang="en">Data Structure Definition for the joint Unesco OECD Eurostat data collection on Education</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=TEST:ESTAT_UOE(1.0).DimensionDescriptor">
+            <str:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).FREQ" position="1">
+              <str:ConceptIdentity>
+                <Ref id="FREQ" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_FREQ" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="SEX" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).SEX" position="2">
+              <str:ConceptIdentity>
+                <Ref id="SEX" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_SEX" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).REF_AREA" position="3">
+              <str:ConceptIdentity>
+                <Ref id="REF_AREA" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_COUNTRY" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="AGE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).AGE" position="4">
+              <str:ConceptIdentity>
+                <Ref id="AGE" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_AGE" version="2.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="POSITION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).POSITION" position="5">
+              <str:ConceptIdentity>
+                <Ref id="POSITION" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_POSITION" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="EDU_LEVEL" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).EDU_LEVEL" position="6">
+              <str:ConceptIdentity>
+                <Ref id="EDU_LEVEL" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_EDU_LEVEL" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="ORIENTATION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).ORIENTATION" position="7">
+              <str:ConceptIdentity>
+                <Ref id="ORIENTATION" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_ORIENTATION" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="INTENSITY" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).INTENSITY" position="8">
+              <str:ConceptIdentity>
+                <Ref id="INTENSITY" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_INTENSITY" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="INSTITUTION" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=TEST:ESTAT_UOE(1.0).INSTITUTION" position="9">
+              <str:ConceptIdentity>
+                <Ref id="INSTITUTION" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_INSTITUTION" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=TEST:ESTAT_UOE(1.0).TIME_PERIOD" position="10">
+              <str:ConceptIdentity>
+                <Ref id="TIME" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="ObservationalTimePeriod"/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=TEST:ESTAT_UOE(1.0).AttributeDescriptor">
+            <str:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=TEST:ESTAT_UOE(1.0).OBS_STATUS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="OBS_STATUS" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_OBS_STATUS_EDU" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="OBS_COM" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=TEST:ESTAT_UOE(1.0).OBS_COM" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="OBS_COM" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=TEST:ESTAT_UOE(1.0).UNIT" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="UNIT" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_UNIT" version="2.1" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="DECIMALS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=TEST:ESTAT_UOE(1.0).DECIMALS" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="DECIMALS" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_DECI" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="UNIT_MULT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=TEST:ESTAT_UOE(1.0).UNIT_MULT" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="UNIT_MULT" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_UNIT_MULT" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TIME_FORMAT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=TEST:ESTAT_UOE(1.0).TIME_FORMAT" assignmentStatus="Mandatory">
+              <str:ConceptIdentity>
+                <Ref id="TIME_FORMAT" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_TIME_FORMAT" version="1.0" agencyID="TEST" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=TEST:ESTAT_UOE(1.0).MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=TEST:ESTAT_UOE(1.0).OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref id="OBS_VALUE" maintainableParentID="EDU_CONCEPTS" maintainableParentVersion="1.0" agencyID="TEST" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>

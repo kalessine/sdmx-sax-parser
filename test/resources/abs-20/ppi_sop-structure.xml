@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><message:Structure xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure http://www.sdmx.org/docs/2_0/SDMXStructure.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+               <Header xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+                  <ID>
+                     none
+                     <!--Statistical usage warning
+ABS.Stat beta is continuing to be developed.  Data will be updated as soon as possible following its 11:30 am release on the ABS website.-->
+                  </ID>
+                  <Test>false</Test>
+                  <Truncated>false</Truncated>
+                  <Prepared>2013-06-24T12:34:43</Prepared>
+                  <Sender id="ABS">
+                     <Name xml:lang="en">Australian Bureau of Statistics</Name>
+                  </Sender>
+               </Header>
+               <message:CodeLists>
+                  <CodeList id="CL_PPI_SOP_OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                     <Code value="q">
+                        <Description xml:lang="en">not available</Description>
+                        <Description xml:lang="fr">not available</Description>
+                     </Code>
+                     <Code value="u">
+                        <Description xml:lang="en">not applicable</Description>
+                        <Description xml:lang="fr">not applicable</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_MEASURE" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_MEASURE codelist</Name>
+                     <Code value="1">
+                        <Description xml:lang="en">Index Number</Description>
+                        <Description xml:lang="fr">Index Number</Description>
+                     </Code>
+                     <Code value="2">
+                        <Description xml:lang="en">Percentage change from previous quarter</Description>
+                        <Description xml:lang="fr">Percentage change from previous quarter</Description>
+                     </Code>
+                     <Code value="3">
+                        <Description xml:lang="en">Percentage change from corresponding quarter of previous year</Description>
+                        <Description xml:lang="fr">Percentage change from corresponding quarter of previous year</Description>
+                     </Code>
+                     <Code value="4">
+                        <Description xml:lang="en">Index points</Description>
+                        <Description xml:lang="fr">Index points</Description>
+                     </Code>
+                     <Code value="5">
+                        <Description xml:lang="en">Change in Index points</Description>
+                        <Description xml:lang="fr">Change in Index points</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_INDEX" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_INDEX codelist</Name>
+                     <Code value="014-016">
+                        <Description xml:lang="en">Sheep, beef cattle and grain farming; and dairy cattle farming</Description>
+                        <Description xml:lang="fr">Sheep, beef cattle and grain farming; and dairy cattle farming</Description>
+                     </Code>
+                     <Code value="011-013-015-017-019">
+                        <Description xml:lang="en">Other agriculture</Description>
+                        <Description xml:lang="fr">Other agriculture</Description>
+                     </Code>
+                     <Code value="030">
+                        <Description xml:lang="en">Forestry and Logging</Description>
+                        <Description xml:lang="fr">Forestry and Logging</Description>
+                     </Code>
+                     <Code value="041">
+                        <Description xml:lang="en">Fishing</Description>
+                        <Description xml:lang="fr">Fishing</Description>
+                     </Code>
+                     <Code value="060">
+                        <Description xml:lang="en">Coal Mining</Description>
+                        <Description xml:lang="fr">Coal Mining</Description>
+                     </Code>
+                     <Code value="070">
+                        <Description xml:lang="en">Oil and Gas Extraction</Description>
+                        <Description xml:lang="fr">Oil and Gas Extraction</Description>
+                     </Code>
+                     <Code value="080">
+                        <Description xml:lang="en">Metal Ore Mining</Description>
+                        <Description xml:lang="fr">Metal Ore Mining</Description>
+                     </Code>
+                     <Code value="09">
+                        <Description xml:lang="en">Non-Metallic Mineral Mining and Quarrying</Description>
+                        <Description xml:lang="fr">Non-Metallic Mineral Mining and Quarrying</Description>
+                     </Code>
+                     <Code value="099">
+                        <Description xml:lang="en">Other Non-Metallic Mineral Mining and Quarrying</Description>
+                        <Description xml:lang="fr">Other Non-Metallic Mineral Mining and Quarrying</Description>
+                     </Code>
+                     <Code value="111">
+                        <Description xml:lang="en">Meat and Meat Product Manufacturing</Description>
+                        <Description xml:lang="fr">Meat and Meat Product Manufacturing</Description>
+                     </Code>
+                     <Code value="112">
+                        <Description xml:lang="en">Seafood Processing</Description>
+                        <Description xml:lang="fr">Seafood Processing</Description>
+                     </Code>
+                     <Code value="113">
+                        <Description xml:lang="en">Dairy Product Manufacturing</Description>
+                        <Description xml:lang="fr">Dairy Product Manufacturing</Description>
+                     </Code>
+                     <Code value="114-115">
+                        <Description xml:lang="en">Fruit and vegetable processing; oil and fat manufacturing</Description>
+                        <Description xml:lang="fr">Fruit and vegetable processing; oil and fat manufacturing</Description>
+                     </Code>
+                     <Code value="114">
+                        <Description xml:lang="en">Fruit and Vegetable Processing</Description>
+                        <Description xml:lang="fr">Fruit and Vegetable Processing</Description>
+                     </Code>
+                     <Code value="115">
+                        <Description xml:lang="en">Oil and Fat Manufacturing</Description>
+                        <Description xml:lang="fr">Oil and Fat Manufacturing</Description>
+                     </Code>
+                     <Code value="116">
+                        <Description xml:lang="en">Grain Mill and Cereal Product Manufacturing</Description>
+                        <Description xml:lang="fr">Grain Mill and Cereal Product Manufacturing</Description>
+                     </Code>
+                     <Code value="117">
+                        <Description xml:lang="en">Bakery Product Manufacturing</Description>
+                        <Description xml:lang="fr">Bakery Product Manufacturing</Description>
+                     </Code>
+                     <Code value="118">
+                        <Description xml:lang="en">Sugar and Confectionery Manufacturing</Description>
+                        <Description xml:lang="fr">Sugar and Confectionery Manufacturing</Description>
+                     </Code>
+                     <Code value="119">
+                        <Description xml:lang="en">Other Food Product Manufacturing</Description>
+                        <Description xml:lang="fr">Other Food Product Manufacturing</Description>
+                     </Code>
+                     <Code value="121">
+                        <Description xml:lang="en">Beverage Manufacturing</Description>
+                        <Description xml:lang="fr">Beverage Manufacturing</Description>
+                     </Code>
+                     <Code value="122">
+                        <Description xml:lang="en">Cigarette and Tobacco Product Manufacturing</Description>
+                        <Description xml:lang="fr">Cigarette and Tobacco Product Manufacturing</Description>
+                     </Code>
+                     <Code value="13">
+                        <Description xml:lang="en">Textile, Leather, Clothing and Footwear Manufacturing</Description>
+                        <Description xml:lang="fr">Textile, Leather, Clothing and Footwear Manufacturing</Description>
+                     </Code>
+                     <Code value="131">
+                        <Description xml:lang="en">Textile Manufacturing</Description>
+                        <Description xml:lang="fr">Textile Manufacturing</Description>
+                     </Code>
+                     <Code value="132">
+                        <Description xml:lang="en">Leather Tanning, Fur Dressing and Leather Product Manufacturing</Description>
+                        <Description xml:lang="fr">Leather Tanning, Fur Dressing and Leather Product Manufacturing</Description>
+                     </Code>
+                     <Code value="133">
+                        <Description xml:lang="en">Textile Product Manufacturing</Description>
+                        <Description xml:lang="fr">Textile Product Manufacturing</Description>
+                     </Code>
+                     <Code value="134">
+                        <Description xml:lang="en">Knitted Product Manufacturing</Description>
+                        <Description xml:lang="fr">Knitted Product Manufacturing</Description>
+                     </Code>
+                     <Code value="1351">
+                        <Description xml:lang="en">Clothing Manufacturing</Description>
+                        <Description xml:lang="fr">Clothing Manufacturing</Description>
+                     </Code>
+                     <Code value="1352">
+                        <Description xml:lang="en">Footwear Manufacturing</Description>
+                        <Description xml:lang="fr">Footwear Manufacturing</Description>
+                     </Code>
+                     <Code value="141">
+                        <Description xml:lang="en">Log Sawmilling and Timber Dressing</Description>
+                        <Description xml:lang="fr">Log Sawmilling and Timber Dressing</Description>
+                     </Code>
+                     <Code value="149">
+                        <Description xml:lang="en">Other Wood Product Manufacturing</Description>
+                        <Description xml:lang="fr">Other Wood Product Manufacturing</Description>
+                     </Code>
+                     <Code value="151">
+                        <Description xml:lang="en">Pulp, Paper and Paperboard Manufacturing</Description>
+                        <Description xml:lang="fr">Pulp, Paper and Paperboard Manufacturing</Description>
+                     </Code>
+                     <Code value="152">
+                        <Description xml:lang="en">Converted Paper Product Manufacturing</Description>
+                        <Description xml:lang="fr">Converted Paper Product Manufacturing</Description>
+                     </Code>
+                     <Code value="161">
+                        <Description xml:lang="en">Printing and Printing Support Services</Description>
+                        <Description xml:lang="fr">Printing and Printing Support Services</Description>
+                     </Code>
+                     <Code value="1701">
+                        <Description xml:lang="en">Petroleum Refining and Petroleum Fuel Manufacturing</Description>
+                        <Description xml:lang="fr">Petroleum Refining and Petroleum Fuel Manufacturing</Description>
+                     </Code>
+                     <Code value="182">
+                        <Description xml:lang="en">Basic Polymer Manufacturing</Description>
+                        <Description xml:lang="fr">Basic Polymer Manufacturing</Description>
+                     </Code>
+                     <Code value="184">
+                        <Description xml:lang="en">Pharmaceutical and Medicinal Product Manufacturing</Description>
+                        <Description xml:lang="fr">Pharmaceutical and Medicinal Product Manufacturing</Description>
+                     </Code>
+                     <Code value="185">
+                        <Description xml:lang="en">Cleaning Compound and Toiletry Preparation Manufacturing</Description>
+                        <Description xml:lang="fr">Cleaning Compound and Toiletry Preparation Manufacturing</Description>
+                     </Code>
+                     <Code value="189">
+                        <Description xml:lang="en">Other Basic Chemical Product Manufacturing</Description>
+                        <Description xml:lang="fr">Other Basic Chemical Product Manufacturing</Description>
+                     </Code>
+                     <Code value="191">
+                        <Description xml:lang="en">Polymer Product Manufacturing</Description>
+                        <Description xml:lang="fr">Polymer Product Manufacturing</Description>
+                     </Code>
+                     <Code value="192">
+                        <Description xml:lang="en">Natural Rubber Product Manufacturing</Description>
+                        <Description xml:lang="fr">Natural Rubber Product Manufacturing</Description>
+                     </Code>
+                     <Code value="20">
+                        <Description xml:lang="en">Non-Metallic Mineral Product Manufacturing</Description>
+                        <Description xml:lang="fr">Non-Metallic Mineral Product Manufacturing</Description>
+                     </Code>
+                     <Code value="212">
+                        <Description xml:lang="en">Basic Ferrous Metal Product Manufacturing</Description>
+                        <Description xml:lang="fr">Basic Ferrous Metal Product Manufacturing</Description>
+                     </Code>
+                     <Code value="213">
+                        <Description xml:lang="en">Basic Non-Ferrous Metal Manufacturing</Description>
+                        <Description xml:lang="fr">Basic Non-Ferrous Metal Manufacturing</Description>
+                     </Code>
+                     <Code value="214">
+                        <Description xml:lang="en">Basic Non-Ferrous Metal Product Manufacturing</Description>
+                        <Description xml:lang="fr">Basic Non-Ferrous Metal Product Manufacturing</Description>
+                     </Code>
+                     <Code value="222">
+                        <Description xml:lang="en">Structural Metal Product Manufacturing</Description>
+                        <Description xml:lang="fr">Structural Metal Product Manufacturing</Description>
+                     </Code>
+                     <Code value="223">
+                        <Description xml:lang="en">Metal Container Manufacturing</Description>
+                        <Description xml:lang="fr">Metal Container Manufacturing</Description>
+                     </Code>
+                     <Code value="229">
+                        <Description xml:lang="en">Other Fabricated Metal Product Manufacturing</Description>
+                        <Description xml:lang="fr">Other Fabricated Metal Product Manufacturing</Description>
+                     </Code>
+                     <Code value="231">
+                        <Description xml:lang="en">Motor Vehicle and Motor Vehicle Part Manufacturing</Description>
+                        <Description xml:lang="fr">Motor Vehicle and Motor Vehicle Part Manufacturing</Description>
+                     </Code>
+                     <Code value="239">
+                        <Description xml:lang="en">Other Transport Equipment Manufacturing</Description>
+                        <Description xml:lang="fr">Other Transport Equipment Manufacturing</Description>
+                     </Code>
+                     <Code value="241">
+                        <Description xml:lang="en">Professional and Scientific Equipment Manufacturing</Description>
+                        <Description xml:lang="fr">Professional and Scientific Equipment Manufacturing</Description>
+                     </Code>
+                     <Code value="242">
+                        <Description xml:lang="en">Computer and Electronic Equipment Manufacturing</Description>
+                        <Description xml:lang="fr">Computer and Electronic Equipment Manufacturing</Description>
+                     </Code>
+                     <Code value="243">
+                        <Description xml:lang="en">Electrical Equipment Manufacturing</Description>
+                        <Description xml:lang="fr">Electrical Equipment Manufacturing</Description>
+                     </Code>
+                     <Code value="244">
+                        <Description xml:lang="en">Domestic Appliance Manufacturing</Description>
+                        <Description xml:lang="fr">Domestic Appliance Manufacturing</Description>
+                     </Code>
+                     <Code value="245">
+                        <Description xml:lang="en">Pump, Compressor, Heating and Ventilation Equipment Manufacturing</Description>
+                        <Description xml:lang="fr">Pump, Compressor, Heating and Ventilation Equipment Manufacturing</Description>
+                     </Code>
+                     <Code value="246">
+                        <Description xml:lang="en">Specialised Machinery and Equipment Manufacturing</Description>
+                        <Description xml:lang="fr">Specialised Machinery and Equipment Manufacturing</Description>
+                     </Code>
+                     <Code value="249">
+                        <Description xml:lang="en">Other Machinery and Equipment Manufacturing</Description>
+                        <Description xml:lang="fr">Other Machinery and Equipment Manufacturing</Description>
+                     </Code>
+                     <Code value="25">
+                        <Description xml:lang="en">Furniture and Other Manufacturing</Description>
+                        <Description xml:lang="fr">Furniture and Other Manufacturing</Description>
+                     </Code>
+                     <Code value="26-28">
+                        <Description xml:lang="en">Electricity supply; gas supply; and water supply, sewerage and drainage services</Description>
+                        <Description xml:lang="fr">Electricity supply; gas supply; and water supply, sewerage and drainage services</Description>
+                     </Code>
+                     <Code value="30">
+                        <Description xml:lang="en">Building Construction</Description>
+                        <Description xml:lang="fr">Building Construction</Description>
+                     </Code>
+                     <Code value="3101">
+                        <Description xml:lang="en">Road and Bridge Construction</Description>
+                        <Description xml:lang="fr">Road and Bridge Construction</Description>
+                     </Code>
+                     <Code value="440">
+                        <Description xml:lang="en">Accommodation</Description>
+                        <Description xml:lang="fr">Accommodation</Description>
+                     </Code>
+                     <Code value="451">
+                        <Description xml:lang="en">Cafes, Restaurants and Takeaway Food Services</Description>
+                        <Description xml:lang="fr">Cafes, Restaurants and Takeaway Food Services</Description>
+                     </Code>
+                     <Code value="461">
+                        <Description xml:lang="en">Road Freight Transport</Description>
+                        <Description xml:lang="fr">Road Freight Transport</Description>
+                     </Code>
+                     <Code value="471">
+                        <Description xml:lang="en">Rail Freight Transport</Description>
+                        <Description xml:lang="fr">Rail Freight Transport</Description>
+                     </Code>
+                     <Code value="481">
+                        <Description xml:lang="en">Water Freight Transport</Description>
+                        <Description xml:lang="fr">Water Freight Transport</Description>
+                     </Code>
+                     <Code value="530">
+                        <Description xml:lang="en">Warehousing and Storage Services</Description>
+                        <Description xml:lang="fr">Warehousing and Storage Services</Description>
+                     </Code>
+                     <Code value="541">
+                        <Description xml:lang="en">Newspaper, Periodical, Book and Directory Publishing</Description>
+                        <Description xml:lang="fr">Newspaper, Periodical, Book and Directory Publishing</Description>
+                     </Code>
+                     <Code value="592">
+                        <Description xml:lang="en">Data Processing, Web Hosting and Electronic Information Storage Services</Description>
+                        <Description xml:lang="fr">Data Processing, Web Hosting and Electronic Information Storage Services</Description>
+                     </Code>
+                     <Code value="66">
+                        <Description xml:lang="en">Rental and Hiring Services (except Real Estate)</Description>
+                        <Description xml:lang="fr">Rental and Hiring Services (except Real Estate)</Description>
+                     </Code>
+                     <Code value="672">
+                        <Description xml:lang="en">Real Estate Services</Description>
+                        <Description xml:lang="fr">Real Estate Services</Description>
+                     </Code>
+                     <Code value="692">
+                        <Description xml:lang="en">Architectural, Engineering and Technical Services</Description>
+                        <Description xml:lang="fr">Architectural, Engineering and Technical Services</Description>
+                     </Code>
+                     <Code value="693">
+                        <Description xml:lang="en">Legal and Accounting Services</Description>
+                        <Description xml:lang="fr">Legal and Accounting Services</Description>
+                     </Code>
+                     <Code value="695">
+                        <Description xml:lang="en">Market Research and Statistical Services</Description>
+                        <Description xml:lang="fr">Market Research and Statistical Services</Description>
+                     </Code>
+                     <Code value="697">
+                        <Description xml:lang="en">Veterinary Services</Description>
+                        <Description xml:lang="fr">Veterinary Services</Description>
+                     </Code>
+                     <Code value="700">
+                        <Description xml:lang="en">Computer System Design and Related Services</Description>
+                        <Description xml:lang="fr">Computer System Design and Related Services</Description>
+                     </Code>
+                     <Code value="721">
+                        <Description xml:lang="en">Employment Services</Description>
+                        <Description xml:lang="fr">Employment Services</Description>
+                     </Code>
+                     <Code value="729">
+                        <Description xml:lang="en">Other Administrative Services</Description>
+                        <Description xml:lang="fr">Other Administrative Services</Description>
+                     </Code>
+                     <Code value="T">
+                        <Description xml:lang="en">Total</Description>
+                        <Description xml:lang="fr">Total</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_STAGE" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_STAGE codelist</Name>
+                     <Code value="ONE">
+                        <Description xml:lang="en">Preliminary Demand</Description>
+                        <Description xml:lang="fr">Preliminary Demand</Description>
+                     </Code>
+                     <Code value="TWO">
+                        <Description xml:lang="en">Intermediate Demand</Description>
+                        <Description xml:lang="fr">Intermediate Demand</Description>
+                     </Code>
+                     <Code value="THREE">
+                        <Description xml:lang="en">Final Demand</Description>
+                        <Description xml:lang="fr">Final Demand</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_SOURCE" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_SOURCE codelist</Name>
+                     <Code value="TOT">
+                        <Description xml:lang="en">Total</Description>
+                        <Description xml:lang="fr">Total</Description>
+                     </Code>
+                     <Code value="DOM" parentCode="TOT">
+                        <Description xml:lang="en">Domestic</Description>
+                        <Description xml:lang="fr">Domestic</Description>
+                     </Code>
+                     <Code value="IMP" parentCode="TOT">
+                        <Description xml:lang="en">Imports</Description>
+                        <Description xml:lang="fr">Imports</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_DESTINATION" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_DESTINATION codelist</Name>
+                     <Code value="TOTIE">
+                        <Description xml:lang="en">Total (incl. exports)</Description>
+                        <Description xml:lang="fr">Total (incl. exports)</Description>
+                     </Code>
+                     <Code value="EXP" parentCode="TOTIE">
+                        <Description xml:lang="en">Exports</Description>
+                        <Description xml:lang="fr">Exports</Description>
+                     </Code>
+                     <Code value="TOTXE" parentCode="TOTIE">
+                        <Description xml:lang="en">Total (excl. exports)</Description>
+                        <Description xml:lang="fr">Total (excl. exports)</Description>
+                     </Code>
+                     <Code value="CON" parentCode="TOTXE">
+                        <Description xml:lang="en">Consumer</Description>
+                        <Description xml:lang="fr">Consumer</Description>
+                     </Code>
+                     <Code value="KAP" parentCode="TOTXE">
+                        <Description xml:lang="en">Capital</Description>
+                        <Description xml:lang="fr">Capital</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_FREQUENCY codelist</Name>
+                     <Code value="Q">
+                        <Description xml:lang="en">Quarterly</Description>
+                        <Description xml:lang="fr">Trimestrielle</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_TIME" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_TIME codelist</Name>
+                     <Code value="1997">
+                        <Description xml:lang="en">1997</Description>
+                        <Description xml:lang="fr">1997</Description>
+                     </Code>
+                     <Code value="1997-B2" parentCode="1997">
+                        <Description xml:lang="en">S2-1997</Description>
+                        <Description xml:lang="fr">S2-1997</Description>
+                     </Code>
+                     <Code value="1997-Q3" parentCode="1997-B2">
+                        <Description xml:lang="en">Sep-1997</Description>
+                        <Description xml:lang="fr">Sept 1997</Description>
+                     </Code>
+                     <Code value="1997-Q4" parentCode="1997-B2">
+                        <Description xml:lang="en">Dec-1997</Description>
+                        <Description xml:lang="fr">Déc 1997</Description>
+                     </Code>
+                     <Code value="1998">
+                        <Description xml:lang="en">1998</Description>
+                        <Description xml:lang="fr">1998</Description>
+                     </Code>
+                     <Code value="1998-B1" parentCode="1998">
+                        <Description xml:lang="en">S1-1998</Description>
+                        <Description xml:lang="fr">S1-1998</Description>
+                     </Code>
+                     <Code value="1998-Q1" parentCode="1998-B1">
+                        <Description xml:lang="en">Mar-1998</Description>
+                        <Description xml:lang="fr">Mars 1998</Description>
+                     </Code>
+                     <Code value="1998-Q2" parentCode="1998-B1">
+                        <Description xml:lang="en">Jun-1998</Description>
+                        <Description xml:lang="fr">Juin 1998</Description>
+                     </Code>
+                     <Code value="1998-B2" parentCode="1998">
+                        <Description xml:lang="en">S2-1998</Description>
+                        <Description xml:lang="fr">S2-1998</Description>
+                     </Code>
+                     <Code value="1998-Q3" parentCode="1998-B2">
+                        <Description xml:lang="en">Sep-1998</Description>
+                        <Description xml:lang="fr">Sept 1998</Description>
+                     </Code>
+                     <Code value="1998-Q4" parentCode="1998-B2">
+                        <Description xml:lang="en">Dec-1998</Description>
+                        <Description xml:lang="fr">Déc 1998</Description>
+                     </Code>
+                     <Code value="1999">
+                        <Description xml:lang="en">1999</Description>
+                        <Description xml:lang="fr">1999</Description>
+                     </Code>
+                     <Code value="1999-B1" parentCode="1999">
+                        <Description xml:lang="en">S1-1999</Description>
+                        <Description xml:lang="fr">S1-1999</Description>
+                     </Code>
+                     <Code value="1999-Q1" parentCode="1999-B1">
+                        <Description xml:lang="en">Mar-1999</Description>
+                        <Description xml:lang="fr">Mars 1999</Description>
+                     </Code>
+                     <Code value="1999-Q2" parentCode="1999-B1">
+                        <Description xml:lang="en">Jun-1999</Description>
+                        <Description xml:lang="fr">Juin 1999</Description>
+                     </Code>
+                     <Code value="1999-B2" parentCode="1999">
+                        <Description xml:lang="en">S2-1999</Description>
+                        <Description xml:lang="fr">S2-1999</Description>
+                     </Code>
+                     <Code value="1999-Q3" parentCode="1999-B2">
+                        <Description xml:lang="en">Sep-1999</Description>
+                        <Description xml:lang="fr">Sept 1999</Description>
+                     </Code>
+                     <Code value="1999-Q4" parentCode="1999-B2">
+                        <Description xml:lang="en">Dec-1999</Description>
+                        <Description xml:lang="fr">Déc 1999</Description>
+                     </Code>
+                     <Code value="2000">
+                        <Description xml:lang="en">2000</Description>
+                        <Description xml:lang="fr">2000</Description>
+                     </Code>
+                     <Code value="2000-B1" parentCode="2000">
+                        <Description xml:lang="en">S1-2000</Description>
+                        <Description xml:lang="fr">S1-2000</Description>
+                     </Code>
+                     <Code value="2000-Q1" parentCode="2000-B1">
+                        <Description xml:lang="en">Mar-2000</Description>
+                        <Description xml:lang="fr">Mars 2000</Description>
+                     </Code>
+                     <Code value="2000-Q2" parentCode="2000-B1">
+                        <Description xml:lang="en">Jun-2000</Description>
+                        <Description xml:lang="fr">Juin 2000</Description>
+                     </Code>
+                     <Code value="2000-B2" parentCode="2000">
+                        <Description xml:lang="en">S2-2000</Description>
+                        <Description xml:lang="fr">S2-2000</Description>
+                     </Code>
+                     <Code value="2000-Q3" parentCode="2000-B2">
+                        <Description xml:lang="en">Sep-2000</Description>
+                        <Description xml:lang="fr">Sept 2000</Description>
+                     </Code>
+                     <Code value="2000-Q4" parentCode="2000-B2">
+                        <Description xml:lang="en">Dec-2000</Description>
+                        <Description xml:lang="fr">Déc 2000</Description>
+                     </Code>
+                     <Code value="2001">
+                        <Description xml:lang="en">2001</Description>
+                        <Description xml:lang="fr">2001</Description>
+                     </Code>
+                     <Code value="2001-B1" parentCode="2001">
+                        <Description xml:lang="en">S1-2001</Description>
+                        <Description xml:lang="fr">S1-2001</Description>
+                     </Code>
+                     <Code value="2001-Q1" parentCode="2001-B1">
+                        <Description xml:lang="en">Mar-2001</Description>
+                        <Description xml:lang="fr">Mars 2001</Description>
+                     </Code>
+                     <Code value="2001-Q2" parentCode="2001-B1">
+                        <Description xml:lang="en">Jun-2001</Description>
+                        <Description xml:lang="fr">Juin 2001</Description>
+                     </Code>
+                     <Code value="2001-B2" parentCode="2001">
+                        <Description xml:lang="en">S2-2001</Description>
+                        <Description xml:lang="fr">S2-2001</Description>
+                     </Code>
+                     <Code value="2001-Q3" parentCode="2001-B2">
+                        <Description xml:lang="en">Sep-2001</Description>
+                        <Description xml:lang="fr">Sept 2001</Description>
+                     </Code>
+                     <Code value="2001-Q4" parentCode="2001-B2">
+                        <Description xml:lang="en">Dec-2001</Description>
+                        <Description xml:lang="fr">Déc 2001</Description>
+                     </Code>
+                     <Code value="2002">
+                        <Description xml:lang="en">2002</Description>
+                        <Description xml:lang="fr">2002</Description>
+                     </Code>
+                     <Code value="2002-B1" parentCode="2002">
+                        <Description xml:lang="en">S1-2002</Description>
+                        <Description xml:lang="fr">S1-2002</Description>
+                     </Code>
+                     <Code value="2002-Q1" parentCode="2002-B1">
+                        <Description xml:lang="en">Mar-2002</Description>
+                        <Description xml:lang="fr">Mars 2002</Description>
+                     </Code>
+                     <Code value="2002-Q2" parentCode="2002-B1">
+                        <Description xml:lang="en">Jun-2002</Description>
+                        <Description xml:lang="fr">Juin 2002</Description>
+                     </Code>
+                     <Code value="2002-B2" parentCode="2002">
+                        <Description xml:lang="en">S2-2002</Description>
+                        <Description xml:lang="fr">S2-2002</Description>
+                     </Code>
+                     <Code value="2002-Q3" parentCode="2002-B2">
+                        <Description xml:lang="en">Sep-2002</Description>
+                        <Description xml:lang="fr">Sept 2002</Description>
+                     </Code>
+                     <Code value="2002-Q4" parentCode="2002-B2">
+                        <Description xml:lang="en">Dec-2002</Description>
+                        <Description xml:lang="fr">Déc 2002</Description>
+                     </Code>
+                     <Code value="2003">
+                        <Description xml:lang="en">2003</Description>
+                        <Description xml:lang="fr">2003</Description>
+                     </Code>
+                     <Code value="2003-B1" parentCode="2003">
+                        <Description xml:lang="en">S1-2003</Description>
+                        <Description xml:lang="fr">S1-2003</Description>
+                     </Code>
+                     <Code value="2003-Q1" parentCode="2003-B1">
+                        <Description xml:lang="en">Mar-2003</Description>
+                        <Description xml:lang="fr">Mars 2003</Description>
+                     </Code>
+                     <Code value="2003-Q2" parentCode="2003-B1">
+                        <Description xml:lang="en">Jun-2003</Description>
+                        <Description xml:lang="fr">Juin 2003</Description>
+                     </Code>
+                     <Code value="2003-B2" parentCode="2003">
+                        <Description xml:lang="en">S2-2003</Description>
+                        <Description xml:lang="fr">S2-2003</Description>
+                     </Code>
+                     <Code value="2003-Q3" parentCode="2003-B2">
+                        <Description xml:lang="en">Sep-2003</Description>
+                        <Description xml:lang="fr">Sept 2003</Description>
+                     </Code>
+                     <Code value="2003-Q4" parentCode="2003-B2">
+                        <Description xml:lang="en">Dec-2003</Description>
+                        <Description xml:lang="fr">Déc 2003</Description>
+                     </Code>
+                     <Code value="2004">
+                        <Description xml:lang="en">2004</Description>
+                        <Description xml:lang="fr">2004</Description>
+                     </Code>
+                     <Code value="2004-B1" parentCode="2004">
+                        <Description xml:lang="en">S1-2004</Description>
+                        <Description xml:lang="fr">S1-2004</Description>
+                     </Code>
+                     <Code value="2004-Q1" parentCode="2004-B1">
+                        <Description xml:lang="en">Mar-2004</Description>
+                        <Description xml:lang="fr">Mars 2004</Description>
+                     </Code>
+                     <Code value="2004-Q2" parentCode="2004-B1">
+                        <Description xml:lang="en">Jun-2004</Description>
+                        <Description xml:lang="fr">Juin 2004</Description>
+                     </Code>
+                     <Code value="2004-B2" parentCode="2004">
+                        <Description xml:lang="en">S2-2004</Description>
+                        <Description xml:lang="fr">S2-2004</Description>
+                     </Code>
+                     <Code value="2004-Q3" parentCode="2004-B2">
+                        <Description xml:lang="en">Sep-2004</Description>
+                        <Description xml:lang="fr">Sept 2004</Description>
+                     </Code>
+                     <Code value="2004-Q4" parentCode="2004-B2">
+                        <Description xml:lang="en">Dec-2004</Description>
+                        <Description xml:lang="fr">Déc 2004</Description>
+                     </Code>
+                     <Code value="2005">
+                        <Description xml:lang="en">2005</Description>
+                        <Description xml:lang="fr">2005</Description>
+                     </Code>
+                     <Code value="2005-B1" parentCode="2005">
+                        <Description xml:lang="en">S1-2005</Description>
+                        <Description xml:lang="fr">S1-2005</Description>
+                     </Code>
+                     <Code value="2005-Q1" parentCode="2005-B1">
+                        <Description xml:lang="en">Mar-2005</Description>
+                        <Description xml:lang="fr">Mars 2005</Description>
+                     </Code>
+                     <Code value="2005-Q2" parentCode="2005-B1">
+                        <Description xml:lang="en">Jun-2005</Description>
+                        <Description xml:lang="fr">Juin 2005</Description>
+                     </Code>
+                     <Code value="2005-B2" parentCode="2005">
+                        <Description xml:lang="en">S2-2005</Description>
+                        <Description xml:lang="fr">S2-2005</Description>
+                     </Code>
+                     <Code value="2005-Q3" parentCode="2005-B2">
+                        <Description xml:lang="en">Sep-2005</Description>
+                        <Description xml:lang="fr">Sept 2005</Description>
+                     </Code>
+                     <Code value="2005-Q4" parentCode="2005-B2">
+                        <Description xml:lang="en">Dec-2005</Description>
+                        <Description xml:lang="fr">Déc 2005</Description>
+                     </Code>
+                     <Code value="2006">
+                        <Description xml:lang="en">2006</Description>
+                        <Description xml:lang="fr">2006</Description>
+                     </Code>
+                     <Code value="2006-B1" parentCode="2006">
+                        <Description xml:lang="en">S1-2006</Description>
+                        <Description xml:lang="fr">S1-2006</Description>
+                     </Code>
+                     <Code value="2006-Q1" parentCode="2006-B1">
+                        <Description xml:lang="en">Mar-2006</Description>
+                        <Description xml:lang="fr">Mars 2006</Description>
+                     </Code>
+                     <Code value="2006-Q2" parentCode="2006-B1">
+                        <Description xml:lang="en">Jun-2006</Description>
+                        <Description xml:lang="fr">Juin 2006</Description>
+                     </Code>
+                     <Code value="2006-B2" parentCode="2006">
+                        <Description xml:lang="en">S2-2006</Description>
+                        <Description xml:lang="fr">S2-2006</Description>
+                     </Code>
+                     <Code value="2006-Q3" parentCode="2006-B2">
+                        <Description xml:lang="en">Sep-2006</Description>
+                        <Description xml:lang="fr">Sept 2006</Description>
+                     </Code>
+                     <Code value="2006-Q4" parentCode="2006-B2">
+                        <Description xml:lang="en">Dec-2006</Description>
+                        <Description xml:lang="fr">Déc 2006</Description>
+                     </Code>
+                     <Code value="2007">
+                        <Description xml:lang="en">2007</Description>
+                        <Description xml:lang="fr">2007</Description>
+                     </Code>
+                     <Code value="2007-B1" parentCode="2007">
+                        <Description xml:lang="en">S1-2007</Description>
+                        <Description xml:lang="fr">S1-2007</Description>
+                     </Code>
+                     <Code value="2007-Q1" parentCode="2007-B1">
+                        <Description xml:lang="en">Mar-2007</Description>
+                        <Description xml:lang="fr">Mars 2007</Description>
+                     </Code>
+                     <Code value="2007-Q2" parentCode="2007-B1">
+                        <Description xml:lang="en">Jun-2007</Description>
+                        <Description xml:lang="fr">Juin 2007</Description>
+                     </Code>
+                     <Code value="2007-B2" parentCode="2007">
+                        <Description xml:lang="en">S2-2007</Description>
+                        <Description xml:lang="fr">S2-2007</Description>
+                     </Code>
+                     <Code value="2007-Q3" parentCode="2007-B2">
+                        <Description xml:lang="en">Sep-2007</Description>
+                        <Description xml:lang="fr">Sept 2007</Description>
+                     </Code>
+                     <Code value="2007-Q4" parentCode="2007-B2">
+                        <Description xml:lang="en">Dec-2007</Description>
+                        <Description xml:lang="fr">Déc 2007</Description>
+                     </Code>
+                     <Code value="2008">
+                        <Description xml:lang="en">2008</Description>
+                        <Description xml:lang="fr">2008</Description>
+                     </Code>
+                     <Code value="2008-B1" parentCode="2008">
+                        <Description xml:lang="en">S1-2008</Description>
+                        <Description xml:lang="fr">S1-2008</Description>
+                     </Code>
+                     <Code value="2008-Q1" parentCode="2008-B1">
+                        <Description xml:lang="en">Mar-2008</Description>
+                        <Description xml:lang="fr">Mars 2008</Description>
+                     </Code>
+                     <Code value="2008-Q2" parentCode="2008-B1">
+                        <Description xml:lang="en">Jun-2008</Description>
+                        <Description xml:lang="fr">Juin 2008</Description>
+                     </Code>
+                     <Code value="2008-B2" parentCode="2008">
+                        <Description xml:lang="en">S2-2008</Description>
+                        <Description xml:lang="fr">S2-2008</Description>
+                     </Code>
+                     <Code value="2008-Q3" parentCode="2008-B2">
+                        <Description xml:lang="en">Sep-2008</Description>
+                        <Description xml:lang="fr">Sept 2008</Description>
+                     </Code>
+                     <Code value="2008-Q4" parentCode="2008-B2">
+                        <Description xml:lang="en">Dec-2008</Description>
+                        <Description xml:lang="fr">Déc 2008</Description>
+                     </Code>
+                     <Code value="2009">
+                        <Description xml:lang="en">2009</Description>
+                        <Description xml:lang="fr">2009</Description>
+                     </Code>
+                     <Code value="2009-B1" parentCode="2009">
+                        <Description xml:lang="en">S1-2009</Description>
+                        <Description xml:lang="fr">S1-2009</Description>
+                     </Code>
+                     <Code value="2009-Q1" parentCode="2009-B1">
+                        <Description xml:lang="en">Mar-2009</Description>
+                        <Description xml:lang="fr">Mars 2009</Description>
+                     </Code>
+                     <Code value="2009-Q2" parentCode="2009-B1">
+                        <Description xml:lang="en">Jun-2009</Description>
+                        <Description xml:lang="fr">Juin 2009</Description>
+                     </Code>
+                     <Code value="2009-B2" parentCode="2009">
+                        <Description xml:lang="en">S2-2009</Description>
+                        <Description xml:lang="fr">S2-2009</Description>
+                     </Code>
+                     <Code value="2009-Q3" parentCode="2009-B2">
+                        <Description xml:lang="en">Sep-2009</Description>
+                        <Description xml:lang="fr">Sept 2009</Description>
+                     </Code>
+                     <Code value="2009-Q4" parentCode="2009-B2">
+                        <Description xml:lang="en">Dec-2009</Description>
+                        <Description xml:lang="fr">Déc 2009</Description>
+                     </Code>
+                     <Code value="2010">
+                        <Description xml:lang="en">2010</Description>
+                        <Description xml:lang="fr">2010</Description>
+                     </Code>
+                     <Code value="2010-B1" parentCode="2010">
+                        <Description xml:lang="en">S1-2010</Description>
+                        <Description xml:lang="fr">S1-2010</Description>
+                     </Code>
+                     <Code value="2010-Q1" parentCode="2010-B1">
+                        <Description xml:lang="en">Mar-2010</Description>
+                        <Description xml:lang="fr">Mars 2010</Description>
+                     </Code>
+                     <Code value="2010-Q2" parentCode="2010-B1">
+                        <Description xml:lang="en">Jun-2010</Description>
+                        <Description xml:lang="fr">Juin 2010</Description>
+                     </Code>
+                     <Code value="2010-B2" parentCode="2010">
+                        <Description xml:lang="en">S2-2010</Description>
+                        <Description xml:lang="fr">S2-2010</Description>
+                     </Code>
+                     <Code value="2010-Q3" parentCode="2010-B2">
+                        <Description xml:lang="en">Sep-2010</Description>
+                        <Description xml:lang="fr">Sept 2010</Description>
+                     </Code>
+                     <Code value="2010-Q4" parentCode="2010-B2">
+                        <Description xml:lang="en">Dec-2010</Description>
+                        <Description xml:lang="fr">Déc 2010</Description>
+                     </Code>
+                     <Code value="2011">
+                        <Description xml:lang="en">2011</Description>
+                        <Description xml:lang="fr">2011</Description>
+                     </Code>
+                     <Code value="2011-B1" parentCode="2011">
+                        <Description xml:lang="en">S1-2011</Description>
+                        <Description xml:lang="fr">S1-2011</Description>
+                     </Code>
+                     <Code value="2011-Q1" parentCode="2011-B1">
+                        <Description xml:lang="en">Mar-2011</Description>
+                        <Description xml:lang="fr">Mars 2011</Description>
+                     </Code>
+                     <Code value="2011-Q2" parentCode="2011-B1">
+                        <Description xml:lang="en">Jun-2011</Description>
+                        <Description xml:lang="fr">Juin 2011</Description>
+                     </Code>
+                     <Code value="2011-B2" parentCode="2011">
+                        <Description xml:lang="en">S2-2011</Description>
+                        <Description xml:lang="fr">S2-2011</Description>
+                     </Code>
+                     <Code value="2011-Q3" parentCode="2011-B2">
+                        <Description xml:lang="en">Sep-2011</Description>
+                        <Description xml:lang="fr">Sept 2011</Description>
+                     </Code>
+                     <Code value="2011-Q4" parentCode="2011-B2">
+                        <Description xml:lang="en">Dec-2011</Description>
+                        <Description xml:lang="fr">Déc 2011</Description>
+                     </Code>
+                     <Code value="2012">
+                        <Description xml:lang="en">2012</Description>
+                        <Description xml:lang="fr">2012</Description>
+                     </Code>
+                     <Code value="2012-B1" parentCode="2012">
+                        <Description xml:lang="en">S1-2012</Description>
+                        <Description xml:lang="fr">S1-2012</Description>
+                     </Code>
+                     <Code value="2012-Q1" parentCode="2012-B1">
+                        <Description xml:lang="en">Mar-2012</Description>
+                        <Description xml:lang="fr">Mars 2012</Description>
+                     </Code>
+                     <Code value="2012-Q2" parentCode="2012-B1">
+                        <Description xml:lang="en">Jun-2012</Description>
+                        <Description xml:lang="fr">Juin 2012</Description>
+                     </Code>
+                     <Code value="2012-B2" parentCode="2012">
+                        <Description xml:lang="en">S2-2012</Description>
+                        <Description xml:lang="fr">S2-2012</Description>
+                     </Code>
+                     <Code value="2012-Q3" parentCode="2012-B2">
+                        <Description xml:lang="en">Sep-2012</Description>
+                        <Description xml:lang="fr">Sept 2012</Description>
+                     </Code>
+                     <Code value="2012-Q4" parentCode="2012-B2">
+                        <Description xml:lang="en">Dec-2012</Description>
+                        <Description xml:lang="fr">Déc 2012</Description>
+                     </Code>
+                     <Code value="2013">
+                        <Description xml:lang="en">2013</Description>
+                        <Description xml:lang="fr">2013</Description>
+                     </Code>
+                     <Code value="2013-B1" parentCode="2013">
+                        <Description xml:lang="en">S1-2013</Description>
+                        <Description xml:lang="fr">S1-2013</Description>
+                     </Code>
+                     <Code value="2013-Q1" parentCode="2013-B1">
+                        <Description xml:lang="en">Mar-2013</Description>
+                        <Description xml:lang="fr">Mars 2013</Description>
+                     </Code>
+                  </CodeList>
+                  <CodeList id="CL_PPI_SOP_TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">PPI_SOP_TIME_FORMAT codelist</Name>
+                     <Code value="P1Y">
+                        <Description xml:lang="en">Annual</Description>
+                        <Description xml:lang="fr">Annual</Description>
+                     </Code>
+                     <Code value="P1M">
+                        <Description xml:lang="en">Monthly</Description>
+                        <Description xml:lang="fr">Monthly</Description>
+                     </Code>
+                     <Code value="P3M">
+                        <Description xml:lang="en">Quarterly</Description>
+                        <Description xml:lang="fr">Quarterly</Description>
+                     </Code>
+                     <Code value="P6M">
+                        <Description xml:lang="en">Half-yearly</Description>
+                        <Description xml:lang="fr">Half-yearly</Description>
+                     </Code>
+                  </CodeList>
+               </message:CodeLists>
+               <message:Concepts>
+                  <Concept id="MEASURE" agencyID="ABS">
+                     <Name xml:lang="en">Measure</Name>
+                     <Name xml:lang="fr">Measure</Name>
+                  </Concept>
+                  <Concept id="INDEX" agencyID="ABS">
+                     <Name xml:lang="en">Index</Name>
+                     <Name xml:lang="fr">Index</Name>
+                  </Concept>
+                  <Concept id="STAGE" agencyID="ABS">
+                     <Name xml:lang="en">Stage of Production</Name>
+                     <Name xml:lang="fr">Stage of Production</Name>
+                  </Concept>
+                  <Concept id="SOURCE" agencyID="ABS">
+                     <Name xml:lang="en">Source</Name>
+                     <Name xml:lang="fr">Source</Name>
+                  </Concept>
+                  <Concept id="DESTINATION" agencyID="ABS">
+                     <Name xml:lang="en">Destination</Name>
+                     <Name xml:lang="fr">Destination</Name>
+                  </Concept>
+                  <Concept id="FREQUENCY" agencyID="ABS">
+                     <Name xml:lang="en">Frequency</Name>
+                     <Name xml:lang="fr">Fr�quence</Name>
+                  </Concept>
+                  <Concept id="TIME" agencyID="ABS">
+                     <Name xml:lang="en">Time</Name>
+                     <Name xml:lang="fr">Temps</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time format</Name>
+                     <Name xml:lang="fr">Time format</Name>
+                  </Concept>
+                  <Concept id="OBS_STATUS" agencyID="ABS">
+                     <Name xml:lang="en">Observation Status</Name>
+                     <Name xml:lang="fr">Statut d'observation</Name>
+                  </Concept>
+                  <Concept id="TIME_FORMAT" agencyID="ABS">
+                     <Name xml:lang="en">Time Format</Name>
+                     <Name xml:lang="fr">Format de l'heure</Name>
+                  </Concept>
+                  <Concept id="OBS_VALUE" agencyID="OECD">
+                     <Name xml:lang="en">Observation Value</Name>
+                     <Name xml:lang="fr">Valeur d'observation</Name>
+                  </Concept>
+               </message:Concepts>
+               <message:KeyFamilies>
+                  <KeyFamily id="PPI_SOP" agencyID="ABS">
+                     <Name xml:lang="en">Producer Price Index - Stage of Production</Name>
+                     <Name xml:lang="fr">Producer Price Index - Stage of Production</Name>
+                     <Components>
+                        <Dimension conceptRef="MEASURE" codelist="CL_PPI_SOP_MEASURE" isMeasureDimension="true"/>
+                        <Dimension conceptRef="INDEX" codelist="CL_PPI_SOP_INDEX"/>
+                        <Dimension conceptRef="STAGE" codelist="CL_PPI_SOP_STAGE"/>
+                        <Dimension conceptRef="SOURCE" codelist="CL_PPI_SOP_SOURCE"/>
+                        <Dimension conceptRef="DESTINATION" codelist="CL_PPI_SOP_DESTINATION"/>
+                        <Dimension conceptRef="FREQUENCY" codelist="CL_PPI_SOP_FREQUENCY" isFrequencyDimension="true"/>
+                        <TimeDimension conceptRef="TIME" codelist="CL_PPI_SOP_TIME"/>
+                        <PrimaryMeasure conceptRef="OBS_VALUE">
+                           <TextFormat textType="Double"/>
+                        </PrimaryMeasure>
+                        <Attribute conceptRef="OBS_STATUS" codelist="CL_PPI_SOP_OBS_STATUS" attachmentLevel="Observation" assignmentStatus="Conditional"/>
+                        <Attribute conceptRef="TIME_FORMAT" codelist="CL_PPI_SOP_TIME_FORMAT" attachmentLevel="Series" assignmentStatus="Conditional" isTimeFormat="true"/>
+                     </Components>
+                  </KeyFamily>
+               </message:KeyFamilies>
+            </message:Structure>

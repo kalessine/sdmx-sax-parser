@@ -1,0 +1,2967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:Structure xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure">
+  <mes:Header>
+    <mes:ID>none</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2013-06-23T02:54:40.000Z</mes:Prepared>
+    <mes:Sender id="IMF">
+      <com:Name xml:lang="en">International Monetary Fund</com:Name>
+    </mes:Sender>
+    <mes:Receiver id="unknown"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:Codelists>
+      <str:Codelist id="CL_AREA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_AREA(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">REF_AREA codelist</com:Name>
+        <str:Code id="COU" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).COU">
+          <com:Name xml:lang="en">Countries and Entities</com:Name>
+        </str:Code>
+        <str:Code id="512" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).512">
+          <com:Name xml:lang="en">Afghanistan, Islamic Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="914" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).914">
+          <com:Name xml:lang="en">Albania</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="612" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).612">
+          <com:Name xml:lang="en">Algeria</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="614" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).614">
+          <com:Name xml:lang="en">Angola</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="312" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).312">
+          <com:Name xml:lang="en">Anguilla</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="311" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).311">
+          <com:Name xml:lang="en">Antigua and Barbuda</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="213" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).213">
+          <com:Name xml:lang="en">Argentina</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="911" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).911">
+          <com:Name xml:lang="en">Armenia, Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="314" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).314">
+          <com:Name xml:lang="en">Aruba</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="193" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).193">
+          <com:Name xml:lang="en">Australia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="122" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).122">
+          <com:Name xml:lang="en">Austria</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="912" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).912">
+          <com:Name xml:lang="en">Azerbaijan, Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="313" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).313">
+          <com:Name xml:lang="en">Bahamas, The</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="419" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).419">
+          <com:Name xml:lang="en">Bahrain, Kingdom of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="513" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).513">
+          <com:Name xml:lang="en">Bangladesh</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="316" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).316">
+          <com:Name xml:lang="en">Barbados</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="913" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).913">
+          <com:Name xml:lang="en">Belarus</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="124" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).124">
+          <com:Name xml:lang="en">Belgium</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="339" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).339">
+          <com:Name xml:lang="en">Belize</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="638" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).638">
+          <com:Name xml:lang="en">Benin</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="319" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).319">
+          <com:Name xml:lang="en">Bermuda</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="514" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).514">
+          <com:Name xml:lang="en">Bhutan</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="218" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).218">
+          <com:Name xml:lang="en">Bolivia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="963" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).963">
+          <com:Name xml:lang="en">Bosnia and Herzegovina</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="616" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).616">
+          <com:Name xml:lang="en">Botswana</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="223" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).223">
+          <com:Name xml:lang="en">Brazil</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="516" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).516">
+          <com:Name xml:lang="en">Brunei Darussalam</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="918" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).918">
+          <com:Name xml:lang="en">Bulgaria</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="748" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).748">
+          <com:Name xml:lang="en">Burkina Faso</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="618" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).618">
+          <com:Name xml:lang="en">Burundi</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="522" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).522">
+          <com:Name xml:lang="en">Cambodia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="622" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).622">
+          <com:Name xml:lang="en">Cameroon</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="156" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).156">
+          <com:Name xml:lang="en">Canada</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="624" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).624">
+          <com:Name xml:lang="en">Cape Verde</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="228" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).228">
+          <com:Name xml:lang="en">Chile</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="532" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).532">
+          <com:Name xml:lang="en">China, P.R.: Hong Kong</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="546" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).546">
+          <com:Name xml:lang="en">China, P.R.: Macao</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="924" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).924">
+          <com:Name xml:lang="en">China, P.R.: Mainland</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="233" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).233">
+          <com:Name xml:lang="en">Colombia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="636" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).636">
+          <com:Name xml:lang="en">Congo, Democratic Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="634" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).634">
+          <com:Name xml:lang="en">Congo, Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="238" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).238">
+          <com:Name xml:lang="en">Costa Rica</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="662" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).662">
+          <com:Name xml:lang="en">Cote d'Ivoire</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="960" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).960">
+          <com:Name xml:lang="en">Croatia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="354" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).354">
+          <com:Name xml:lang="en">Curacao</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="355" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).355">
+          <com:Name xml:lang="en">Curacao &amp; St. Maarten</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="423" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).423">
+          <com:Name xml:lang="en">Cyprus</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="935" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).935">
+          <com:Name xml:lang="en">Czech Republic</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="128" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).128">
+          <com:Name xml:lang="en">Denmark</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="611" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).611">
+          <com:Name xml:lang="en">Djibouti</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="321" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).321">
+          <com:Name xml:lang="en">Dominica</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="243" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).243">
+          <com:Name xml:lang="en">Dominican Republic</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="248" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).248">
+          <com:Name xml:lang="en">Ecuador</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="469" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).469">
+          <com:Name xml:lang="en">Egypt</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="253" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).253">
+          <com:Name xml:lang="en">El Salvador</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="939" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).939">
+          <com:Name xml:lang="en">Estonia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="644" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).644">
+          <com:Name xml:lang="en">Ethiopia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="163" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).163">
+          <com:Name xml:lang="en">Euro Area</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="816" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).816">
+          <com:Name xml:lang="en">Faroe Islands</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="819" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).819">
+          <com:Name xml:lang="en">Fiji</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="172" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).172">
+          <com:Name xml:lang="en">Finland</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="132" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).132">
+          <com:Name xml:lang="en">France</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="887" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).887">
+          <com:Name xml:lang="en">French Territories: French Polynesia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="839" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).839">
+          <com:Name xml:lang="en">French Territories: New Caledonia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="646" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).646">
+          <com:Name xml:lang="en">Gabon</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="648" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).648">
+          <com:Name xml:lang="en">Gambia, The</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="915" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).915">
+          <com:Name xml:lang="en">Georgia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="134" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).134">
+          <com:Name xml:lang="en">Germany</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="652" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).652">
+          <com:Name xml:lang="en">Ghana</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="174" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).174">
+          <com:Name xml:lang="en">Greece</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="328" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).328">
+          <com:Name xml:lang="en">Grenada</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="258" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).258">
+          <com:Name xml:lang="en">Guatemala</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="656" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).656">
+          <com:Name xml:lang="en">Guinea</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="654" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).654">
+          <com:Name xml:lang="en">Guinea-Bissau</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="336" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).336">
+          <com:Name xml:lang="en">Guyana</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="263" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).263">
+          <com:Name xml:lang="en">Haiti</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="268" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).268">
+          <com:Name xml:lang="en">Honduras</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="944" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).944">
+          <com:Name xml:lang="en">Hungary</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="176" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).176">
+          <com:Name xml:lang="en">Iceland</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="534" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).534">
+          <com:Name xml:lang="en">India</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="536" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).536">
+          <com:Name xml:lang="en">Indonesia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="433" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).433">
+          <com:Name xml:lang="en">Iraq</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="178" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).178">
+          <com:Name xml:lang="en">Ireland</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="436" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).436">
+          <com:Name xml:lang="en">Israel</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="136" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).136">
+          <com:Name xml:lang="en">Italy</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="343" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).343">
+          <com:Name xml:lang="en">Jamaica</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="158" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).158">
+          <com:Name xml:lang="en">Japan</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="439" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).439">
+          <com:Name xml:lang="en">Jordan</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="916" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).916">
+          <com:Name xml:lang="en">Kazakhstan</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="664" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).664">
+          <com:Name xml:lang="en">Kenya</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="542" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).542">
+          <com:Name xml:lang="en">Korea, Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="967" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).967">
+          <com:Name xml:lang="en">Kosovo, Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="443" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).443">
+          <com:Name xml:lang="en">Kuwait</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="917" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).917">
+          <com:Name xml:lang="en">Kyrgyz Republic</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="544" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).544">
+          <com:Name xml:lang="en">Lao People's Democratic Republic</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="941" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).941">
+          <com:Name xml:lang="en">Latvia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="446" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).446">
+          <com:Name xml:lang="en">Lebanon</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="666" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).666">
+          <com:Name xml:lang="en">Lesotho</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="668" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).668">
+          <com:Name xml:lang="en">Liberia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="672" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).672">
+          <com:Name xml:lang="en">Libya</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="946" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).946">
+          <com:Name xml:lang="en">Lithuania</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="137" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).137">
+          <com:Name xml:lang="en">Luxembourg</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="962" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).962">
+          <com:Name xml:lang="en">Macedonia, FYR</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="674" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).674">
+          <com:Name xml:lang="en">Madagascar</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="676" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).676">
+          <com:Name xml:lang="en">Malawi</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="548" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).548">
+          <com:Name xml:lang="en">Malaysia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="556" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).556">
+          <com:Name xml:lang="en">Maldives</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="678" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).678">
+          <com:Name xml:lang="en">Mali</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="181" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).181">
+          <com:Name xml:lang="en">Malta</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="684" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).684">
+          <com:Name xml:lang="en">Mauritius</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="273" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).273">
+          <com:Name xml:lang="en">Mexico</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="921" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).921">
+          <com:Name xml:lang="en">Moldova</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="948" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).948">
+          <com:Name xml:lang="en">Mongolia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="943" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).943">
+          <com:Name xml:lang="en">Montenegro</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="351" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).351">
+          <com:Name xml:lang="en">Montserrat</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="686" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).686">
+          <com:Name xml:lang="en">Morocco</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="688" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).688">
+          <com:Name xml:lang="en">Mozambique</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="518" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).518">
+          <com:Name xml:lang="en">Myanmar</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="728" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).728">
+          <com:Name xml:lang="en">Namibia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="558" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).558">
+          <com:Name xml:lang="en">Nepal</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="138" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).138">
+          <com:Name xml:lang="en">Netherlands</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="353" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).353">
+          <com:Name xml:lang="en">Netherlands Antilles</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="196" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).196">
+          <com:Name xml:lang="en">New Zealand</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="278" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).278">
+          <com:Name xml:lang="en">Nicaragua</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="692" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).692">
+          <com:Name xml:lang="en">Niger</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="694" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).694">
+          <com:Name xml:lang="en">Nigeria</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="142" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).142">
+          <com:Name xml:lang="en">Norway</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="449" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).449">
+          <com:Name xml:lang="en">Oman</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="564" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).564">
+          <com:Name xml:lang="en">Pakistan</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="283" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).283">
+          <com:Name xml:lang="en">Panama</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="853" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).853">
+          <com:Name xml:lang="en">Papua New Guinea</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="288" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).288">
+          <com:Name xml:lang="en">Paraguay</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="293" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).293">
+          <com:Name xml:lang="en">Peru</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="566" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).566">
+          <com:Name xml:lang="en">Philippines</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="964" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).964">
+          <com:Name xml:lang="en">Poland</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="182" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).182">
+          <com:Name xml:lang="en">Portugal</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="453" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).453">
+          <com:Name xml:lang="en">Qatar</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="968" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).968">
+          <com:Name xml:lang="en">Romania</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="922" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).922">
+          <com:Name xml:lang="en">Russian Federation</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="714" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).714">
+          <com:Name xml:lang="en">Rwanda</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="862" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).862">
+          <com:Name xml:lang="en">Samoa</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="716" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).716">
+          <com:Name xml:lang="en">Sao Tome and Principe</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="456" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).456">
+          <com:Name xml:lang="en">Saudi Arabia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="722" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).722">
+          <com:Name xml:lang="en">Senegal</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="942" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).942">
+          <com:Name xml:lang="en">Serbia, Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="718" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).718">
+          <com:Name xml:lang="en">Seychelles</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="724" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).724">
+          <com:Name xml:lang="en">Sierra Leone</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="576" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).576">
+          <com:Name xml:lang="en">Singapore</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="352" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).352">
+          <com:Name xml:lang="en">Sint Maarten</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="936" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).936">
+          <com:Name xml:lang="en">Slovak Republic</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="961" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).961">
+          <com:Name xml:lang="en">Slovenia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="813" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).813">
+          <com:Name xml:lang="en">Solomon Islands</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="199" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).199">
+          <com:Name xml:lang="en">South Africa</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="184" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).184">
+          <com:Name xml:lang="en">Spain</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="524" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).524">
+          <com:Name xml:lang="en">Sri Lanka</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="361" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).361">
+          <com:Name xml:lang="en">St. Kitts and Nevis</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="362" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).362">
+          <com:Name xml:lang="en">St. Lucia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="364" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).364">
+          <com:Name xml:lang="en">St. Vincent and the Grenadines</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="732" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).732">
+          <com:Name xml:lang="en">Sudan</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="366" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).366">
+          <com:Name xml:lang="en">Suriname</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="734" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).734">
+          <com:Name xml:lang="en">Swaziland</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="144" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).144">
+          <com:Name xml:lang="en">Sweden</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="146" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).146">
+          <com:Name xml:lang="en">Switzerland</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="463" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).463">
+          <com:Name xml:lang="en">Syrian Arab Republic</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="923" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).923">
+          <com:Name xml:lang="en">Tajikistan</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="738" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).738">
+          <com:Name xml:lang="en">Tanzania</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="578" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).578">
+          <com:Name xml:lang="en">Thailand</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="537" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).537">
+          <com:Name xml:lang="en">Timor-Leste, Dem. Rep. of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="742" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).742">
+          <com:Name xml:lang="en">Togo</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="866" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).866">
+          <com:Name xml:lang="en">Tonga</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="369" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).369">
+          <com:Name xml:lang="en">Trinidad and Tobago</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="744" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).744">
+          <com:Name xml:lang="en">Tunisia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="186" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).186">
+          <com:Name xml:lang="en">Turkey</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="746" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).746">
+          <com:Name xml:lang="en">Uganda</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="926" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).926">
+          <com:Name xml:lang="en">Ukraine</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="112" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).112">
+          <com:Name xml:lang="en">United Kingdom</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="111" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).111">
+          <com:Name xml:lang="en">United States</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="298" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).298">
+          <com:Name xml:lang="en">Uruguay</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="846" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).846">
+          <com:Name xml:lang="en">Vanuatu</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="299" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).299">
+          <com:Name xml:lang="en">Venezuela, Republica Bolivariana de</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="582" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).582">
+          <com:Name xml:lang="en">Vietnam</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="487" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).487">
+          <com:Name xml:lang="en">West Bank and Gaza</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="474" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).474">
+          <com:Name xml:lang="en">Yemen, Republic of</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="754" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).754">
+          <com:Name xml:lang="en">Zambia</com:Name>
+          <str:Parent>
+            <Ref id="COU"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GRP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).GRP">
+          <com:Name xml:lang="en">Regions and Groups</com:Name>
+        </str:Code>
+        <str:Code id="309" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).309">
+          <com:Name xml:lang="en">Eastern Caribbean Currency Union</com:Name>
+          <str:Parent>
+            <Ref id="GRP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="120" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).120">
+          <com:Name xml:lang="en">G20</com:Name>
+          <str:Parent>
+            <Ref id="GRP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="001" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_AREA(1.0).001">
+          <com:Name xml:lang="en">World</com:Name>
+          <str:Parent>
+            <Ref id="GRP"/>
+          </str:Parent>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist id="CL_FREQ" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_FREQ(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">FREQ codelist</com:Name>
+        <str:Code id="A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_FREQ(1.0).A">
+          <com:Name xml:lang="en">Annual</com:Name>
+        </str:Code>
+        <str:Code id="M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_FREQ(1.0).M">
+          <com:Name xml:lang="en">Monthly</com:Name>
+        </str:Code>
+        <str:Code id="Q" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_FREQ(1.0).Q">
+          <com:Name xml:lang="en">Quarterly</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist id="CL_PGI_CONCEPT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_PGI_CONCEPT(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">PGI CONCEPT codelist</com:Name>
+        <str:Code id="003" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).003">
+          <com:Name xml:lang="en">National Accounts</com:Name>
+        </str:Code>
+        <str:Code id="NGDP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NGDP">
+          <com:Name xml:lang="en">Gross Domestic Product (Nominal)</com:Name>
+          <str:Parent>
+            <Ref id="003"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NCP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NCP">
+          <com:Name xml:lang="en">Household Consumption Expenditure, including NPISHs</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NCG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NCG">
+          <com:Name xml:lang="en">Government Consumption Expenditure</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NFI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NFI">
+          <com:Name xml:lang="en">Gross Fixed Capital Formation</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NINV" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NINV">
+          <com:Name xml:lang="en">Change in Inventories</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NFG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NFG">
+          <com:Name xml:lang="en">Acquisitions less Disposals of Valuables</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NX" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NX">
+          <com:Name xml:lang="en">Exports of Goods and Services</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NM">
+          <com:Name xml:lang="en">Imports of Goods and Services (-)</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NSDGDP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NSDGDP">
+          <com:Name xml:lang="en">Statistical Discrepancy</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NGDP_D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NGDP_D">
+          <com:Name xml:lang="en">GDP Deflator</com:Name>
+          <str:Parent>
+            <Ref id="NGDP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NGDP_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NGDP_R">
+          <com:Name xml:lang="en">Gross Domestic Product (Volume)</com:Name>
+          <str:Parent>
+            <Ref id="003"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NCP_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NCP_R">
+          <com:Name xml:lang="en">Household Consumption Expenditure, including NPISHs</com:Name>
+          <str:Parent>
+            <Ref id="NGDP_R"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NCG_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NCG_R">
+          <com:Name xml:lang="en">Government Consumption Expenditure</com:Name>
+          <str:Parent>
+            <Ref id="NGDP_R"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NFI_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NFI_R">
+          <com:Name xml:lang="en">Gross Fixed Capital Formation</com:Name>
+          <str:Parent>
+            <Ref id="NGDP_R"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NX_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NX_R">
+          <com:Name xml:lang="en">Exports of Goods and Services</com:Name>
+          <str:Parent>
+            <Ref id="NGDP_R"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="NM_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).NM_R">
+          <com:Name xml:lang="en">Imports of Goods and Services (-)</com:Name>
+          <str:Parent>
+            <Ref id="NGDP_R"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="005" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).005">
+          <com:Name xml:lang="en">External Indicators</com:Name>
+        </str:Code>
+        <str:Code id="PGIRA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIRA">
+          <com:Name xml:lang="en">Reserves and Short-Term International Liquidity</com:Name>
+          <str:Parent>
+            <Ref id="005"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="RAFA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).RAFA">
+          <com:Name xml:lang="en">Total Reserve Assets</com:Name>
+          <str:Parent>
+            <Ref id="PGIRA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="RAOFA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).RAOFA">
+          <com:Name xml:lang="en">Other Foreign Currency Assets</com:Name>
+          <str:Parent>
+            <Ref id="PGIRA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="RAPDNT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).RAPDNT">
+          <com:Name xml:lang="en">Short-Term Predetermined Net Drains</com:Name>
+          <str:Parent>
+            <Ref id="PGIRA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIED" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIED">
+          <com:Name xml:lang="en">External Debt</com:Name>
+          <str:Parent>
+            <Ref id="005"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).D">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIED"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="D_S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).D_S">
+          <com:Name xml:lang="en">Short-term</com:Name>
+          <str:Parent>
+            <Ref id="PGIED"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICB">
+          <com:Name xml:lang="en">Central Bank</com:Name>
+          <str:Parent>
+            <Ref id="PGIED"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DMA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DMA">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGICB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DMA_S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DMA_S">
+          <com:Name xml:lang="en">Short-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGICB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DMA_L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DMA_L">
+          <com:Name xml:lang="en">Long-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGICB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIGG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIGG">
+          <com:Name xml:lang="en">General Government</com:Name>
+          <str:Parent>
+            <Ref id="PGIED"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DG">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIGG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DG_S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DG_S">
+          <com:Name xml:lang="en">Short-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGIGG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DG_L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DG_L">
+          <com:Name xml:lang="en">Long-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGIGG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIDT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIDT">
+          <com:Name xml:lang="en">Deposit-Takers</com:Name>
+          <str:Parent>
+            <Ref id="PGIED"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DB">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIDT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DB_S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DB_S">
+          <com:Name xml:lang="en">Short-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGIDT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DB_L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DB_L">
+          <com:Name xml:lang="en">Long-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGIDT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIOS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIOS">
+          <com:Name xml:lang="en">Other Sectors</com:Name>
+          <str:Parent>
+            <Ref id="PGIED"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DO">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIOS"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DO_S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DO_S">
+          <com:Name xml:lang="en">Short-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGIOS"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DO_L" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DO_L">
+          <com:Name xml:lang="en">Long-Term</com:Name>
+          <str:Parent>
+            <Ref id="PGIOS"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="DI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).DI">
+          <com:Name xml:lang="en">Direct Investment: Intercompany Lending</com:Name>
+          <str:Parent>
+            <Ref id="PGIED"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIIIP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIIIP">
+          <com:Name xml:lang="en">International Investment Position</com:Name>
+          <str:Parent>
+            <Ref id="005"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="I_BP6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).I_BP6">
+          <com:Name xml:lang="en">Net</com:Name>
+          <str:Parent>
+            <Ref id="PGIIIP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="IA_BP6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).IA_BP6">
+          <com:Name xml:lang="en">Assets</com:Name>
+          <str:Parent>
+            <Ref id="PGIIIP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="IL_BP6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).IL_BP6">
+          <com:Name xml:lang="en">Liabilities</com:Name>
+          <str:Parent>
+            <Ref id="PGIIIP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).I">
+          <com:Name xml:lang="en">Net (BPM5)</com:Name>
+          <str:Parent>
+            <Ref id="PGIIIP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="IA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).IA">
+          <com:Name xml:lang="en">Assets (BPM5)</com:Name>
+          <str:Parent>
+            <Ref id="PGIIIP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="IL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).IL">
+          <com:Name xml:lang="en">Liabilities (BPM5)</com:Name>
+          <str:Parent>
+            <Ref id="PGIIIP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICA">
+          <com:Name xml:lang="en">Current Account</com:Name>
+          <str:Parent>
+            <Ref id="005"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BCA_BP6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BCA_BP6">
+          <com:Name xml:lang="en">Balance</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BGS_BP6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BGS_BP6">
+          <com:Name xml:lang="en">Balance of Goods and Services</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BIP_BP6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BIP_BP6">
+          <com:Name xml:lang="en">Balance on Income</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BIS_BP6" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BIS_BP6">
+          <com:Name xml:lang="en">Balance on Secondary Income</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BCA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BCA">
+          <com:Name xml:lang="en">Balance (BPM5)</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BGS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BGS">
+          <com:Name xml:lang="en">Balance of goods and services (BPM5)</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BIXT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BIXT">
+          <com:Name xml:lang="en">Balance on Income (BPM5)</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BIT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BIT">
+          <com:Name xml:lang="en">Current Transfers (BPM5)</com:Name>
+          <str:Parent>
+            <Ref id="PGICA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIT">
+          <com:Name xml:lang="en">Trade</com:Name>
+          <str:Parent>
+            <Ref id="005"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="TXG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).TXG">
+          <com:Name xml:lang="en">Exports of Goods, f.o.b.</com:Name>
+          <str:Parent>
+            <Ref id="PGIT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="TMG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).TMG">
+          <com:Name xml:lang="en">Imports of Goods, c.i.f.</com:Name>
+          <str:Parent>
+            <Ref id="PGIT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="TXG_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).TXG_R">
+          <com:Name xml:lang="en">Exports of Goods, Volume</com:Name>
+          <str:Parent>
+            <Ref id="PGIT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="TMG_R" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).TMG_R">
+          <com:Name xml:lang="en">Imports of Goods, Volume</com:Name>
+          <str:Parent>
+            <Ref id="PGIT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIIBS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIIBS">
+          <com:Name xml:lang="en">Int'l Banking Statistics</com:Name>
+          <str:Parent>
+            <Ref id="005"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSAB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSAB">
+          <com:Name xml:lang="en">Banks' Claims on Non-Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGIIBS"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLB">
+          <com:Name xml:lang="en">Banks' Liabilities to Non-Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGIIBS"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSAMB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSAMB">
+          <com:Name xml:lang="en">Claims on BIS Reporting Banks</com:Name>
+          <str:Parent>
+            <Ref id="PGIIBS"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLMB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLMB">
+          <com:Name xml:lang="en">Liabilities to BIS Reporting Banks</com:Name>
+          <str:Parent>
+            <Ref id="PGIIBS"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="010" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).010">
+          <com:Name xml:lang="en">Financial Indicators</com:Name>
+        </str:Code>
+        <str:Code id="FDSAD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FDSAD">
+          <com:Name xml:lang="en">Domestic Credit (Consolidated balance sheet of the banking sector)</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICBA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICBA">
+          <com:Name xml:lang="en">Central Bank Assets</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FAA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FAA">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGICBA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICOCB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICOCB">
+          <com:Name xml:lang="en">Claims on:</com:Name>
+          <str:Parent>
+            <Ref id="PGICBA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASAD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASAD">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="PGICOCB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASGG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASGG">
+          <com:Name xml:lang="en">General Government</com:Name>
+          <str:Parent>
+            <Ref id="PGICOCB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASAOR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASAOR">
+          <com:Name xml:lang="en">Other Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGICOCB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASAOF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASAOF">
+          <com:Name xml:lang="en">of which, Other Financial Corporations</com:Name>
+          <str:Parent>
+            <Ref id="FASAOR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASAOC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASAOC">
+          <com:Name xml:lang="en">Other</com:Name>
+          <str:Parent>
+            <Ref id="FASAOR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASAF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASAF">
+          <com:Name xml:lang="en">Nonresidents</com:Name>
+          <str:Parent>
+            <Ref id="PGICOCB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICBL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICBL">
+          <com:Name xml:lang="en">Central Bank Liabilities</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FAL">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGICBL"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASMB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASMB">
+          <com:Name xml:lang="en">Monetary Base</com:Name>
+          <str:Parent>
+            <Ref id="PGICBL"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASMBC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASMBC">
+          <com:Name xml:lang="en">Currency in Circulation</com:Name>
+          <str:Parent>
+            <Ref id="FASMB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASMBLD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASMBLD">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="FASMB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASMBLO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASMBLO">
+          <com:Name xml:lang="en">Other Residents</com:Name>
+          <str:Parent>
+            <Ref id="FASMB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIOLT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIOLT">
+          <com:Name xml:lang="en">Other Liabilities to:</com:Name>
+          <str:Parent>
+            <Ref id="PGICBL"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASLD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASLD">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="PGIOLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASMBLG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASMBLG">
+          <com:Name xml:lang="en">General Government</com:Name>
+          <str:Parent>
+            <Ref id="PGIOLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASLO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASLO">
+          <com:Name xml:lang="en">Other Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGIOLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASLOF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASLOF">
+          <com:Name xml:lang="en">of which, Other Financial Corporations</com:Name>
+          <str:Parent>
+            <Ref id="FASLO"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASLOO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASLOO">
+          <com:Name xml:lang="en">Other</com:Name>
+          <str:Parent>
+            <Ref id="FASLO"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASLF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASLF">
+          <com:Name xml:lang="en">Nonresidents</com:Name>
+          <str:Parent>
+            <Ref id="PGIOLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASE">
+          <com:Name xml:lang="en">Shares and Other Equity</com:Name>
+          <str:Parent>
+            <Ref id="PGIOLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FASOXB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FASOXB">
+          <com:Name xml:lang="en">Unclassified assets and Liabilities (net)</com:Name>
+          <str:Parent>
+            <Ref id="PGIOLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIODCA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIODCA">
+          <com:Name xml:lang="en">Other Depository Corporations: Assets</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FODA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FODA">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICOODC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICOODC">
+          <com:Name xml:lang="en">Claims on:</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSAA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSAA">
+          <com:Name xml:lang="en">Central Bank</com:Name>
+          <str:Parent>
+            <Ref id="PGICOODC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSOAA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSOAA">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="PGICOODC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSGG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSGG">
+          <com:Name xml:lang="en">General Government</com:Name>
+          <str:Parent>
+            <Ref id="PGICOODC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSAOR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSAOR">
+          <com:Name xml:lang="en">Other Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGICOODC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSAOF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSAOF">
+          <com:Name xml:lang="en">of which, Other Financial Corporations</com:Name>
+          <str:Parent>
+            <Ref id="FOSAOR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSAOO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSAOO">
+          <com:Name xml:lang="en">Other</com:Name>
+          <str:Parent>
+            <Ref id="FOSAOR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSAF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSAF">
+          <com:Name xml:lang="en">Nonresidents</com:Name>
+          <str:Parent>
+            <Ref id="PGICOODC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIODCL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIODCL">
+          <com:Name xml:lang="en">Other Depository Corporations: Liabilities</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FODL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FODL">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCL"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIODCLT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIODCLT">
+          <com:Name xml:lang="en">Liabilities to:</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCL"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLA">
+          <com:Name xml:lang="en">Central Bank</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSOAL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSOAL">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLGG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLGG">
+          <com:Name xml:lang="en">General Government</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLO">
+          <com:Name xml:lang="en">Other Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLOF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLOF">
+          <com:Name xml:lang="en">of which, Other Financial Corporations</com:Name>
+          <str:Parent>
+            <Ref id="FOSLO"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLOO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLOO">
+          <com:Name xml:lang="en">Other</com:Name>
+          <str:Parent>
+            <Ref id="FOSLO"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSLF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSLF">
+          <com:Name xml:lang="en">Nonresidents</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSE">
+          <com:Name xml:lang="en">Shares and other equity</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOSOXB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOSOXB">
+          <com:Name xml:lang="en">Unclassified assets and Liabilities (net)</com:Name>
+          <str:Parent>
+            <Ref id="PGIODCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIOFCA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIOFCA">
+          <com:Name xml:lang="en">Other Financial Corporations: Assets</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOFA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOFA">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICOOFC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICOOFC">
+          <com:Name xml:lang="en">Claims on:</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSAC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSAC">
+          <com:Name xml:lang="en">Central bank</com:Name>
+          <str:Parent>
+            <Ref id="PGICOOFC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSAD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSAD">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="PGICOOFC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSAOD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSAOD">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="PGICOOFC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSGG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSGG">
+          <com:Name xml:lang="en">General Government</com:Name>
+          <str:Parent>
+            <Ref id="PGICOOFC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSOR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSOR">
+          <com:Name xml:lang="en">Other Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGICOOFC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSOCA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSOCA">
+          <com:Name xml:lang="en">of which, Other Financial Corporations</com:Name>
+          <str:Parent>
+            <Ref id="FFSOR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSORO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSORO">
+          <com:Name xml:lang="en">Other</com:Name>
+          <str:Parent>
+            <Ref id="FFSOR"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSAF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSAF">
+          <com:Name xml:lang="en">Nonresidents</com:Name>
+          <str:Parent>
+            <Ref id="PGICOOFC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIOFCL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIOFCL">
+          <com:Name xml:lang="en">Other Financial Corporations: Liabilities</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FOFL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FOFL">
+          <com:Name xml:lang="en">Total</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCL"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGIOFCLT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGIOFCLT">
+          <com:Name xml:lang="en">Liabilities to:</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCL"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSLC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSLC">
+          <com:Name xml:lang="en">Central Bank</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSLD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSLD">
+          <com:Name xml:lang="en">Other Depository Corporations</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSLGG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSLGG">
+          <com:Name xml:lang="en">General Government</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSLO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSLO">
+          <com:Name xml:lang="en">Other Residents</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSOCL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSOCL">
+          <com:Name xml:lang="en">of which, Other Financial Corporations</com:Name>
+          <str:Parent>
+            <Ref id="FFSLO"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSLOO" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSLOO">
+          <com:Name xml:lang="en">Other</com:Name>
+          <str:Parent>
+            <Ref id="FFSLO"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSLF" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSLF">
+          <com:Name xml:lang="en">Nonresidents</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSE">
+          <com:Name xml:lang="en">Shares and Other Equity</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FFSOXB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FFSOXB">
+          <com:Name xml:lang="en">Unclassified Assets and Liabilities (net)</com:Name>
+          <str:Parent>
+            <Ref id="PGIOFCLT"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FODNFS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FODNFS">
+          <com:Name xml:lang="en">Other Depository Corporations: Credit to Non-Financial Sector</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FMBND" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FMBND">
+          <com:Name xml:lang="en">National Definition of Broad Money</com:Name>
+          <str:Parent>
+            <Ref id="010"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="008" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).008">
+          <com:Name xml:lang="en">Market Indicators</com:Name>
+        </str:Code>
+        <str:Code id="PGII" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGII">
+          <com:Name xml:lang="en">Interest Rates</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FIST" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FIST">
+          <com:Name xml:lang="en">Short-term Policy Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FID" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FID">
+          <com:Name xml:lang="en">Discount Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FIDR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FIDR">
+          <com:Name xml:lang="en">Deposit Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FIGB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FIGB">
+          <com:Name xml:lang="en">Government Bond Yield</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FILR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FILR">
+          <com:Name xml:lang="en">Lending Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FIMM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FIMM">
+          <com:Name xml:lang="en">Money Market Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FISR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FISR">
+          <com:Name xml:lang="en">Savings Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="FITB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).FITB">
+          <com:Name xml:lang="en">Treasury Bill Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGII"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="LOCNSH" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).LOCNSH">
+          <com:Name xml:lang="en">Share Prices</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="LOCNSH_EOP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).LOCNSH_EOP">
+          <com:Name xml:lang="en">Share Prices, End of Period</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="SPASTT01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).SPASTT01">
+          <com:Name xml:lang="en">All Shares/Broad/Total</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGICP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGICP">
+          <com:Name xml:lang="en">Consumer Prices</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PCPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PCPI">
+          <com:Name xml:lang="en">CPI, All Items</com:Name>
+          <str:Parent>
+            <Ref id="PGICP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PCPIHA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PCPIHA">
+          <com:Name xml:lang="en">CPI, Harmonized</com:Name>
+          <str:Parent>
+            <Ref id="PGICP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PCPIHE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PCPIHE">
+          <com:Name xml:lang="en">CPI, Electricity, Gas and Other Fuels</com:Name>
+          <str:Parent>
+            <Ref id="PGICP"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="SLRTTO01" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).SLRTTO01">
+          <com:Name xml:lang="en">Total Retail Trade</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PPPI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PPPI">
+          <com:Name xml:lang="en">Producer Prices</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="AIP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).AIP">
+          <com:Name xml:lang="en">Industrial Production</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="AIPMA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).AIPMA">
+          <com:Name xml:lang="en">Industrial Production, Manufacturing</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGILM" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGILM">
+          <com:Name xml:lang="en">Labor Market</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="LUR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).LUR">
+          <com:Name xml:lang="en">Unemployment Rate</com:Name>
+          <str:Parent>
+            <Ref id="PGILM"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="PGILI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PGILI">
+          <com:Name xml:lang="en">Leading Indicators</com:Name>
+          <str:Parent>
+            <Ref id="008"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="CSCICP03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).CSCICP03">
+          <com:Name xml:lang="en">Consumer Confidence Indicator (OECD Standardized)</com:Name>
+          <str:Parent>
+            <Ref id="PGILI"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="BSCICP03" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).BSCICP03">
+          <com:Name xml:lang="en">Composite indicators/OECD Indicator</com:Name>
+          <str:Parent>
+            <Ref id="PGILI"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="WLDIND" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).WLDIND">
+          <com:Name xml:lang="en">World Energy Prices</com:Name>
+        </str:Code>
+        <str:Code id="PZPIOIL" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).PZPIOIL">
+          <com:Name xml:lang="en">Commodity Prices, Crude Oil (Petroleum)</com:Name>
+          <str:Parent>
+            <Ref id="WLDIND"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="007" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).007">
+          <com:Name xml:lang="en">Government and Public Sector Finance</com:Name>
+        </str:Code>
+        <str:Code id="GB" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GB">
+          <com:Name xml:lang="en">Central Government, Budgetary (cash basis)</com:Name>
+          <str:Parent>
+            <Ref id="007"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBR_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBR_G01_CA">
+          <com:Name xml:lang="en">Receipts from operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBRT_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBRT_G01_CA">
+          <com:Name xml:lang="en">Taxes</com:Name>
+          <str:Parent>
+            <Ref id="GBR_G01_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBXMTE_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBXMTE_G01_CA">
+          <com:Name xml:lang="en">Total expenditure, Cash</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBE_G01_DUB2_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBE_G01_DUB2_CA">
+          <com:Name xml:lang="en">Payments for operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBECE_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBECE_G01_CA">
+          <com:Name xml:lang="en">Compensation of Employees</com:Name>
+          <str:Parent>
+            <Ref id="GBE_G01_DUB2_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBEI_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBEI_G01_CA">
+          <com:Name xml:lang="en">Interest</com:Name>
+          <str:Parent>
+            <Ref id="GBE_G01_DUB2_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBXCCO_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBXCCO_G01_CA">
+          <com:Name xml:lang="en">Net Inflow from operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBXCOP_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBXCOP_G01_CA">
+          <com:Name xml:lang="en">Primary Net Inflow from operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GBXCCO_G01_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBADAN_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBADAN_G01_CA">
+          <com:Name xml:lang="en">Net Outflow from Investments in Nonfinancial Assets</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBXCCB_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBXCCB_G01_CA">
+          <com:Name xml:lang="en">Cash Surplus/Deficit</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBALN_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBALN_G01_CA">
+          <com:Name xml:lang="en">Debt (at Nominal Value)</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBALFV_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBALFV_G01_CA">
+          <com:Name xml:lang="en">Debt (at Face Value)</com:Name>
+          <str:Parent>
+            <Ref id="GB"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GB_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GB_AC">
+          <com:Name xml:lang="en">Central Government, Budgetary (accrual basis)</com:Name>
+          <str:Parent>
+            <Ref id="007"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBR_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBR_G01_AC">
+          <com:Name xml:lang="en">Revenue</com:Name>
+          <str:Parent>
+            <Ref id="GB_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBRT_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBRT_G01_AC">
+          <com:Name xml:lang="en">Taxes</com:Name>
+          <str:Parent>
+            <Ref id="GBR_G01_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBXMTE_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBXMTE_G01_AC">
+          <com:Name xml:lang="en">Total expenditure, Accrual</com:Name>
+          <str:Parent>
+            <Ref id="GB_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBE_G01_DUB2_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBE_G01_DUB2_AC">
+          <com:Name xml:lang="en">Expense</com:Name>
+          <str:Parent>
+            <Ref id="GB_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBECE_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBECE_G01_AC">
+          <com:Name xml:lang="en">Compensation of Employees</com:Name>
+          <str:Parent>
+            <Ref id="GBE_G01_DUB2_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBEI_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBEI_G01_AC">
+          <com:Name xml:lang="en">Interest</com:Name>
+          <str:Parent>
+            <Ref id="GBE_G01_DUB2_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBXCBN_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBXCBN_G01_AC">
+          <com:Name xml:lang="en">Net Operating Balance</com:Name>
+          <str:Parent>
+            <Ref id="GB_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GBXCNL_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GBXCNL_G01_AC">
+          <com:Name xml:lang="en">Net Lending/Borrowing</com:Name>
+          <str:Parent>
+            <Ref id="GB_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GC_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GC_CA">
+          <com:Name xml:lang="en">Central Government, Consolidated (cash basis)</com:Name>
+          <str:Parent>
+            <Ref id="007"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCR_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCR_G01_CA">
+          <com:Name xml:lang="en">Receipts from operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCRT_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCRT_G01_CA">
+          <com:Name xml:lang="en">Taxes</com:Name>
+          <str:Parent>
+            <Ref id="GCR_G01_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXMTE_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXMTE_G01_CA">
+          <com:Name xml:lang="en">Total expenditure, Cash</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCE_G01_DUB2_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCE_G01_DUB2_CA">
+          <com:Name xml:lang="en">Payments for operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCECE_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCECE_G01_CA">
+          <com:Name xml:lang="en">Compensation of Employees</com:Name>
+          <str:Parent>
+            <Ref id="GCE_G01_DUB2_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCEI_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCEI_G01_CA">
+          <com:Name xml:lang="en">Interest</com:Name>
+          <str:Parent>
+            <Ref id="GCE_G01_DUB2_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXCCO_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXCCO_G01_CA">
+          <com:Name xml:lang="en">Net Inflow from operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXCOP_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXCOP_G01_CA">
+          <com:Name xml:lang="en">Primary Net Inflow from operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GCXCCO_G01_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCADAN_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCADAN_G01_CA">
+          <com:Name xml:lang="en">Net Outflow from Investments in Nonfinancial Assets</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXCCB_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXCCB_G01_CA">
+          <com:Name xml:lang="en">Cash Surplus/Deficit</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCALFV_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCALFV_G01_CA">
+          <com:Name xml:lang="en">Debt (at Face Value)</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCE_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCE_G01_CA">
+          <com:Name xml:lang="en">Payments for operating activities</com:Name>
+          <str:Parent>
+            <Ref id="GC_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GC_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GC_AC">
+          <com:Name xml:lang="en">Central Government, Consolidated (accrual basis)</com:Name>
+          <str:Parent>
+            <Ref id="007"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCR_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCR_G01_AC">
+          <com:Name xml:lang="en">Revenue</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCRT_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCRT_G01_AC">
+          <com:Name xml:lang="en">Taxes</com:Name>
+          <str:Parent>
+            <Ref id="GCR_G01_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXMTE_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXMTE_G01_AC">
+          <com:Name xml:lang="en">Total expenditure, Accrual</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCE_G01_DUB2_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCE_G01_DUB2_AC">
+          <com:Name xml:lang="en">Expense</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCECE_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCECE_G01_AC">
+          <com:Name xml:lang="en">Compensation of Employees</com:Name>
+          <str:Parent>
+            <Ref id="GCE_G01_DUB2_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCEI_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCEI_G01_AC">
+          <com:Name xml:lang="en">Interest</com:Name>
+          <str:Parent>
+            <Ref id="GCE_G01_DUB2_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXCBN_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXCBN_G01_AC">
+          <com:Name xml:lang="en">Net Operating Balance</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXOBP_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXOBP_G01_AC">
+          <com:Name xml:lang="en">Primary Operating Balance</com:Name>
+          <str:Parent>
+            <Ref id="GCXCBN_G01_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCADAN_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCADAN_G01_AC">
+          <com:Name xml:lang="en">Net Acquisition of Nonfinancial Assets</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCXCNL_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCXCNL_G01_AC">
+          <com:Name xml:lang="en">Net Lending/Borrowing</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCALN_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCALN_G01_AC">
+          <com:Name xml:lang="en">Debt (at Nominal Value)</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GCALW_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GCALW_G01_AC">
+          <com:Name xml:lang="en">Net Financial Worth</com:Name>
+          <str:Parent>
+            <Ref id="GC_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GG_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GG_CA">
+          <com:Name xml:lang="en">General Government, Consolidated (cash basis)</com:Name>
+          <str:Parent>
+            <Ref id="007"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGR_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGR_G01_CA">
+          <com:Name xml:lang="en">Revenue</com:Name>
+          <str:Parent>
+            <Ref id="GG_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGRT_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGRT_G01_CA">
+          <com:Name xml:lang="en">Taxes</com:Name>
+          <str:Parent>
+            <Ref id="GGR_G01_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGXMTE_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGXMTE_G01_CA">
+          <com:Name xml:lang="en">Total expenditure, Cash</com:Name>
+          <str:Parent>
+            <Ref id="GG_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGE_G01_DUB2_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGE_G01_DUB2_CA">
+          <com:Name xml:lang="en">Expense</com:Name>
+          <str:Parent>
+            <Ref id="GG_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGECE_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGECE_G01_CA">
+          <com:Name xml:lang="en">Compensation of Employees</com:Name>
+          <str:Parent>
+            <Ref id="GGE_G01_DUB2_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGEI_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGEI_G01_CA">
+          <com:Name xml:lang="en">Interest</com:Name>
+          <str:Parent>
+            <Ref id="GGE_G01_DUB2_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGXCCB_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGXCCB_G01_CA">
+          <com:Name xml:lang="en">Cash surplus/deficit</com:Name>
+          <str:Parent>
+            <Ref id="GG_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGALN_G01_CA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGALN_G01_CA">
+          <com:Name xml:lang="en">Debt (at Nominal Value)</com:Name>
+          <str:Parent>
+            <Ref id="GG_CA"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GG" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GG">
+          <com:Name xml:lang="en">General Government, Consolidated (accrual basis)</com:Name>
+          <str:Parent>
+            <Ref id="007"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGR_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGR_G01_AC">
+          <com:Name xml:lang="en">Revenue</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGRT_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGRT_G01_AC">
+          <com:Name xml:lang="en">Taxes</com:Name>
+          <str:Parent>
+            <Ref id="GGR_G01_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGXMTE_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGXMTE_G01_AC">
+          <com:Name xml:lang="en">Total expenditure, Accrual</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGE_G01_DUB2_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGE_G01_DUB2_AC">
+          <com:Name xml:lang="en">Expense</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGECE_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGECE_G01_AC">
+          <com:Name xml:lang="en">Compensation of Employees</com:Name>
+          <str:Parent>
+            <Ref id="GGE_G01_DUB2_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGEI_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGEI_G01_AC">
+          <com:Name xml:lang="en">Interest</com:Name>
+          <str:Parent>
+            <Ref id="GGE_G01_DUB2_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGXCBN_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGXCBN_G01_AC">
+          <com:Name xml:lang="en">Net Operating Balance</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGXOBP_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGXOBP_G01_AC">
+          <com:Name xml:lang="en">Primary Operating Balance</com:Name>
+          <str:Parent>
+            <Ref id="GGXCBN_G01_AC"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGADAN_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGADAN_G01_AC">
+          <com:Name xml:lang="en">Net Acquisition of Nonfinancial Assets</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGXCNL_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGXCNL_G01_AC">
+          <com:Name xml:lang="en">Net Lending/Borrowing</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGALCU_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGALCU_G01_AC">
+          <com:Name xml:lang="en">Maastricht Debt</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGALN_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGALN_G01_AC">
+          <com:Name xml:lang="en">Debt (at Nominal Value)</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGALFV_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGALFV_G01_AC">
+          <com:Name xml:lang="en">Debt (at Face Value)</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGALM_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGALM_G01_AC">
+          <com:Name xml:lang="en">Debt (at Market Value)</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="GGALW_G01_AC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).GGALW_G01_AC">
+          <com:Name xml:lang="en">Net Financial Worth</com:Name>
+          <str:Parent>
+            <Ref id="GG"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="015" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).015">
+          <com:Name xml:lang="en">Exchange Rates</com:Name>
+        </str:Code>
+        <str:Code id="ENDE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).ENDE">
+          <com:Name xml:lang="en">National Currency per U.S. Dollar, End of Period</com:Name>
+          <str:Parent>
+            <Ref id="015"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="ENDA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).ENDA">
+          <com:Name xml:lang="en">National Currency per U.S. Dollar, Period Average</com:Name>
+          <str:Parent>
+            <Ref id="015"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="ENEER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).ENEER">
+          <com:Name xml:lang="en">Nominal Effective Exchange Rate</com:Name>
+          <str:Parent>
+            <Ref id="015"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="EREER" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).EREER">
+          <com:Name xml:lang="en">Real Effective Exchange Rate</com:Name>
+          <str:Parent>
+            <Ref id="015"/>
+          </str:Parent>
+        </str:Code>
+        <str:Code id="017" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).017">
+          <com:Name xml:lang="en">Demographic Indicators</com:Name>
+        </str:Code>
+        <str:Code id="LP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_CONCEPT(1.0).LP">
+          <com:Name xml:lang="en">Population</com:Name>
+          <str:Parent>
+            <Ref id="017"/>
+          </str:Parent>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist id="CL_PGI_DATASOURCE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_PGI_DATASOURCE(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">PGI_DATASOURCE codelist</com:Name>
+        <str:Code id="BOP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_DATASOURCE(1.0).BOP">
+          <com:Name xml:lang="en">Balance of Payments Statistics (BOP)</com:Name>
+        </str:Code>
+        <str:Code id="BIS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_DATASOURCE(1.0).BIS">
+          <com:Name xml:lang="en">Bank for International Settlements (BIS)</com:Name>
+        </str:Code>
+        <str:Code id="IFS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_DATASOURCE(1.0).IFS">
+          <com:Name xml:lang="en">International Financial Statistics (IFS)</com:Name>
+        </str:Code>
+        <str:Code id="IRFC" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_DATASOURCE(1.0).IRFC">
+          <com:Name xml:lang="en">International Reserves Template</com:Name>
+        </str:Code>
+        <str:Code id="MEI" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_DATASOURCE(1.0).MEI">
+          <com:Name xml:lang="en">OECD Main Economic Indicators</com:Name>
+        </str:Code>
+        <str:Code id="SDDSGDDS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_DATASOURCE(1.0).SDDSGDDS">
+          <com:Name xml:lang="en">Quarterly External Debt Statistics (QEDS)</com:Name>
+        </str:Code>
+        <str:Code id="QEDS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_DATASOURCE(1.0).QEDS">
+          <com:Name xml:lang="en">Special Data Dissemination Standard (SDDS), Quarterly External Debt Statistics</com:Name>
+          <str:Parent>
+            <Ref id="SDDSGDDS"/>
+          </str:Parent>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist id="CL_PGI_OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_PGI_OBS_STATUS(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">Observation Status</com:Name>
+        <str:Code id="A" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).A">
+          <com:Name xml:lang="en">Normal</com:Name>
+        </str:Code>
+        <str:Code id="B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).B">
+          <com:Name xml:lang="en">Break</com:Name>
+        </str:Code>
+        <str:Code id="E" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).E">
+          <com:Name xml:lang="en">Estimated value</com:Name>
+        </str:Code>
+        <str:Code id="F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).F">
+          <com:Name xml:lang="en">Forecast value</com:Name>
+        </str:Code>
+        <str:Code id="I" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).I">
+          <com:Name xml:lang="en">Imputated Value (CCSA definition)</com:Name>
+        </str:Code>
+        <str:Code id="M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).M">
+          <com:Name xml:lang="en">Missing value</com:Name>
+        </str:Code>
+        <str:Code id="P" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).P">
+          <com:Name xml:lang="en">Provisional value</com:Name>
+        </str:Code>
+        <str:Code id="S" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_OBS_STATUS(1.0).S">
+          <com:Name xml:lang="en">Strike</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist id="CL_PGI_UNITOFMEASURE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_PGI_UNITOFMEASURE(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">PGI_UNITOFMEASURE codelist</com:Name>
+        <str:Code id="N_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).N_M">
+          <com:Name xml:lang="en">National Currency, Millions</com:Name>
+        </str:Code>
+        <str:Code id="N_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).N_B">
+          <com:Name xml:lang="en">National Currency, Billions</com:Name>
+        </str:Code>
+        <str:Code id="N_TR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).N_TR">
+          <com:Name xml:lang="en">National Currency, Trillions</com:Name>
+        </str:Code>
+        <str:Code id="NSA_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).NSA_M">
+          <com:Name xml:lang="en">National Currency, Seasonally Adjusted, Millions</com:Name>
+        </str:Code>
+        <str:Code id="NSA_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).NSA_B">
+          <com:Name xml:lang="en">National Currency, Seasonally Adjusted, Billions</com:Name>
+        </str:Code>
+        <str:Code id="L_T" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).L_T">
+          <com:Name xml:lang="en">US Dollars, Thousands</com:Name>
+        </str:Code>
+        <str:Code id="L_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).L_M">
+          <com:Name xml:lang="en">US Dollars, Millions</com:Name>
+        </str:Code>
+        <str:Code id="L_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).L_B">
+          <com:Name xml:lang="en">US Dollars, Billions</com:Name>
+        </str:Code>
+        <str:Code id="L_D_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).L_D_M">
+          <com:Name xml:lang="en">US Dollars, Millions, Derived</com:Name>
+        </str:Code>
+        <str:Code id="USSA_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).USSA_B">
+          <com:Name xml:lang="en">US Dollars, Seasonally Adjusted, Billions</com:Name>
+        </str:Code>
+        <str:Code id="IND2005" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).IND2005">
+          <com:Name xml:lang="en">Index, 2005=100</com:Name>
+        </str:Code>
+        <str:Code id="IND2005SA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).IND2005SA">
+          <com:Name xml:lang="en">Index, 2005=100, Seasonally Adjusted</com:Name>
+        </str:Code>
+        <str:Code id="DN100SA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).DN100SA">
+          <com:Name xml:lang="en">Index Number, Normal = 100, Seasonally Adjusted</com:Name>
+        </str:Code>
+        <str:Code id="E_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).E_M">
+          <com:Name xml:lang="en">Euros, Millions</com:Name>
+        </str:Code>
+        <str:Code id="E_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).E_B">
+          <com:Name xml:lang="en">Euros, Billions</com:Name>
+        </str:Code>
+        <str:Code id="ESA_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).ESA_B">
+          <com:Name xml:lang="en">Euros, Seasonally Adjusted, Billions</com:Name>
+        </str:Code>
+        <str:Code id="E_R_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).E_R_M">
+          <com:Name xml:lang="en">Euros, Millions, Reported</com:Name>
+        </str:Code>
+        <str:Code id="E_R_B" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).E_R_B">
+          <com:Name xml:lang="en">Euros, Billions, Reported</com:Name>
+        </str:Code>
+        <str:Code id="PER_M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PER_M">
+          <com:Name xml:lang="en">Number of Persons, Millions</com:Name>
+        </str:Code>
+        <str:Code id="NUSD" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).NUSD">
+          <com:Name xml:lang="en">National Currency per US Dollar</com:Name>
+        </str:Code>
+        <str:Code id="USBR" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).USBR">
+          <com:Name xml:lang="en">US Dollars per Barrel</com:Name>
+        </str:Code>
+        <str:Code id="F" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).F">
+          <com:Name xml:lang="en">Percent</com:Name>
+        </str:Code>
+        <str:Code id="PAN" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PAN">
+          <com:Name xml:lang="en">Percent per Annum</com:Name>
+        </str:Code>
+        <str:Code id="PCOPP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PCOPP">
+          <com:Name xml:lang="en">Percent Change over Previous Period</com:Name>
+        </str:Code>
+        <str:Code id="PCOPPSA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PCOPPSA">
+          <com:Name xml:lang="en">Percent Change over Previous Period, Seasonally Adjusted</com:Name>
+        </str:Code>
+        <str:Code id="PCOCY" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PCOCY">
+          <com:Name xml:lang="en">Percent Change over Corresponding Period of Previous Year</com:Name>
+        </str:Code>
+        <str:Code id="PCOCYSA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PCOCYSA">
+          <com:Name xml:lang="en">Percent Change over Corresponding Period of Previous Year, Seasonally Adjusted</com:Name>
+        </str:Code>
+        <str:Code id="PGDP" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PGDP">
+          <com:Name xml:lang="en">Percent of GDP</com:Name>
+        </str:Code>
+        <str:Code id="AASA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).AASA">
+          <com:Name xml:lang="en">Amplitude Adjusted, Seasonally Adjusted</com:Name>
+        </str:Code>
+        <str:Code id="PSA" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PSA">
+          <com:Name xml:lang="en">Growth rate to previous period, Seasonally Adjusted</com:Name>
+        </str:Code>
+        <str:Code id="PRATE" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_PGI_UNITOFMEASURE(1.0).PRATE">
+          <com:Name xml:lang="en">Percentage Rate</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist id="CL_TIME_FORMAT" urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=IMF:CL_TIME_FORMAT(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">Time formats based on ISO 8601</com:Name>
+        <str:Code id="P1Y" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TIME_FORMAT(1.0).P1Y">
+          <com:Name xml:lang="en">Annual</com:Name>
+        </str:Code>
+        <str:Code id="P6M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TIME_FORMAT(1.0).P6M">
+          <com:Name xml:lang="en">Semi-annual</com:Name>
+        </str:Code>
+        <str:Code id="P3M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TIME_FORMAT(1.0).P3M">
+          <com:Name xml:lang="en">Quarterly</com:Name>
+        </str:Code>
+        <str:Code id="P1M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TIME_FORMAT(1.0).P1M">
+          <com:Name xml:lang="en">Monthly</com:Name>
+        </str:Code>
+        <str:Code id="P7D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TIME_FORMAT(1.0).P7D">
+          <com:Name xml:lang="en">Weekly</com:Name>
+        </str:Code>
+        <str:Code id="P1D" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TIME_FORMAT(1.0).P1D">
+          <com:Name xml:lang="en">Daily</com:Name>
+        </str:Code>
+        <str:Code id="PT1M" urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=IMF:CL_TIME_FORMAT(1.0).PT1M">
+          <com:Name xml:lang="en">Minutely</com:Name>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+    <str:Concepts>
+      <str:ConceptScheme id="PGI" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=IMF:PGI(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">Principal Global Indicators</com:Name>
+        <str:Concept id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).REF_AREA">
+          <com:Name xml:lang="en">Country and Group</com:Name>
+        </str:Concept>
+        <str:Concept id="PGI_CONCEPT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).PGI_CONCEPT">
+          <com:Name xml:lang="en">Economic Concept</com:Name>
+        </str:Concept>
+        <str:Concept id="DATASOURCE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).DATASOURCE">
+          <com:Name xml:lang="en">Data Source</com:Name>
+        </str:Concept>
+        <str:Concept id="UNITOFMEASURE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).UNITOFMEASURE">
+          <com:Name xml:lang="en">Unit Of Measure</com:Name>
+        </str:Concept>
+        <str:Concept id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).FREQ">
+          <com:Name xml:lang="en">Frequency</com:Name>
+        </str:Concept>
+        <str:Concept id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).TIME_PERIOD">
+          <com:Name xml:lang="en">Time</com:Name>
+        </str:Concept>
+        <str:Concept id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).OBS_STATUS">
+          <com:Name xml:lang="en">Observation Status</com:Name>
+        </str:Concept>
+        <str:Concept id="TIME_FORMAT" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).TIME_FORMAT">
+          <com:Name xml:lang="en">TIME FORMAT</com:Name>
+        </str:Concept>
+        <str:Concept id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=IMF:PGI(1.0).OBS_VALUE">
+          <com:Name xml:lang="en">Observation Value</com:Name>
+        </str:Concept>
+      </str:ConceptScheme>
+    </str:Concepts>
+    <str:DataStructures>
+      <str:DataStructure id="PGI" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:PGI(1.0)" agencyID="IMF" version="1.0" isFinal="true">
+        <com:Name xml:lang="en">Principal Global Indicators</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList id="DimensionDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=IMF:PGI(1.0).DimensionDescriptor">
+            <str:Dimension id="REF_AREA" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:PGI(1.0).REF_AREA" position="1">
+              <str:ConceptIdentity>
+                <Ref id="REF_AREA" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_AREA" version="1.0" agencyID="IMF" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="PGI_CONCEPT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:PGI(1.0).PGI_CONCEPT" position="2">
+              <str:ConceptIdentity>
+                <Ref id="PGI_CONCEPT" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_PGI_CONCEPT" version="1.0" agencyID="IMF" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="DATASOURCE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:PGI(1.0).DATASOURCE" position="3">
+              <str:ConceptIdentity>
+                <Ref id="DATASOURCE" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_PGI_DATASOURCE" version="1.0" agencyID="IMF" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="UNITOFMEASURE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:PGI(1.0).UNITOFMEASURE" position="4">
+              <str:ConceptIdentity>
+                <Ref id="UNITOFMEASURE" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_PGI_UNITOFMEASURE" version="1.0" agencyID="IMF" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension id="FREQ" urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=IMF:PGI(1.0).FREQ" position="5">
+              <str:ConceptIdentity>
+                <Ref id="FREQ" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_FREQ" version="1.0" agencyID="IMF" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:TimeDimension id="TIME_PERIOD" urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=IMF:PGI(1.0).TIME_PERIOD" position="6">
+              <str:ConceptIdentity>
+                <Ref id="TIME_PERIOD" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:AttributeList id="AttributeDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=IMF:PGI(1.0).AttributeDescriptor">
+            <str:Attribute id="OBS_STATUS" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:PGI(1.0).OBS_STATUS" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="OBS_STATUS" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_PGI_OBS_STATUS" version="1.0" agencyID="IMF" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute id="TIME_FORMAT" urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=IMF:PGI(1.0).TIME_FORMAT" assignmentStatus="Conditional">
+              <str:ConceptIdentity>
+                <Ref id="TIME_FORMAT" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref id="CL_TIME_FORMAT" version="1.0" agencyID="IMF" package="codelist" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="REF_AREA"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="PGI_CONCEPT"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="DATASOURCE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="UNITOFMEASURE"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="FREQ"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList id="MeasureDescriptor" urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=IMF:PGI(1.0).MeasureDescriptor">
+            <str:PrimaryMeasure id="OBS_VALUE" urn="urn:sdmx:org.sdmx.infomodel.datastructure.PrimaryMeasure=IMF:PGI(1.0).OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref id="OBS_VALUE" maintainableParentID="PGI" maintainableParentVersion="1.0" agencyID="IMF" package="conceptscheme" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="Double"/>
+              </str:LocalRepresentation>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+  </mes:Structures>
+</mes:Structure>
