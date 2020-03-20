@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.kalessine</groupId>
     <artifactId>sdmx-sax-parser</artifactId>
-    <version>0.2</version>
+    <version>0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <build>
         <plugins>
@@ -273,7 +273,7 @@
         <connection>scm:git:ssh://git@github.com/kalessine/sdmx-sax-parser.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/kalessine/sdmx-sax-parser.git</developerConnection>
         <url>http://github.com/kalessine/sdmx-sax-parser/tree/master</url>
-        <tag>sdmx-sax-parser-0.2</tag>
+        <tag>sdmx-sax-parser-0.1</tag>
     </scm>
 
     <distributionManagement>
