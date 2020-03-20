@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.kalessine</groupId>
     <artifactId>sdmx-sax-parser</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
     <name>sdmx-sax-parser</name>
     <description>handcrafted sdmx parser</description>
