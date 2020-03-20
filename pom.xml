@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.kalessine</groupId>
     <artifactId>sdmx-sax-parser</artifactId>
-    <version>0.1</version>
+    <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>sdmx-sax-parser</name>
-    <description>handcrafter sdmx parser</description>
+    <description>handcrafted sdmx parser</description>
     <url>http://github.com/kalessine/sdmx-sax-parser</url>
     <inceptionYear>2015</inceptionYear>
     <licenses>
