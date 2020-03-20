@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>sdmx-sax</groupId>
+    <groupId>com.github.kalessine</groupId>
     <artifactId>sdmx-sax-parser</artifactId>
-    <version>0.1</version>
+    <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <name>sdmx-sax-parser</name>
+    <description>handcrafter sdmx parser</description>
+    <url>http://github.com/kalessine/sdmx-sax-parser</url>
+    <inceptionYear>2015</inceptionYear>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <email>jsg@internode.on.net</email>
+            <name>James Gardner</name>
+            <url>https://github.com/kalessine</url>
+            <id>kalessine</id>
+        </developer>
+    </developers>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/xerces/xercesImpl -->
         <dependency>
@@ -155,12 +174,12 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>sdmx-sdmx21-xmlbeans</artifactId>
-            <version>0.0.1</version>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>sdmx-sdmx20-xmlbeans</artifactId>
-            <version>0.0.1</version>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -173,6 +192,23 @@
             <version>1.0.19</version>
         </dependency>
     </dependencies>
+    <scm>
+        <connection>scm:git:ssh://git@github.com/kalessine/sdmx-sax-parser.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/kalessine/sdmx-sax-parser.git</developerConnection>
+        <url>http://github.com/kalessine/sdmx-sax-parser/tree/master</url>
+        <tag>master</tag>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
