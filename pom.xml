@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.kalessine</groupId>
     <artifactId>sdmx-sax-parser</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
     <name>sdmx-sax-parser</name>
     <description>handcrafter sdmx parser</description>
@@ -174,12 +174,12 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>sdmx-sdmx21-xmlbeans</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>sdmx-sdmx20-xmlbeans</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -196,7 +196,7 @@
         <connection>scm:git:ssh://git@github.com/kalessine/sdmx-sax-parser.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/kalessine/sdmx-sax-parser.git</developerConnection>
         <url>http://github.com/kalessine/sdmx-sax-parser/tree/master</url>
-        <tag>master</tag>
+        <tag>sdmx-sax-parser-0.1</tag>
     </scm>
 
     <distributionManagement>
